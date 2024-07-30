@@ -1,0 +1,20 @@
+#!/bin/bash -l
+#SBATCH -C gpu
+#SBATCH -t 00:30:00 
+#SBATCH -J FBtest
+#SBATCH -o FBtest.o%A-%a
+#SBATCH -A nstaff_g
+#SBATCH -N 512 
+#SBATCH -q regular
+#SBATCH --exclusive
+#SBATCH --ntasks-per-node=4
+#SBATCH --gpus-per-node=4
+##SBATCH --array=0-2
+
+#EXE=../main3d.gnu.TPROF.MPI.CUDA.ex
+#INPUTS=../inputs/inputs_${SLURM_JOB_NUM_NODES}
+
+PROPER_AFFINITY=0
+CUDA_AWARE=0
+SRUN_FLAGS="--cpus-per-task=32 --cpu-bind=cores"
+#srun ${SRUN_FLAGS} ../run_me.sh $PROPER_AFFINITY $SLURM_JOB_NUM_NODES $CUDA_AWARE

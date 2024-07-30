@@ -1,0 +1,5 @@
+ncell = 64 
+maxcomp = 1 2 4 8 16 32 64
+cell_ref = 256
+
+amrex.v = 1

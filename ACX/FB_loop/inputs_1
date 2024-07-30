@@ -1,0 +1,13 @@
+domain = (1024, 512, 512)
+max_grid_size = (64, 64, 64)
+ncomp = 1
+nghost = (1, 1, 1)
+periodicity = (0, 0, 0)
+steps = 10
+
+# 96 MB, based on arena output: 1024 * 1024 * 32
+# From 2 nodes test
+amrex.the_pinned_arena_init_size = 100663296
+
+amrex.v = 1
+#DistributionMapping.verbose_mapper=1

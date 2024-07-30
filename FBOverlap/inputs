@@ -1,0 +1,8 @@
+lo = (0, 0, 0)
+hi = (31, 31, 31)
+ncomp = 1
+max_grid_size = 128
+boundary = (1, 1, 1)
+nwork = 40
+
+amrex.v = 1

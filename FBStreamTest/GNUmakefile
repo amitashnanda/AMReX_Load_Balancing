@@ -1,0 +1,21 @@
+# AMREX_HOME defines the directory in which we will find all the AMReX code.
+# If you set AMREX_HOME as an environment variable, this line will be ignored
+AMREX_HOME ?= ../../amrex
+
+DEBUG        = TRUE 
+#USE_CCACHE   = TRUE
+USE_OMP      = FALSE
+TINY_PROFILE = TRUE
+USE_MPI      = TRUE
+USE_CUDA     = TRUE
+BL_NO_FORT   = TRUE
+COMP         = gnu
+DIM          = 3
+
+MPI_THREAD_MULTIPLE = TRUE
+
+include $(AMREX_HOME)/Tools/GNUMake/Make.defs
+
+include ./Make.package
+include $(AMREX_HOME)/Src/Base/Make.package
+include $(AMREX_HOME)/Tools/GNUMake/Make.rules

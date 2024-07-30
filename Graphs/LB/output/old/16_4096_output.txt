@@ -1,0 +1,207 @@
+Initializing AMReX (24.05-32-g28b010126a1b)...
+AMReX (24.05-32-g28b010126a1b) initialized
+Number of buckets: 16
+Number of boxes: 4096
+
+DM: KnapSackDoIt called...
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 2 contains boxes:
+    
+  Bucket 3 contains boxes:
+    
+  Bucket 4 contains boxes:
+    
+  Bucket 5 contains boxes:
+    
+  Bucket 6 contains boxes:
+    
+  Bucket 7 contains boxes:
+    
+  Bucket 8 contains boxes:
+    
+  Bucket 9 contains boxes:
+    
+  Bucket 10 contains boxes:
+    
+  Bucket 11 contains boxes:
+    
+  Bucket 12 contains boxes:
+    
+  Bucket 13 contains boxes:
+    
+  Bucket 14 contains boxes:
+    
+  Bucket 15 contains boxes:
+    
+  Bucket 0 total weight: 224003631579
+  Bucket 1 total weight: 224003586702
+  Bucket 2 total weight: 224003377240
+  Bucket 3 total weight: 224001719530
+  Bucket 4 total weight: 223999162109
+  Bucket 5 total weight: 223996529205
+  Bucket 6 total weight: 223996334346
+  Bucket 7 total weight: 223996326770
+  Bucket 8 total weight: 223995882556
+  Bucket 9 total weight: 223995004581
+  Bucket 10 total weight: 223994717768
+  Bucket 11 total weight: 223994335121
+  Bucket 12 total weight: 223993682336
+  Bucket 13 total weight: 223988004029
+  Bucket 14 total weight: 223980083519
+  Bucket 15 total weight: 223952170952
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+  Mapping bucket 2 to rank 2
+  Mapping bucket 3 to rank 3
+  Mapping bucket 4 to rank 4
+  Mapping bucket 5 to rank 5
+  Mapping bucket 6 to rank 6
+  Mapping bucket 7 to rank 7
+  Mapping bucket 8 to rank 8
+  Mapping bucket 9 to rank 9
+  Mapping bucket 10 to rank 10
+  Mapping bucket 11 to rank 11
+  Mapping bucket 12 to rank 12
+  Mapping bucket 13 to rank 13
+  Mapping bucket 14 to rank 14
+  Mapping bucket 15 to rank 15
+KNAPSACK efficiency: 0.9999543654
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (16, 16, 1)
+  Bucket 0 contains 223982017318
+  Bucket 1 contains 223432228696
+  Bucket 2 contains 224206224069
+  Bucket 3 contains 223553104329
+  Bucket 4 contains 224356664753
+  Bucket 5 contains 223649613302
+  Bucket 6 contains 223959147706
+  Bucket 7 contains 224597250423
+  Bucket 8 contains 223448851440
+  Bucket 9 contains 224724534754
+  Bucket 10 contains 223418511966
+  Bucket 11 contains 224528364085
+  Bucket 12 contains 223372851874
+  Bucket 13 contains 223856813319
+  Bucket 14 contains 224175576058
+  Bucket 15 contains 224632794251
+Mapping bucket 0 to rank 0
+Mapping bucket 1 to rank 1
+Mapping bucket 2 to rank 2
+Mapping bucket 3 to rank 3
+Mapping bucket 4 to rank 4
+Mapping bucket 5 to rank 5
+Mapping bucket 6 to rank 6
+Mapping bucket 7 to rank 7
+Mapping bucket 8 to rank 8
+Mapping bucket 9 to rank 9
+Mapping bucket 10 to rank 10
+Mapping bucket 11 to rank 11
+Mapping bucket 12 to rank 12
+Mapping bucket 13 to rank 13
+Mapping bucket 14 to rank 14
+Mapping bucket 15 to rank 15
+SFC efficiency: 0.9967465703
+DM: BruteForceDoIt called...
+total_weight: 409421100 max_weight: 25701777
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 2 contains boxes:
+    
+  Bucket 3 contains boxes:
+    
+  Bucket 4 contains boxes:
+    
+  Bucket 5 contains boxes:
+    
+  Bucket 6 contains boxes:
+    
+  Bucket 7 contains boxes:
+    
+  Bucket 8 contains boxes:
+    
+  Bucket 9 contains boxes:
+    
+  Bucket 10 contains boxes:
+    
+  Bucket 11 contains boxes:
+    
+  Bucket 12 contains boxes:
+    
+  Bucket 13 contains boxes:
+    
+  Bucket 14 contains boxes:
+    
+  Bucket 15 contains boxes:
+    
+  Bucket 0 total weight: 25602427
+  Bucket 1 total weight: 25558321
+  Bucket 2 total weight: 25530974
+  Bucket 3 total weight: 25630311
+  Bucket 4 total weight: 25414456
+  Bucket 5 total weight: 25576990
+  Bucket 6 total weight: 25580182
+  Bucket 7 total weight: 25655485
+  Bucket 8 total weight: 25546513
+  Bucket 9 total weight: 25622163
+  Bucket 10 total weight: 25609895
+  Bucket 11 total weight: 25607041
+  Bucket 12 total weight: 25554851
+  Bucket 13 total weight: 25701777
+  Bucket 14 total weight: 25607736
+  Bucket 15 total weight: 25621978
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+  Mapping bucket 2 to rank 2
+  Mapping bucket 3 to rank 3
+  Mapping bucket 4 to rank 4
+  Mapping bucket 5 to rank 5
+  Mapping bucket 6 to rank 6
+  Mapping bucket 7 to rank 7
+  Mapping bucket 8 to rank 8
+  Mapping bucket 9 to rank 9
+  Mapping bucket 10 to rank 10
+  Mapping bucket 11 to rank 11
+  Mapping bucket 12 to rank 12
+  Mapping bucket 13 to rank 13
+  Mapping bucket 14 to rank 14
+  Mapping bucket 15 to rank 15
+BruteForceDoIt efficiency: 0.9956050412
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.0292 ... 0.0292 ... 0.0292
+
+----------------------------------------------------------------------
+Name                   NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------
+KnapSackDoIt()              1    0.01152    0.01152    0.01152  39.44%
+BruteForceDoIt()            1   0.009876   0.009876   0.009876  33.82%
+SFCProcessorMapDoIt()       1   0.005565   0.005565   0.005565  19.06%
+main                        1   0.001604   0.001604   0.001604   5.49%
+knapsack()                  1   0.000377   0.000377   0.000377   1.29%
+Other                       2  0.0002489  0.0002489  0.0002489   0.85%
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+Name                   NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------
+main                        1    0.02919    0.02919    0.02919  99.95%
+KnapSackDoIt()              1    0.01189    0.01189    0.01189  40.73%
+BruteForceDoIt()            1     0.0101     0.0101     0.0101  34.60%
+SFCProcessorMapDoIt()       1   0.005587   0.005587   0.005587  19.13%
+knapsack()                  1   0.000377   0.000377   0.000377   1.29%
+Other                       2  0.0002489  0.0002489  0.0002489   0.85%
+----------------------------------------------------------------------
+
+Pinned Memory Usage:
+----------------------------------------------------------------
+Name                            Nalloc  Nfree   AvgMem    MaxMem
+----------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  250 KiB  8192 KiB
+----------------------------------------------------------------
+
+AMReX (24.05-32-g28b010126a1b) finalized

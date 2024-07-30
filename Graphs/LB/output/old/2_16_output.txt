@@ -1,0 +1,67 @@
+Initializing AMReX (24.05-32-g28b010126a1b)...
+AMReX (24.05-32-g28b010126a1b) initialized
+Number of buckets: 2
+Number of boxes: 16
+
+DM: KnapSackDoIt called...
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 0 total weight: 7406880997
+  Bucket 1 total weight: 7381066784
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+KNAPSACK efficiency: 0.9982574168
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6466709929
+  Bucket 1 contains 8321237852
+Mapping bucket 0 to rank 0
+Mapping bucket 1 to rank 1
+SFC efficiency: 0.8885665837
+DM: BruteForceDoIt called...
+total_weight: 1614397 max_weight: 818584
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 0 total weight: 818584
+  Bucket 1 total weight: 795813
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+BruteForceDoIt efficiency: 0.9860912258
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.005694 ... 0.005694 ... 0.005694
+
+----------------------------------------------------------------------
+Name                   NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------
+KnapSackDoIt()              1   0.001767   0.001767   0.001767  31.04%
+BruteForceDoIt()            1   0.001438   0.001438   0.001438  25.25%
+main                        1   0.001295   0.001295   0.001295  22.74%
+SFCProcessorMapDoIt()       1  0.0009975  0.0009975  0.0009975  17.52%
+bruteForce()                1  0.0001802  0.0001802  0.0001802   3.17%
+Other                       2   5.04e-06   5.04e-06   5.04e-06   0.09%
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+Name                   NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------
+main                        1   0.005683   0.005683   0.005683  99.80%
+KnapSackDoIt()              1   0.001772   0.001772   0.001772  31.11%
+BruteForceDoIt()            1   0.001618   0.001618   0.001618  28.42%
+SFCProcessorMapDoIt()       1  0.0009983  0.0009983  0.0009983  17.53%
+bruteForce()                1  0.0001802  0.0001802  0.0001802   3.17%
+Other                       2   5.04e-06   5.04e-06   5.04e-06   0.09%
+----------------------------------------------------------------------
+
+Pinned Memory Usage:
+-----------------------------------------------------------------
+Name                            Nalloc  Nfree    AvgMem    MaxMem
+-----------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  1151 KiB  8192 KiB
+-----------------------------------------------------------------
+
+AMReX (24.05-32-g28b010126a1b) finalized

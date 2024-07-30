@@ -1,0 +1,1325 @@
+Initializing AMReX (24.05-32-g28b010126a1b)...
+AMReX (24.05-32-g28b010126a1b) initialized
+Number of buckets: 128
+Number of boxes: 1024
+
+DM: KnapSackDoIt called...
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 2 contains boxes:
+    
+  Bucket 3 contains boxes:
+    
+  Bucket 4 contains boxes:
+    
+  Bucket 5 contains boxes:
+    
+  Bucket 6 contains boxes:
+    
+  Bucket 7 contains boxes:
+    
+  Bucket 8 contains boxes:
+    
+  Bucket 9 contains boxes:
+    
+  Bucket 10 contains boxes:
+    
+  Bucket 11 contains boxes:
+    
+  Bucket 12 contains boxes:
+    
+  Bucket 13 contains boxes:
+    
+  Bucket 14 contains boxes:
+    
+  Bucket 15 contains boxes:
+    
+  Bucket 16 contains boxes:
+    
+  Bucket 17 contains boxes:
+    
+  Bucket 18 contains boxes:
+    
+  Bucket 19 contains boxes:
+    
+  Bucket 20 contains boxes:
+    
+  Bucket 21 contains boxes:
+    
+  Bucket 22 contains boxes:
+    
+  Bucket 23 contains boxes:
+    
+  Bucket 24 contains boxes:
+    
+  Bucket 25 contains boxes:
+    
+  Bucket 26 contains boxes:
+    
+  Bucket 27 contains boxes:
+    
+  Bucket 28 contains boxes:
+    
+  Bucket 29 contains boxes:
+    
+  Bucket 30 contains boxes:
+    
+  Bucket 31 contains boxes:
+    
+  Bucket 32 contains boxes:
+    
+  Bucket 33 contains boxes:
+    
+  Bucket 34 contains boxes:
+    
+  Bucket 35 contains boxes:
+    
+  Bucket 36 contains boxes:
+    
+  Bucket 37 contains boxes:
+    
+  Bucket 38 contains boxes:
+    
+  Bucket 39 contains boxes:
+    
+  Bucket 40 contains boxes:
+    
+  Bucket 41 contains boxes:
+    
+  Bucket 42 contains boxes:
+    
+  Bucket 43 contains boxes:
+    
+  Bucket 44 contains boxes:
+    
+  Bucket 45 contains boxes:
+    
+  Bucket 46 contains boxes:
+    
+  Bucket 47 contains boxes:
+    
+  Bucket 48 contains boxes:
+    
+  Bucket 49 contains boxes:
+    
+  Bucket 50 contains boxes:
+    
+  Bucket 51 contains boxes:
+    
+  Bucket 52 contains boxes:
+    
+  Bucket 53 contains boxes:
+    
+  Bucket 54 contains boxes:
+    
+  Bucket 55 contains boxes:
+    
+  Bucket 56 contains boxes:
+    
+  Bucket 57 contains boxes:
+    
+  Bucket 58 contains boxes:
+    
+  Bucket 59 contains boxes:
+    
+  Bucket 60 contains boxes:
+    
+  Bucket 61 contains boxes:
+    
+  Bucket 62 contains boxes:
+    
+  Bucket 63 contains boxes:
+    
+  Bucket 64 contains boxes:
+    
+  Bucket 65 contains boxes:
+    
+  Bucket 66 contains boxes:
+    
+  Bucket 67 contains boxes:
+    
+  Bucket 68 contains boxes:
+    
+  Bucket 69 contains boxes:
+    
+  Bucket 70 contains boxes:
+    
+  Bucket 71 contains boxes:
+    
+  Bucket 72 contains boxes:
+    
+  Bucket 73 contains boxes:
+    
+  Bucket 74 contains boxes:
+    
+  Bucket 75 contains boxes:
+    
+  Bucket 76 contains boxes:
+    
+  Bucket 77 contains boxes:
+    
+  Bucket 78 contains boxes:
+    
+  Bucket 79 contains boxes:
+    
+  Bucket 80 contains boxes:
+    
+  Bucket 81 contains boxes:
+    
+  Bucket 82 contains boxes:
+    
+  Bucket 83 contains boxes:
+    
+  Bucket 84 contains boxes:
+    
+  Bucket 85 contains boxes:
+    
+  Bucket 86 contains boxes:
+    
+  Bucket 87 contains boxes:
+    
+  Bucket 88 contains boxes:
+    
+  Bucket 89 contains boxes:
+    
+  Bucket 90 contains boxes:
+    
+  Bucket 91 contains boxes:
+    
+  Bucket 92 contains boxes:
+    
+  Bucket 93 contains boxes:
+    
+  Bucket 94 contains boxes:
+    
+  Bucket 95 contains boxes:
+    
+  Bucket 96 contains boxes:
+    
+  Bucket 97 contains boxes:
+    
+  Bucket 98 contains boxes:
+    
+  Bucket 99 contains boxes:
+    
+  Bucket 100 contains boxes:
+    
+  Bucket 101 contains boxes:
+    
+  Bucket 102 contains boxes:
+    
+  Bucket 103 contains boxes:
+    
+  Bucket 104 contains boxes:
+    
+  Bucket 105 contains boxes:
+    
+  Bucket 106 contains boxes:
+    
+  Bucket 107 contains boxes:
+    
+  Bucket 108 contains boxes:
+    
+  Bucket 109 contains boxes:
+    
+  Bucket 110 contains boxes:
+    
+  Bucket 111 contains boxes:
+    
+  Bucket 112 contains boxes:
+    
+  Bucket 113 contains boxes:
+    
+  Bucket 114 contains boxes:
+    
+  Bucket 115 contains boxes:
+    
+  Bucket 116 contains boxes:
+    
+  Bucket 117 contains boxes:
+    
+  Bucket 118 contains boxes:
+    
+  Bucket 119 contains boxes:
+    
+  Bucket 120 contains boxes:
+    
+  Bucket 121 contains boxes:
+    
+  Bucket 122 contains boxes:
+    
+  Bucket 123 contains boxes:
+    
+  Bucket 124 contains boxes:
+    
+  Bucket 125 contains boxes:
+    
+  Bucket 126 contains boxes:
+    
+  Bucket 127 contains boxes:
+    
+  Bucket 0 total weight: 7028880866
+  Bucket 1 total weight: 7028677016
+  Bucket 2 total weight: 7028642079
+  Bucket 3 total weight: 7028641732
+  Bucket 4 total weight: 7028639685
+  Bucket 5 total weight: 7028605094
+  Bucket 6 total weight: 7028343200
+  Bucket 7 total weight: 7028315803
+  Bucket 8 total weight: 7028305369
+  Bucket 9 total weight: 7028272687
+  Bucket 10 total weight: 7028272444
+  Bucket 11 total weight: 7028245486
+  Bucket 12 total weight: 7028197080
+  Bucket 13 total weight: 7028096136
+  Bucket 14 total weight: 7028048984
+  Bucket 15 total weight: 7028022560
+  Bucket 16 total weight: 7028011355
+  Bucket 17 total weight: 7027979754
+  Bucket 18 total weight: 7027948545
+  Bucket 19 total weight: 7027892736
+  Bucket 20 total weight: 7027889878
+  Bucket 21 total weight: 7027871142
+  Bucket 22 total weight: 7027794767
+  Bucket 23 total weight: 7027762267
+  Bucket 24 total weight: 7027750524
+  Bucket 25 total weight: 7027732621
+  Bucket 26 total weight: 7027708843
+  Bucket 27 total weight: 7027677796
+  Bucket 28 total weight: 7027664922
+  Bucket 29 total weight: 7027659809
+  Bucket 30 total weight: 7027623891
+  Bucket 31 total weight: 7027577464
+  Bucket 32 total weight: 7027530766
+  Bucket 33 total weight: 7027526355
+  Bucket 34 total weight: 7027426135
+  Bucket 35 total weight: 7027409216
+  Bucket 36 total weight: 7027372342
+  Bucket 37 total weight: 7027340083
+  Bucket 38 total weight: 7026477598
+  Bucket 39 total weight: 7026464794
+  Bucket 40 total weight: 7026177777
+  Bucket 41 total weight: 7025903892
+  Bucket 42 total weight: 7025711163
+  Bucket 43 total weight: 7025631566
+  Bucket 44 total weight: 7025217051
+  Bucket 45 total weight: 7024836543
+  Bucket 46 total weight: 7024771694
+  Bucket 47 total weight: 7024750447
+  Bucket 48 total weight: 7024085370
+  Bucket 49 total weight: 7024065078
+  Bucket 50 total weight: 7023667408
+  Bucket 51 total weight: 7023655004
+  Bucket 52 total weight: 7023588540
+  Bucket 53 total weight: 7023264909
+  Bucket 54 total weight: 7023088461
+  Bucket 55 total weight: 7022602378
+  Bucket 56 total weight: 7022598188
+  Bucket 57 total weight: 7022350097
+  Bucket 58 total weight: 7022311663
+  Bucket 59 total weight: 7022213888
+  Bucket 60 total weight: 7021927029
+  Bucket 61 total weight: 7021660047
+  Bucket 62 total weight: 7021619391
+  Bucket 63 total weight: 7021405228
+  Bucket 64 total weight: 7021231274
+  Bucket 65 total weight: 7020795156
+  Bucket 66 total weight: 7020183609
+  Bucket 67 total weight: 7019601712
+  Bucket 68 total weight: 7019390954
+  Bucket 69 total weight: 7019381341
+  Bucket 70 total weight: 7019247333
+  Bucket 71 total weight: 7018841638
+  Bucket 72 total weight: 7018659502
+  Bucket 73 total weight: 7018567696
+  Bucket 74 total weight: 7018448640
+  Bucket 75 total weight: 7018192136
+  Bucket 76 total weight: 7017796462
+  Bucket 77 total weight: 7016556955
+  Bucket 78 total weight: 7016270175
+  Bucket 79 total weight: 7015889232
+  Bucket 80 total weight: 7015789401
+  Bucket 81 total weight: 7013473816
+  Bucket 82 total weight: 7013443937
+  Bucket 83 total weight: 7013247193
+  Bucket 84 total weight: 7012333909
+  Bucket 85 total weight: 7011969095
+  Bucket 86 total weight: 7011868080
+  Bucket 87 total weight: 7011807535
+  Bucket 88 total weight: 7011730820
+  Bucket 89 total weight: 7011645048
+  Bucket 90 total weight: 7011116653
+  Bucket 91 total weight: 7010168521
+  Bucket 92 total weight: 7009484725
+  Bucket 93 total weight: 7009372565
+  Bucket 94 total weight: 7009240597
+  Bucket 95 total weight: 7008608420
+  Bucket 96 total weight: 7008572173
+  Bucket 97 total weight: 7008243935
+  Bucket 98 total weight: 7007890927
+  Bucket 99 total weight: 7007283210
+  Bucket 100 total weight: 7007081096
+  Bucket 101 total weight: 7006650476
+  Bucket 102 total weight: 7006500333
+  Bucket 103 total weight: 7006496679
+  Bucket 104 total weight: 7006461195
+  Bucket 105 total weight: 7006399901
+  Bucket 106 total weight: 7006121977
+  Bucket 107 total weight: 7005962358
+  Bucket 108 total weight: 7005155395
+  Bucket 109 total weight: 7004798520
+  Bucket 110 total weight: 7004568249
+  Bucket 111 total weight: 7003929563
+  Bucket 112 total weight: 7001829565
+  Bucket 113 total weight: 7000976160
+  Bucket 114 total weight: 6999522066
+  Bucket 115 total weight: 6999143228
+  Bucket 116 total weight: 6998715740
+  Bucket 117 total weight: 6998690256
+  Bucket 118 total weight: 6997814229
+  Bucket 119 total weight: 6997416863
+  Bucket 120 total weight: 6994847721
+  Bucket 121 total weight: 6994260508
+  Bucket 122 total weight: 6993684459
+  Bucket 123 total weight: 6993212206
+  Bucket 124 total weight: 6987887556
+  Bucket 125 total weight: 6987324890
+  Bucket 126 total weight: 6987076193
+  Bucket 127 total weight: 6986753943
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+  Mapping bucket 2 to rank 2
+  Mapping bucket 3 to rank 3
+  Mapping bucket 4 to rank 4
+  Mapping bucket 5 to rank 5
+  Mapping bucket 6 to rank 6
+  Mapping bucket 7 to rank 7
+  Mapping bucket 8 to rank 8
+  Mapping bucket 9 to rank 9
+  Mapping bucket 10 to rank 10
+  Mapping bucket 11 to rank 11
+  Mapping bucket 12 to rank 12
+  Mapping bucket 13 to rank 13
+  Mapping bucket 14 to rank 14
+  Mapping bucket 15 to rank 15
+  Mapping bucket 16 to rank 16
+  Mapping bucket 17 to rank 17
+  Mapping bucket 18 to rank 18
+  Mapping bucket 19 to rank 19
+  Mapping bucket 20 to rank 20
+  Mapping bucket 21 to rank 21
+  Mapping bucket 22 to rank 22
+  Mapping bucket 23 to rank 23
+  Mapping bucket 24 to rank 24
+  Mapping bucket 25 to rank 25
+  Mapping bucket 26 to rank 26
+  Mapping bucket 27 to rank 27
+  Mapping bucket 28 to rank 28
+  Mapping bucket 29 to rank 29
+  Mapping bucket 30 to rank 30
+  Mapping bucket 31 to rank 31
+  Mapping bucket 32 to rank 32
+  Mapping bucket 33 to rank 33
+  Mapping bucket 34 to rank 34
+  Mapping bucket 35 to rank 35
+  Mapping bucket 36 to rank 36
+  Mapping bucket 37 to rank 37
+  Mapping bucket 38 to rank 38
+  Mapping bucket 39 to rank 39
+  Mapping bucket 40 to rank 40
+  Mapping bucket 41 to rank 41
+  Mapping bucket 42 to rank 42
+  Mapping bucket 43 to rank 43
+  Mapping bucket 44 to rank 44
+  Mapping bucket 45 to rank 45
+  Mapping bucket 46 to rank 46
+  Mapping bucket 47 to rank 47
+  Mapping bucket 48 to rank 48
+  Mapping bucket 49 to rank 49
+  Mapping bucket 50 to rank 50
+  Mapping bucket 51 to rank 51
+  Mapping bucket 52 to rank 52
+  Mapping bucket 53 to rank 53
+  Mapping bucket 54 to rank 54
+  Mapping bucket 55 to rank 55
+  Mapping bucket 56 to rank 56
+  Mapping bucket 57 to rank 57
+  Mapping bucket 58 to rank 58
+  Mapping bucket 59 to rank 59
+  Mapping bucket 60 to rank 60
+  Mapping bucket 61 to rank 61
+  Mapping bucket 62 to rank 62
+  Mapping bucket 63 to rank 63
+  Mapping bucket 64 to rank 64
+  Mapping bucket 65 to rank 65
+  Mapping bucket 66 to rank 66
+  Mapping bucket 67 to rank 67
+  Mapping bucket 68 to rank 68
+  Mapping bucket 69 to rank 69
+  Mapping bucket 70 to rank 70
+  Mapping bucket 71 to rank 71
+  Mapping bucket 72 to rank 72
+  Mapping bucket 73 to rank 73
+  Mapping bucket 74 to rank 74
+  Mapping bucket 75 to rank 75
+  Mapping bucket 76 to rank 76
+  Mapping bucket 77 to rank 77
+  Mapping bucket 78 to rank 78
+  Mapping bucket 79 to rank 79
+  Mapping bucket 80 to rank 80
+  Mapping bucket 81 to rank 81
+  Mapping bucket 82 to rank 82
+  Mapping bucket 83 to rank 83
+  Mapping bucket 84 to rank 84
+  Mapping bucket 85 to rank 85
+  Mapping bucket 86 to rank 86
+  Mapping bucket 87 to rank 87
+  Mapping bucket 88 to rank 88
+  Mapping bucket 89 to rank 89
+  Mapping bucket 90 to rank 90
+  Mapping bucket 91 to rank 91
+  Mapping bucket 92 to rank 92
+  Mapping bucket 93 to rank 93
+  Mapping bucket 94 to rank 94
+  Mapping bucket 95 to rank 95
+  Mapping bucket 96 to rank 96
+  Mapping bucket 97 to rank 97
+  Mapping bucket 98 to rank 98
+  Mapping bucket 99 to rank 99
+  Mapping bucket 100 to rank 100
+  Mapping bucket 101 to rank 101
+  Mapping bucket 102 to rank 102
+  Mapping bucket 103 to rank 103
+  Mapping bucket 104 to rank 104
+  Mapping bucket 105 to rank 105
+  Mapping bucket 106 to rank 106
+  Mapping bucket 107 to rank 107
+  Mapping bucket 108 to rank 108
+  Mapping bucket 109 to rank 109
+  Mapping bucket 110 to rank 110
+  Mapping bucket 111 to rank 111
+  Mapping bucket 112 to rank 112
+  Mapping bucket 113 to rank 113
+  Mapping bucket 114 to rank 114
+  Mapping bucket 115 to rank 115
+  Mapping bucket 116 to rank 116
+  Mapping bucket 117 to rank 117
+  Mapping bucket 118 to rank 118
+  Mapping bucket 119 to rank 119
+  Mapping bucket 120 to rank 120
+  Mapping bucket 121 to rank 121
+  Mapping bucket 122 to rank 122
+  Mapping bucket 123 to rank 123
+  Mapping bucket 124 to rank 124
+  Mapping bucket 125 to rank 125
+  Mapping bucket 126 to rank 126
+  Mapping bucket 127 to rank 127
+KNAPSACK efficiency: 0.9983241881
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (128, 128, 1)
+  Bucket 0 contains 6981994499
+  Bucket 1 contains 6216889583
+  Bucket 2 contains 7090474952
+  Bucket 3 contains 7733281819
+  Bucket 4 contains 6984964997
+  Bucket 5 contains 7034732095
+  Bucket 6 contains 6816008716
+  Bucket 7 contains 7034882527
+  Bucket 8 contains 6823993317
+  Bucket 9 contains 7039189371
+  Bucket 10 contains 7124673031
+  Bucket 11 contains 6939112258
+  Bucket 12 contains 7021041019
+  Bucket 13 contains 7143456758
+  Bucket 14 contains 6377585047
+  Bucket 15 contains 7867804562
+  Bucket 16 contains 6924168277
+  Bucket 17 contains 6814652895
+  Bucket 18 contains 7005456038
+  Bucket 19 contains 7184243509
+  Bucket 20 contains 7085675073
+  Bucket 21 contains 6828956060
+  Bucket 22 contains 7036818119
+  Bucket 23 contains 6954450133
+  Bucket 24 contains 7034897457
+  Bucket 25 contains 7012290046
+  Bucket 26 contains 7073605488
+  Bucket 27 contains 7099755320
+  Bucket 28 contains 7080271484
+  Bucket 29 contains 7010601037
+  Bucket 30 contains 6794302188
+  Bucket 31 contains 7008269017
+  Bucket 32 contains 6931554377
+  Bucket 33 contains 6885972526
+  Bucket 34 contains 7030989575
+  Bucket 35 contains 7150798792
+  Bucket 36 contains 6800123733
+  Bucket 37 contains 6964391457
+  Bucket 38 contains 7638901218
+  Bucket 39 contains 6900147560
+  Bucket 40 contains 7027054055
+  Bucket 41 contains 6975573325
+  Bucket 42 contains 7055123597
+  Bucket 43 contains 6916979253
+  Bucket 44 contains 6856931950
+  Bucket 45 contains 7231176319
+  Bucket 46 contains 7138651029
+  Bucket 47 contains 6390513463
+  Bucket 48 contains 7148880462
+  Bucket 49 contains 6975699788
+  Bucket 50 contains 6930609322
+  Bucket 51 contains 7172555116
+  Bucket 52 contains 6980772926
+  Bucket 53 contains 6982388011
+  Bucket 54 contains 6992691907
+  Bucket 55 contains 7111823043
+  Bucket 56 contains 6795924212
+  Bucket 57 contains 7172362895
+  Bucket 58 contains 6934617283
+  Bucket 59 contains 6913172400
+  Bucket 60 contains 7276081314
+  Bucket 61 contains 7101087962
+  Bucket 62 contains 7011593226
+  Bucket 63 contains 6945613336
+  Bucket 64 contains 6936080440
+  Bucket 65 contains 6840794353
+  Bucket 66 contains 7071326376
+  Bucket 67 contains 7083448380
+  Bucket 68 contains 6838116585
+  Bucket 69 contains 7078213792
+  Bucket 70 contains 7832535380
+  Bucket 71 contains 6976618255
+  Bucket 72 contains 6922091725
+  Bucket 73 contains 6959832596
+  Bucket 74 contains 6982809431
+  Bucket 75 contains 7193345115
+  Bucket 76 contains 6957538003
+  Bucket 77 contains 7141847226
+  Bucket 78 contains 6939534829
+  Bucket 79 contains 6978918649
+  Bucket 80 contains 7055585985
+  Bucket 81 contains 7006262265
+  Bucket 82 contains 7060309354
+  Bucket 83 contains 7005498027
+  Bucket 84 contains 6857202712
+  Bucket 85 contains 7135514913
+  Bucket 86 contains 7047612582
+  Bucket 87 contains 7076758259
+  Bucket 88 contains 6240540532
+  Bucket 89 contains 7009960493
+  Bucket 90 contains 7136801350
+  Bucket 91 contains 7047790110
+  Bucket 92 contains 7118199763
+  Bucket 93 contains 7000056722
+  Bucket 94 contains 7000914450
+  Bucket 95 contains 7123029143
+  Bucket 96 contains 7107438517
+  Bucket 97 contains 6857500553
+  Bucket 98 contains 7133459572
+  Bucket 99 contains 6917604496
+  Bucket 100 contains 7137025184
+  Bucket 101 contains 6870441142
+  Bucket 102 contains 7071744676
+  Bucket 103 contains 6868370993
+  Bucket 104 contains 7036723986
+  Bucket 105 contains 7125599556
+  Bucket 106 contains 6926769243
+  Bucket 107 contains 7260028371
+  Bucket 108 contains 7040928219
+  Bucket 109 contains 6990221875
+  Bucket 110 contains 7089686165
+  Bucket 111 contains 6962559759
+  Bucket 112 contains 6967084427
+  Bucket 113 contains 6802208008
+  Bucket 114 contains 7099015057
+  Bucket 115 contains 7260498559
+  Bucket 116 contains 7058635312
+  Bucket 117 contains 7063434399
+  Bucket 118 contains 6835601843
+  Bucket 119 contains 7107092505
+  Bucket 120 contains 7022400500
+  Bucket 121 contains 7005600268
+  Bucket 122 contains 6981677905
+  Bucket 123 contains 7016856152
+  Bucket 124 contains 7034935083
+  Bucket 125 contains 7325830044
+  Bucket 126 contains 6279774961
+  Bucket 127 contains 7757941087
+Mapping bucket 0 to rank 0
+Mapping bucket 1 to rank 1
+Mapping bucket 2 to rank 2
+Mapping bucket 3 to rank 3
+Mapping bucket 4 to rank 4
+Mapping bucket 5 to rank 5
+Mapping bucket 6 to rank 6
+Mapping bucket 7 to rank 7
+Mapping bucket 8 to rank 8
+Mapping bucket 9 to rank 9
+Mapping bucket 10 to rank 10
+Mapping bucket 11 to rank 11
+Mapping bucket 12 to rank 12
+Mapping bucket 13 to rank 13
+Mapping bucket 14 to rank 14
+Mapping bucket 15 to rank 15
+Mapping bucket 16 to rank 16
+Mapping bucket 17 to rank 17
+Mapping bucket 18 to rank 18
+Mapping bucket 19 to rank 19
+Mapping bucket 20 to rank 20
+Mapping bucket 21 to rank 21
+Mapping bucket 22 to rank 22
+Mapping bucket 23 to rank 23
+Mapping bucket 24 to rank 24
+Mapping bucket 25 to rank 25
+Mapping bucket 26 to rank 26
+Mapping bucket 27 to rank 27
+Mapping bucket 28 to rank 28
+Mapping bucket 29 to rank 29
+Mapping bucket 30 to rank 30
+Mapping bucket 31 to rank 31
+Mapping bucket 32 to rank 32
+Mapping bucket 33 to rank 33
+Mapping bucket 34 to rank 34
+Mapping bucket 35 to rank 35
+Mapping bucket 36 to rank 36
+Mapping bucket 37 to rank 37
+Mapping bucket 38 to rank 38
+Mapping bucket 39 to rank 39
+Mapping bucket 40 to rank 40
+Mapping bucket 41 to rank 41
+Mapping bucket 42 to rank 42
+Mapping bucket 43 to rank 43
+Mapping bucket 44 to rank 44
+Mapping bucket 45 to rank 45
+Mapping bucket 46 to rank 46
+Mapping bucket 47 to rank 47
+Mapping bucket 48 to rank 48
+Mapping bucket 49 to rank 49
+Mapping bucket 50 to rank 50
+Mapping bucket 51 to rank 51
+Mapping bucket 52 to rank 52
+Mapping bucket 53 to rank 53
+Mapping bucket 54 to rank 54
+Mapping bucket 55 to rank 55
+Mapping bucket 56 to rank 56
+Mapping bucket 57 to rank 57
+Mapping bucket 58 to rank 58
+Mapping bucket 59 to rank 59
+Mapping bucket 60 to rank 60
+Mapping bucket 61 to rank 61
+Mapping bucket 62 to rank 62
+Mapping bucket 63 to rank 63
+Mapping bucket 64 to rank 64
+Mapping bucket 65 to rank 65
+Mapping bucket 66 to rank 66
+Mapping bucket 67 to rank 67
+Mapping bucket 68 to rank 68
+Mapping bucket 69 to rank 69
+Mapping bucket 70 to rank 70
+Mapping bucket 71 to rank 71
+Mapping bucket 72 to rank 72
+Mapping bucket 73 to rank 73
+Mapping bucket 74 to rank 74
+Mapping bucket 75 to rank 75
+Mapping bucket 76 to rank 76
+Mapping bucket 77 to rank 77
+Mapping bucket 78 to rank 78
+Mapping bucket 79 to rank 79
+Mapping bucket 80 to rank 80
+Mapping bucket 81 to rank 81
+Mapping bucket 82 to rank 82
+Mapping bucket 83 to rank 83
+Mapping bucket 84 to rank 84
+Mapping bucket 85 to rank 85
+Mapping bucket 86 to rank 86
+Mapping bucket 87 to rank 87
+Mapping bucket 88 to rank 88
+Mapping bucket 89 to rank 89
+Mapping bucket 90 to rank 90
+Mapping bucket 91 to rank 91
+Mapping bucket 92 to rank 92
+Mapping bucket 93 to rank 93
+Mapping bucket 94 to rank 94
+Mapping bucket 95 to rank 95
+Mapping bucket 96 to rank 96
+Mapping bucket 97 to rank 97
+Mapping bucket 98 to rank 98
+Mapping bucket 99 to rank 99
+Mapping bucket 100 to rank 100
+Mapping bucket 101 to rank 101
+Mapping bucket 102 to rank 102
+Mapping bucket 103 to rank 103
+Mapping bucket 104 to rank 104
+Mapping bucket 105 to rank 105
+Mapping bucket 106 to rank 106
+Mapping bucket 107 to rank 107
+Mapping bucket 108 to rank 108
+Mapping bucket 109 to rank 109
+Mapping bucket 110 to rank 110
+Mapping bucket 111 to rank 111
+Mapping bucket 112 to rank 112
+Mapping bucket 113 to rank 113
+Mapping bucket 114 to rank 114
+Mapping bucket 115 to rank 115
+Mapping bucket 116 to rank 116
+Mapping bucket 117 to rank 117
+Mapping bucket 118 to rank 118
+Mapping bucket 119 to rank 119
+Mapping bucket 120 to rank 120
+Mapping bucket 121 to rank 121
+Mapping bucket 122 to rank 122
+Mapping bucket 123 to rank 123
+Mapping bucket 124 to rank 124
+Mapping bucket 125 to rank 125
+Mapping bucket 126 to rank 126
+Mapping bucket 127 to rank 127
+SFC efficiency: 0.8918754563
+DM: BruteForceDoIt called...
+total_weight: 102312988 max_weight: 835194
+  Bucket 0 contains boxes:
+    
+  Bucket 1 contains boxes:
+    
+  Bucket 2 contains boxes:
+    
+  Bucket 3 contains boxes:
+    
+  Bucket 4 contains boxes:
+    
+  Bucket 5 contains boxes:
+    
+  Bucket 6 contains boxes:
+    
+  Bucket 7 contains boxes:
+    
+  Bucket 8 contains boxes:
+    
+  Bucket 9 contains boxes:
+    
+  Bucket 10 contains boxes:
+    
+  Bucket 11 contains boxes:
+    
+  Bucket 12 contains boxes:
+    
+  Bucket 13 contains boxes:
+    
+  Bucket 14 contains boxes:
+    
+  Bucket 15 contains boxes:
+    
+  Bucket 16 contains boxes:
+    
+  Bucket 17 contains boxes:
+    
+  Bucket 18 contains boxes:
+    
+  Bucket 19 contains boxes:
+    
+  Bucket 20 contains boxes:
+    
+  Bucket 21 contains boxes:
+    
+  Bucket 22 contains boxes:
+    
+  Bucket 23 contains boxes:
+    
+  Bucket 24 contains boxes:
+    
+  Bucket 25 contains boxes:
+    
+  Bucket 26 contains boxes:
+    
+  Bucket 27 contains boxes:
+    
+  Bucket 28 contains boxes:
+    
+  Bucket 29 contains boxes:
+    
+  Bucket 30 contains boxes:
+    
+  Bucket 31 contains boxes:
+    
+  Bucket 32 contains boxes:
+    
+  Bucket 33 contains boxes:
+    
+  Bucket 34 contains boxes:
+    
+  Bucket 35 contains boxes:
+    
+  Bucket 36 contains boxes:
+    
+  Bucket 37 contains boxes:
+    
+  Bucket 38 contains boxes:
+    
+  Bucket 39 contains boxes:
+    
+  Bucket 40 contains boxes:
+    
+  Bucket 41 contains boxes:
+    
+  Bucket 42 contains boxes:
+    
+  Bucket 43 contains boxes:
+    
+  Bucket 44 contains boxes:
+    
+  Bucket 45 contains boxes:
+    
+  Bucket 46 contains boxes:
+    
+  Bucket 47 contains boxes:
+    
+  Bucket 48 contains boxes:
+    
+  Bucket 49 contains boxes:
+    
+  Bucket 50 contains boxes:
+    
+  Bucket 51 contains boxes:
+    
+  Bucket 52 contains boxes:
+    
+  Bucket 53 contains boxes:
+    
+  Bucket 54 contains boxes:
+    
+  Bucket 55 contains boxes:
+    
+  Bucket 56 contains boxes:
+    
+  Bucket 57 contains boxes:
+    
+  Bucket 58 contains boxes:
+    
+  Bucket 59 contains boxes:
+    
+  Bucket 60 contains boxes:
+    
+  Bucket 61 contains boxes:
+    
+  Bucket 62 contains boxes:
+    
+  Bucket 63 contains boxes:
+    
+  Bucket 64 contains boxes:
+    
+  Bucket 65 contains boxes:
+    
+  Bucket 66 contains boxes:
+    
+  Bucket 67 contains boxes:
+    
+  Bucket 68 contains boxes:
+    
+  Bucket 69 contains boxes:
+    
+  Bucket 70 contains boxes:
+    
+  Bucket 71 contains boxes:
+    
+  Bucket 72 contains boxes:
+    
+  Bucket 73 contains boxes:
+    
+  Bucket 74 contains boxes:
+    
+  Bucket 75 contains boxes:
+    
+  Bucket 76 contains boxes:
+    
+  Bucket 77 contains boxes:
+    
+  Bucket 78 contains boxes:
+    
+  Bucket 79 contains boxes:
+    
+  Bucket 80 contains boxes:
+    
+  Bucket 81 contains boxes:
+    
+  Bucket 82 contains boxes:
+    
+  Bucket 83 contains boxes:
+    
+  Bucket 84 contains boxes:
+    
+  Bucket 85 contains boxes:
+    
+  Bucket 86 contains boxes:
+    
+  Bucket 87 contains boxes:
+    
+  Bucket 88 contains boxes:
+    
+  Bucket 89 contains boxes:
+    
+  Bucket 90 contains boxes:
+    
+  Bucket 91 contains boxes:
+    
+  Bucket 92 contains boxes:
+    
+  Bucket 93 contains boxes:
+    
+  Bucket 94 contains boxes:
+    
+  Bucket 95 contains boxes:
+    
+  Bucket 96 contains boxes:
+    
+  Bucket 97 contains boxes:
+    
+  Bucket 98 contains boxes:
+    
+  Bucket 99 contains boxes:
+    
+  Bucket 100 contains boxes:
+    
+  Bucket 101 contains boxes:
+    
+  Bucket 102 contains boxes:
+    
+  Bucket 103 contains boxes:
+    
+  Bucket 104 contains boxes:
+    
+  Bucket 105 contains boxes:
+    
+  Bucket 106 contains boxes:
+    
+  Bucket 107 contains boxes:
+    
+  Bucket 108 contains boxes:
+    
+  Bucket 109 contains boxes:
+    
+  Bucket 110 contains boxes:
+    
+  Bucket 111 contains boxes:
+    
+  Bucket 112 contains boxes:
+    
+  Bucket 113 contains boxes:
+    
+  Bucket 114 contains boxes:
+    
+  Bucket 115 contains boxes:
+    
+  Bucket 116 contains boxes:
+    
+  Bucket 117 contains boxes:
+    
+  Bucket 118 contains boxes:
+    
+  Bucket 119 contains boxes:
+    
+  Bucket 120 contains boxes:
+    
+  Bucket 121 contains boxes:
+    
+  Bucket 122 contains boxes:
+    
+  Bucket 123 contains boxes:
+    
+  Bucket 124 contains boxes:
+    
+  Bucket 125 contains boxes:
+    
+  Bucket 126 contains boxes:
+    
+  Bucket 127 contains boxes:
+    
+  Bucket 0 total weight: 818821
+  Bucket 1 total weight: 805073
+  Bucket 2 total weight: 788839
+  Bucket 3 total weight: 787116
+  Bucket 4 total weight: 813089
+  Bucket 5 total weight: 828855
+  Bucket 6 total weight: 792750
+  Bucket 7 total weight: 795079
+  Bucket 8 total weight: 780239
+  Bucket 9 total weight: 811699
+  Bucket 10 total weight: 808636
+  Bucket 11 total weight: 796696
+  Bucket 12 total weight: 797464
+  Bucket 13 total weight: 785167
+  Bucket 14 total weight: 815797
+  Bucket 15 total weight: 820836
+  Bucket 16 total weight: 801334
+  Bucket 17 total weight: 803960
+  Bucket 18 total weight: 792845
+  Bucket 19 total weight: 783478
+  Bucket 20 total weight: 814254
+  Bucket 21 total weight: 785273
+  Bucket 22 total weight: 790103
+  Bucket 23 total weight: 817753
+  Bucket 24 total weight: 799230
+  Bucket 25 total weight: 798212
+  Bucket 26 total weight: 803121
+  Bucket 27 total weight: 801290
+  Bucket 28 total weight: 806366
+  Bucket 29 total weight: 835194
+  Bucket 30 total weight: 785801
+  Bucket 31 total weight: 777812
+  Bucket 32 total weight: 804678
+  Bucket 33 total weight: 788912
+  Bucket 34 total weight: 800846
+  Bucket 35 total weight: 811923
+  Bucket 36 total weight: 807364
+  Bucket 37 total weight: 797638
+  Bucket 38 total weight: 797247
+  Bucket 39 total weight: 822407
+  Bucket 40 total weight: 802458
+  Bucket 41 total weight: 793945
+  Bucket 42 total weight: 791010
+  Bucket 43 total weight: 777835
+  Bucket 44 total weight: 797760
+  Bucket 45 total weight: 802964
+  Bucket 46 total weight: 802629
+  Bucket 47 total weight: 796721
+  Bucket 48 total weight: 798100
+  Bucket 49 total weight: 802544
+  Bucket 50 total weight: 793043
+  Bucket 51 total weight: 824090
+  Bucket 52 total weight: 798671
+  Bucket 53 total weight: 795247
+  Bucket 54 total weight: 788880
+  Bucket 55 total weight: 800135
+  Bucket 56 total weight: 812151
+  Bucket 57 total weight: 787247
+  Bucket 58 total weight: 816163
+  Bucket 59 total weight: 796150
+  Bucket 60 total weight: 800210
+  Bucket 61 total weight: 791919
+  Bucket 62 total weight: 799607
+  Bucket 63 total weight: 806522
+  Bucket 64 total weight: 794752
+  Bucket 65 total weight: 799197
+  Bucket 66 total weight: 796139
+  Bucket 67 total weight: 796843
+  Bucket 68 total weight: 799020
+  Bucket 69 total weight: 794497
+  Bucket 70 total weight: 784833
+  Bucket 71 total weight: 802547
+  Bucket 72 total weight: 819791
+  Bucket 73 total weight: 792039
+  Bucket 74 total weight: 808142
+  Bucket 75 total weight: 797100
+  Bucket 76 total weight: 789452
+  Bucket 77 total weight: 807779
+  Bucket 78 total weight: 806334
+  Bucket 79 total weight: 808982
+  Bucket 80 total weight: 804073
+  Bucket 81 total weight: 797349
+  Bucket 82 total weight: 804640
+  Bucket 83 total weight: 795696
+  Bucket 84 total weight: 784364
+  Bucket 85 total weight: 798642
+  Bucket 86 total weight: 814717
+  Bucket 87 total weight: 773090
+  Bucket 88 total weight: 815272
+  Bucket 89 total weight: 794871
+  Bucket 90 total weight: 802119
+  Bucket 91 total weight: 797416
+  Bucket 92 total weight: 780973
+  Bucket 93 total weight: 817786
+  Bucket 94 total weight: 815257
+  Bucket 95 total weight: 792579
+  Bucket 96 total weight: 804923
+  Bucket 97 total weight: 786346
+  Bucket 98 total weight: 813242
+  Bucket 99 total weight: 801395
+  Bucket 100 total weight: 785162
+  Bucket 101 total weight: 795750
+  Bucket 102 total weight: 789923
+  Bucket 103 total weight: 782240
+  Bucket 104 total weight: 799100
+  Bucket 105 total weight: 813566
+  Bucket 106 total weight: 792715
+  Bucket 107 total weight: 792756
+  Bucket 108 total weight: 800048
+  Bucket 109 total weight: 820662
+  Bucket 110 total weight: 780749
+  Bucket 111 total weight: 804829
+  Bucket 112 total weight: 795622
+  Bucket 113 total weight: 804489
+  Bucket 114 total weight: 783870
+  Bucket 115 total weight: 818698
+  Bucket 116 total weight: 784551
+  Bucket 117 total weight: 790845
+  Bucket 118 total weight: 802824
+  Bucket 119 total weight: 794376
+  Bucket 120 total weight: 784467
+  Bucket 121 total weight: 797381
+  Bucket 122 total weight: 793121
+  Bucket 123 total weight: 788756
+  Bucket 124 total weight: 776105
+  Bucket 125 total weight: 801726
+  Bucket 126 total weight: 801763
+  Bucket 127 total weight: 795499
+  Mapping bucket 0 to rank 0
+  Mapping bucket 1 to rank 1
+  Mapping bucket 2 to rank 2
+  Mapping bucket 3 to rank 3
+  Mapping bucket 4 to rank 4
+  Mapping bucket 5 to rank 5
+  Mapping bucket 6 to rank 6
+  Mapping bucket 7 to rank 7
+  Mapping bucket 8 to rank 8
+  Mapping bucket 9 to rank 9
+  Mapping bucket 10 to rank 10
+  Mapping bucket 11 to rank 11
+  Mapping bucket 12 to rank 12
+  Mapping bucket 13 to rank 13
+  Mapping bucket 14 to rank 14
+  Mapping bucket 15 to rank 15
+  Mapping bucket 16 to rank 16
+  Mapping bucket 17 to rank 17
+  Mapping bucket 18 to rank 18
+  Mapping bucket 19 to rank 19
+  Mapping bucket 20 to rank 20
+  Mapping bucket 21 to rank 21
+  Mapping bucket 22 to rank 22
+  Mapping bucket 23 to rank 23
+  Mapping bucket 24 to rank 24
+  Mapping bucket 25 to rank 25
+  Mapping bucket 26 to rank 26
+  Mapping bucket 27 to rank 27
+  Mapping bucket 28 to rank 28
+  Mapping bucket 29 to rank 29
+  Mapping bucket 30 to rank 30
+  Mapping bucket 31 to rank 31
+  Mapping bucket 32 to rank 32
+  Mapping bucket 33 to rank 33
+  Mapping bucket 34 to rank 34
+  Mapping bucket 35 to rank 35
+  Mapping bucket 36 to rank 36
+  Mapping bucket 37 to rank 37
+  Mapping bucket 38 to rank 38
+  Mapping bucket 39 to rank 39
+  Mapping bucket 40 to rank 40
+  Mapping bucket 41 to rank 41
+  Mapping bucket 42 to rank 42
+  Mapping bucket 43 to rank 43
+  Mapping bucket 44 to rank 44
+  Mapping bucket 45 to rank 45
+  Mapping bucket 46 to rank 46
+  Mapping bucket 47 to rank 47
+  Mapping bucket 48 to rank 48
+  Mapping bucket 49 to rank 49
+  Mapping bucket 50 to rank 50
+  Mapping bucket 51 to rank 51
+  Mapping bucket 52 to rank 52
+  Mapping bucket 53 to rank 53
+  Mapping bucket 54 to rank 54
+  Mapping bucket 55 to rank 55
+  Mapping bucket 56 to rank 56
+  Mapping bucket 57 to rank 57
+  Mapping bucket 58 to rank 58
+  Mapping bucket 59 to rank 59
+  Mapping bucket 60 to rank 60
+  Mapping bucket 61 to rank 61
+  Mapping bucket 62 to rank 62
+  Mapping bucket 63 to rank 63
+  Mapping bucket 64 to rank 64
+  Mapping bucket 65 to rank 65
+  Mapping bucket 66 to rank 66
+  Mapping bucket 67 to rank 67
+  Mapping bucket 68 to rank 68
+  Mapping bucket 69 to rank 69
+  Mapping bucket 70 to rank 70
+  Mapping bucket 71 to rank 71
+  Mapping bucket 72 to rank 72
+  Mapping bucket 73 to rank 73
+  Mapping bucket 74 to rank 74
+  Mapping bucket 75 to rank 75
+  Mapping bucket 76 to rank 76
+  Mapping bucket 77 to rank 77
+  Mapping bucket 78 to rank 78
+  Mapping bucket 79 to rank 79
+  Mapping bucket 80 to rank 80
+  Mapping bucket 81 to rank 81
+  Mapping bucket 82 to rank 82
+  Mapping bucket 83 to rank 83
+  Mapping bucket 84 to rank 84
+  Mapping bucket 85 to rank 85
+  Mapping bucket 86 to rank 86
+  Mapping bucket 87 to rank 87
+  Mapping bucket 88 to rank 88
+  Mapping bucket 89 to rank 89
+  Mapping bucket 90 to rank 90
+  Mapping bucket 91 to rank 91
+  Mapping bucket 92 to rank 92
+  Mapping bucket 93 to rank 93
+  Mapping bucket 94 to rank 94
+  Mapping bucket 95 to rank 95
+  Mapping bucket 96 to rank 96
+  Mapping bucket 97 to rank 97
+  Mapping bucket 98 to rank 98
+  Mapping bucket 99 to rank 99
+  Mapping bucket 100 to rank 100
+  Mapping bucket 101 to rank 101
+  Mapping bucket 102 to rank 102
+  Mapping bucket 103 to rank 103
+  Mapping bucket 104 to rank 104
+  Mapping bucket 105 to rank 105
+  Mapping bucket 106 to rank 106
+  Mapping bucket 107 to rank 107
+  Mapping bucket 108 to rank 108
+  Mapping bucket 109 to rank 109
+  Mapping bucket 110 to rank 110
+  Mapping bucket 111 to rank 111
+  Mapping bucket 112 to rank 112
+  Mapping bucket 113 to rank 113
+  Mapping bucket 114 to rank 114
+  Mapping bucket 115 to rank 115
+  Mapping bucket 116 to rank 116
+  Mapping bucket 117 to rank 117
+  Mapping bucket 118 to rank 118
+  Mapping bucket 119 to rank 119
+  Mapping bucket 120 to rank 120
+  Mapping bucket 121 to rank 121
+  Mapping bucket 122 to rank 122
+  Mapping bucket 123 to rank 123
+  Mapping bucket 124 to rank 124
+  Mapping bucket 125 to rank 125
+  Mapping bucket 126 to rank 126
+  Mapping bucket 127 to rank 127
+BruteForceDoIt efficiency: 0.9570473671
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.213 ... 0.213 ... 0.213
+
+----------------------------------------------------------------------
+Name                   NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------
+KnapSackDoIt()              1    0.08691    0.08691    0.08691  40.79%
+BruteForceDoIt()            1    0.08308    0.08308    0.08308  39.00%
+SFCProcessorMapDoIt()       1    0.04109    0.04109    0.04109  19.29%
+main                        1   0.001569   0.001569   0.001569   0.74%
+Other                       3  0.0003785  0.0003785  0.0003785   0.18%
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+Name                   NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------
+main                        1      0.213      0.213      0.213  99.99%
+KnapSackDoIt()              1    0.08705    0.08705    0.08705  40.86%
+BruteForceDoIt()            1     0.0833     0.0833     0.0833  39.10%
+SFCProcessorMapDoIt()       1    0.04111    0.04111    0.04111  19.30%
+Other                       3  0.0003785  0.0003785  0.0003785   0.18%
+----------------------------------------------------------------------
+
+Pinned Memory Usage:
+---------------------------------------------------------------
+Name                            Nalloc  Nfree  AvgMem    MaxMem
+---------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  31 KiB  8192 KiB
+---------------------------------------------------------------
+
+AMReX (24.05-32-g28b010126a1b) finalized

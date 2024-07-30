@@ -1,0 +1,10 @@
+n_cell = (1028, 1028, 1028) 
+max_grid_size = (64, 64, 64) 
+
+nsteps = 1000
+#plot_int = 100
+plot_int = 0
+
+launch_size = 1 
+
+dt = 1.e-5

@@ -1,0 +1,168 @@
+i=128,j=128,k=128
+nbins=2
+boxes=0
+max_grid_size=128
+grid_size=64
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=2 domain="(256,256,256)" max_grid_size="(128,128,128)" >output/_2_0_output.txt
+i=128,j=128,k=64
+nbins=2
+boxes=0
+max_grid_size=128
+grid_size=64
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=2 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/_2_0_output.txt
+i=128,j=64,k=64
+nbins=2
+boxes=0
+max_grid_size=128
+grid_size=64
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=2 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/_2_0_output.txt
+i=64,j=64,k=64
+nbins=2
+boxes=0
+max_grid_size=128
+grid_size=64
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=2 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/_2_0_output.txt
+i=64,j=64,k=64
+nbins=4
+boxes=0
+max_grid_size=64
+grid_size=32
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=4 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/_4_0_output.txt
+i=64,j=64,k=32
+nbins=4
+boxes=0
+max_grid_size=64
+grid_size=32
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=4 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/_4_0_output.txt
+i=64,j=32,k=32
+nbins=4
+boxes=0
+max_grid_size=64
+grid_size=32
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=4 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/_4_0_output.txt
+i=32,j=32,k=32
+nbins=4
+boxes=0
+max_grid_size=64
+grid_size=32
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=4 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/_4_0_output.txt
+i=32,j=32,k=32
+nbins=8
+boxes=0
+max_grid_size=32
+grid_size=16
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=8 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/_8_0_output.txt
+i=32,j=32,k=16
+nbins=8
+boxes=0
+max_grid_size=32
+grid_size=16
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=8 domain="(256,256,256)" max_grid_size="(32,32,16)" >output/_8_0_output.txt
+i=32,j=16,k=16
+nbins=8
+boxes=0
+max_grid_size=32
+grid_size=16
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=8 domain="(256,256,256)" max_grid_size="(32,16,16)" >output/_8_0_output.txt
+i=16,j=16,k=16
+nbins=8
+boxes=0
+max_grid_size=32
+grid_size=16
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=8 domain="(256,256,256)" max_grid_size="(16,16,16)" >output/_8_0_output.txt
+i=16,j=16,k=16
+nbins=16
+boxes=0
+max_grid_size=16
+grid_size=8
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=16 domain="(256,256,256)" max_grid_size="(16,16,16)" >output/_16_0_output.txt
+i=16,j=16,k=8
+nbins=16
+boxes=0
+max_grid_size=16
+grid_size=8
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=16 domain="(256,256,256)" max_grid_size="(16,16,8)" >output/_16_0_output.txt
+i=16,j=8,k=8
+nbins=16
+boxes=0
+max_grid_size=16
+grid_size=8
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=16 domain="(256,256,256)" max_grid_size="(16,8,8)" >output/_16_0_output.txt
+i=8,j=8,k=8
+nbins=16
+boxes=0
+max_grid_size=16
+grid_size=8
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=16 domain="(256,256,256)" max_grid_size="(8,8,8)" >output/_16_0_output.txt
+i=8,j=8,k=8
+nbins=32
+boxes=0
+max_grid_size=8
+grid_size=4
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=32 domain="(256,256,256)" max_grid_size="(8,8,8)" >output/_32_0_output.txt
+i=8,j=8,k=4
+nbins=32
+boxes=0
+max_grid_size=8
+grid_size=4
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=32 domain="(256,256,256)" max_grid_size="(8,8,4)" >output/_32_0_output.txt
+i=8,j=4,k=4
+nbins=32
+boxes=0
+max_grid_size=8
+grid_size=4
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=32 domain="(256,256,256)" max_grid_size="(8,4,4)" >output/_32_0_output.txt
+i=4,j=4,k=4
+nbins=32
+boxes=0
+max_grid_size=8
+grid_size=4
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=32 domain="(256,256,256)" max_grid_size="(4,4,4)" >output/_32_0_output.txt
+i=4,j=4,k=4
+nbins=64
+boxes=0
+max_grid_size=4
+grid_size=2
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=64 domain="(256,256,256)" max_grid_size="(4,4,4)" >output/_64_0_output.txt
+i=4,j=4,k=2
+nbins=64
+boxes=0
+max_grid_size=4
+grid_size=2
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=64 domain="(256,256,256)" max_grid_size="(4,4,2)" >output/_64_0_output.txt
+i=4,j=2,k=2
+nbins=64
+boxes=0
+max_grid_size=4
+grid_size=2
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=64 domain="(256,256,256)" max_grid_size="(4,2,2)" >output/_64_0_output.txt
+i=2,j=2,k=2
+nbins=64
+boxes=0
+max_grid_size=4
+grid_size=2
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=64 domain="(256,256,256)" max_grid_size="(2,2,2)" >output/_64_0_output.txt
+i=2,j=2,k=2
+nbins=128
+boxes=0
+max_grid_size=2
+grid_size=1
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=128 domain="(256,256,256)" max_grid_size="(2,2,2)" >output/_128_0_output.txt
+i=2,j=2,k=1
+nbins=128
+boxes=0
+max_grid_size=2
+grid_size=1
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=128 domain="(256,256,256)" max_grid_size="(2,2,1)" >output/_128_0_output.txt
+i=2,j=1,k=1
+nbins=128
+boxes=0
+max_grid_size=2
+grid_size=1
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=128 domain="(256,256,256)" max_grid_size="(2,1,1)" >output/_128_0_output.txt
+i=1,j=1,k=1
+nbins=128
+boxes=0
+max_grid_size=2
+grid_size=1
+./main3d.gnu.x86-milan.TPROF.ex inputs nbins=128 domain="(256,256,256)" max_grid_size="(1,1,1)" >output/_128_0_output.txt

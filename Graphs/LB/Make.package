@@ -1,0 +1,2 @@
+CEXE_headers += Knapsack.H SFC.H LeastUsed.H Util.H CommObjs.H BruteForce.H 
+CEXE_sources += main.cpp Knapsack.cpp SFC.cpp LeastUsed.cpp CommObjs.cpp BruteForce.cpp

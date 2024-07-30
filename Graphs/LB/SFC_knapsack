@@ -1,0 +1,261 @@
+#include <AMReX_Extension.H>
+#include <AMReX_IntVect.H>
+#include <AMReX_Morton.H>
+#include <AMReX_Print.H>
+#include <AMReX_ParallelContext.H>
+
+#include <SFC.H>
+#include <Knapsack.H>
+#include <LeastUsed.H>
+
+#if 0
+AMREX_FORCE_INLINE
+bool
+SFCToken::Compare::operator () (const SFCToken& lhs,
+                                const SFCToken& rhs) const
+{
+#if (AMREX_SPACEDIM == 1)
+        return lhs.m_morton[0] < rhs.m_morton[0];
+#elif (AMREX_SPACEDIM == 2)
+        return (lhs.m_morton[1] <  rhs.m_morton[1]) ||
+              ((lhs.m_morton[1] == rhs.m_morton[1]) &&
+               (lhs.m_morton[0] <  rhs.m_morton[0]));
+#else
+        return (lhs.m_morton[2] <  rhs.m_morton[2]) ||
+              ((lhs.m_morton[2] == rhs.m_morton[2]) &&
+              ((lhs.m_morton[1] <  rhs.m_morton[1]) ||
+              ((lhs.m_morton[1] == rhs.m_morton[1]) &&
+               (lhs.m_morton[0] <  rhs.m_morton[0]))));
+#endif
+}
+#endif
+
+namespace {
+
+    AMREX_FORCE_INLINE
+    SFCToken makeSFCToken (int box_index, amrex::IntVect const& iv)
+    {
+        SFCToken token;
+        token.m_box = box_index;
+
+#if (AMREX_SPACEDIM == 3)
+
+        constexpr int imin = -(1 << 29);
+        AMREX_ASSERT_WITH_MESSAGE(AMREX_D_TERM(iv[0] >= imin && iv[0] < -imin,
+                                            && iv[1] >= imin && iv[1] < -imin,
+                                            && iv[2] >= imin && iv[2] < -imin),
+                                  "SFCToken: index out of range");
+        uint32_t x = iv[0] - imin;
+        uint32_t y = iv[1] - imin;
+        uint32_t z = iv[2] - imin;
+        // extract lowest 10 bits and make space for interleaving
+        token.m_morton[0] = amrex::Morton::makeSpace(x & 0x3FF)
+                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+        x = x >> 10;
+        y = y >> 10;
+        z = z >> 10;
+        token.m_morton[1] = amrex::Morton::makeSpace(x & 0x3FF)
+                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+        x = x >> 10;
+        y = y >> 10;
+        z = z >> 10;
+        token.m_morton[2] = amrex::Morton::makeSpace(x & 0x3FF)
+                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+
+#elif (AMREX_SPACEDIM == 2)
+
+        constexpr uint32_t offset = 1u << 31;
+        static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
+                      "INT_MAX != (1<<31)-1");
+        uint32_t x = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
+            : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
+        uint32_t y = (iv[1] >= 0) ? static_cast<uint32_t>(iv[1]) + offset
+            : static_cast<uint32_t>(iv[1]-std::numeric_limits<int>::lowest());
+        // extract lowest 16 bits and make sapce for interleaving
+        token.m_morton[0] = amrex::Morton::makeSpace(x & 0xFFFF)
+                         | (amrex::Morton::makeSpace(y & 0xFFFF) << 1);
+        x = x >> 16;
+        y = y >> 16;
+        token.m_morton[1] = amrex::Morton::makeSpace(x) | (amrex::Morton::makeSpace(y) << 1);
+
+#elif (AMREX_SPACEDIM == 1)
+
+        constexpr uint32_t offset = 1u << 31;
+        static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
+                      "INT_MAX != (1<<31)-1");
+        token.m_morton[0] = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
+            : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
+
+#else
+        static_assert(false,"AMREX_SPACEDIM != 1, 2 or 3");
+#endif
+
+        return token;
+    }
+}
+
+
+void
+Distribute (const std::vector<SFCToken>&     tokens,
+            const std::vector<amrex::Long>&  wgts,
+            int                              nprocs,
+            amrex::Real                      volpercpu,
+            std::vector< std::vector<int> >& v,
+            bool                             flag_verbose_mapper)
+
+{
+    BL_PROFILE("Distribute()");
+
+    if (flag_verbose_mapper) {
+        amrex::Print() << "Distribute:" << std::endl;
+        amrex::Print() << "  volpercpu: " << volpercpu << std::endl;
+        amrex::Print() << "  Sorted SFC Tokens:" << std::endl;
+        int idx = 0;
+        for (const auto &t : tokens) {
+            amrex::Print() << "    " << idx++ << ": "
+                           << t.m_box << ": "
+                           << t.m_morton << std::endl;
+        }
+    }
+
+    BL_ASSERT(static_cast<int>(v.size()) == nprocs);
+
+    int  K        = 0;
+    amrex::Real totalvol = 0;
+
+    for (int i = 0; i < nprocs; ++i)
+    {
+        int  cnt = 0;
+        amrex::Real vol = 0;
+
+        for ( int TSZ = static_cast<int>(tokens.size());
+              K < TSZ && (i == (nprocs-1) || (vol < volpercpu));
+              ++K)
+        {
+            vol += wgts[tokens[K].m_box];
+            ++cnt;
+
+            v[i].push_back(tokens[K].m_box);
+        }
+
+        totalvol += vol;
+
+        if ((totalvol/(i+1)) > volpercpu &&  // Too much for this bin.
+            cnt > 1                      &&  // More than one box in this bin.
+            i < nprocs-1)                    // Not the last bin, which has to take all.
+        {
+            --K;
+            v[i].pop_back();
+            totalvol -= wgts[tokens[K].m_box];
+        }
+    }
+
+    if (flag_verbose_mapper) {
+        amrex::Print() << "Distributed SFC Tokens:" << std::endl;
+        int idx = 0;
+        for (int i = 0; i < nprocs; ++i) {
+            amrex::Print() << "  Rank/Team " << i << ":" << std::endl;
+            amrex::Real rank_vol = 0;
+            for (const auto &box : v[i]) {
+                amrex::ignore_unused(box);
+                const auto &t = tokens[idx];
+                BL_ASSERT(box == t.m_box);
+                amrex::Print() << "    " << idx << ": "
+                               << t.m_box << ": "
+                               << t.m_morton << std::endl;
+                rank_vol += wgts[t.m_box];
+                idx++;
+            }
+            amrex::Print() << "    Total Rank Vol: " << rank_vol << std::endl;
+        }
+    }
+
+#ifdef AMREX_DEBUG
+    int cnt = 0;
+    for (int i = 0; i < nprocs; ++i) {
+        cnt += v[i].size();
+    }
+    BL_ASSERT(cnt == static_cast<int>(tokens.size()));
+#endif
+}
+
+std::vector<int>
+SFC_KnapSackProcessorMapDoIt (const amrex::BoxArray&          boxes,
+                              const std::vector<amrex::Long>& wgts,
+                              int                             nprocs,
+                              amrex::Real*                    eff,
+                              bool                            flag_verbose_mapper,
+                              bool                            sort,
+                              const std::vector<amrex::Long>& bytes)
+{
+    if (flag_verbose_mapper) {
+        amrex::Print() << "DM: SFC_KnapSackProcessorMapDoIt called..." << std::endl;
+    }
+
+    BL_PROFILE("SFC_KnapSackProcessorMapDoIt()");
+
+    const int N = boxes.size();
+    std::vector<SFCToken> tokens;
+    tokens.reserve(N);
+    for (int i = 0; i < N; ++i)
+    {
+        const amrex::Box& bx = boxes[i];
+        tokens.push_back(makeSFCToken(i, bx.smallEnd()));
+    }
+    std::sort(tokens.begin(), tokens.end(), SFCToken::Compare());
+
+    amrex::Real volperproc = 0;
+    for (amrex::Long wt : wgts) {
+        volperproc += wt;
+    }
+    volperproc /= nprocs;
+
+    std::vector<std::vector<int>> proc_bins(nprocs);
+    Distribute(tokens, wgts, nprocs, volperproc, proc_bins);
+
+    std::vector<int> result(wgts.size(), -1);
+    for (int proc = 0; proc < nprocs; ++proc)
+    {
+        std::vector<amrex::Long> local_wgts;
+        for (int idx : proc_bins[proc]) {
+            local_wgts.push_back(wgts[idx]);
+        }
+
+        std::vector<std::vector<int>> kpres;
+        amrex::Real kpeff;
+        knapsack(local_wgts, 1, kpres, kpeff, true, N);
+
+        int rank_offset = proc;
+        for (int i = 0; i < 1; ++i) {
+            for (int idx : kpres[i]) {
+                result[proc_bins[proc][idx]] = rank_offset + i;
+            }
+        }
+    }
+
+    if (eff || flag_verbose_mapper)
+    {
+        amrex::Real sum_wgt = 0, max_wgt = 0;
+        for (const auto& proc_bin : proc_bins)
+        {
+            amrex::Long proc_wgt = 0;
+            for (int idx : proc_bin) {
+                proc_wgt += wgts[idx];
+            }
+            max_wgt = std::max(max_wgt, static_cast<amrex::Real>(proc_wgt));
+            sum_wgt += proc_wgt;
+        }
+        amrex::Real efficiency = sum_wgt / (nprocs * max_wgt);
+        if (eff) *eff = efficiency;
+
+        if (flag_verbose_mapper)
+        {
+            amrex::Print() << "Combined SFC and Knapsack efficiency: " << efficiency << '\n';
+        }
+    }
+
+    return result;
+}

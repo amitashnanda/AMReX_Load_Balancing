@@ -1,0 +1,19 @@
+name = "matching"
+
+src_domain = (256, 256, 256)
+src_max_grid_size = (128, 128, 128)
+src_ncomp = 1
+src_nghost = (0, 0, 0)
+
+dst_domain = (256, 256, 256)
+dst_max_grid_size = (128, 128, 128)
+dst_ncomp = 1
+dst_nghost = (0, 0, 0)
+
+periodicity = (0, 0, 0)
+
+scaling = 0
+ncomp = 1
+
+amrex.v = 1
+#DistributionMapping.verbose_mapper=1

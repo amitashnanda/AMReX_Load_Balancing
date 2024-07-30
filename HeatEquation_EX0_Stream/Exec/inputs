@@ -1,0 +1,11 @@
+n_cell = (1024, 1024, 1024) 
+max_grid_size = (256,256,256) 
+
+nsteps = 1000
+#plot_int = 100
+plot_int = 0
+
+amrex.max_gpu_streams = 1
+launch_size = 1 
+
+dt = 1.e-5
