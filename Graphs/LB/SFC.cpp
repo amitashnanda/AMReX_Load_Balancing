@@ -30,72 +30,72 @@ SFCToken::Compare::operator () (const SFCToken& lhs,
 }
 #endif
 
-namespace {
+ 
 
-    AMREX_FORCE_INLINE
-    SFCToken makeSFCToken (int box_index, amrex::IntVect const& iv)
-    {
-        SFCToken token;
-        token.m_box = box_index;
+//     AMREX_FORCE_INLINE
+//     SFCToken makeSFCToken (int box_index, amrex::IntVect const& iv)
+//     {
+//         SFCToken token;
+//         token.m_box = box_index;
 
-#if (AMREX_SPACEDIM == 3)
+// #if (AMREX_SPACEDIM == 3)
 
-        constexpr int imin = -(1 << 29);
-        AMREX_ASSERT_WITH_MESSAGE(AMREX_D_TERM(iv[0] >= imin && iv[0] < -imin,
-                                            && iv[1] >= imin && iv[1] < -imin,
-                                            && iv[2] >= imin && iv[2] < -imin),
-                                  "SFCToken: index out of range");
-        uint32_t x = iv[0] - imin;
-        uint32_t y = iv[1] - imin;
-        uint32_t z = iv[2] - imin;
-        // extract lowest 10 bits and make space for interleaving
-        token.m_morton[0] = amrex::Morton::makeSpace(x & 0x3FF)
-                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
-                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
-        x = x >> 10;
-        y = y >> 10;
-        z = z >> 10;
-        token.m_morton[1] = amrex::Morton::makeSpace(x & 0x3FF)
-                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
-                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
-        x = x >> 10;
-        y = y >> 10;
-        z = z >> 10;
-        token.m_morton[2] = amrex::Morton::makeSpace(x & 0x3FF)
-                         | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
-                         | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+//         constexpr int imin = -(1 << 29);
+//         AMREX_ASSERT_WITH_MESSAGE(AMREX_D_TERM(iv[0] >= imin && iv[0] < -imin,
+//                                             && iv[1] >= imin && iv[1] < -imin,
+//                                             && iv[2] >= imin && iv[2] < -imin),
+//                                   "SFCToken: index out of range");
+//         uint32_t x = iv[0] - imin;
+//         uint32_t y = iv[1] - imin;
+//         uint32_t z = iv[2] - imin;
+//         // extract lowest 10 bits and make space for interleaving
+//         token.m_morton[0] = amrex::Morton::makeSpace(x & 0x3FF)
+//                          | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+//                          | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+//         x = x >> 10;
+//         y = y >> 10;
+//         z = z >> 10;
+//         token.m_morton[1] = amrex::Morton::makeSpace(x & 0x3FF)
+//                          | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+//                          | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
+//         x = x >> 10;
+//         y = y >> 10;
+//         z = z >> 10;
+//         token.m_morton[2] = amrex::Morton::makeSpace(x & 0x3FF)
+//                          | (amrex::Morton::makeSpace(y & 0x3FF) << 1)
+//                          | (amrex::Morton::makeSpace(z & 0x3FF) << 2);
 
-#elif (AMREX_SPACEDIM == 2)
+// #elif (AMREX_SPACEDIM == 2)
 
-        constexpr uint32_t offset = 1u << 31;
-        static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
-                      "INT_MAX != (1<<31)-1");
-        uint32_t x = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
-            : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
-        uint32_t y = (iv[1] >= 0) ? static_cast<uint32_t>(iv[1]) + offset
-            : static_cast<uint32_t>(iv[1]-std::numeric_limits<int>::lowest());
-        // extract lowest 16 bits and make sapce for interleaving
-        token.m_morton[0] = amrex::Morton::makeSpace(x & 0xFFFF)
-                         | (amrex::Morton::makeSpace(y & 0xFFFF) << 1);
-        x = x >> 16;
-        y = y >> 16;
-        token.m_morton[1] = amrex::Morton::makeSpace(x) | (amrex::Morton::makeSpace(y) << 1);
+//         constexpr uint32_t offset = 1u << 31;
+//         static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
+//                       "INT_MAX != (1<<31)-1");
+//         uint32_t x = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
+//             : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
+//         uint32_t y = (iv[1] >= 0) ? static_cast<uint32_t>(iv[1]) + offset
+//             : static_cast<uint32_t>(iv[1]-std::numeric_limits<int>::lowest());
+//         // extract lowest 16 bits and make sapce for interleaving
+//         token.m_morton[0] = amrex::Morton::makeSpace(x & 0xFFFF)
+//                          | (amrex::Morton::makeSpace(y & 0xFFFF) << 1);
+//         x = x >> 16;
+//         y = y >> 16;
+//         token.m_morton[1] = amrex::Morton::makeSpace(x) | (amrex::Morton::makeSpace(y) << 1);
 
-#elif (AMREX_SPACEDIM == 1)
+// #elif (AMREX_SPACEDIM == 1)
 
-        constexpr uint32_t offset = 1u << 31;
-        static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
-                      "INT_MAX != (1<<31)-1");
-        token.m_morton[0] = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
-            : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
+//         constexpr uint32_t offset = 1u << 31;
+//         static_assert(static_cast<uint32_t>(std::numeric_limits<int>::max())+1 == offset,
+//                       "INT_MAX != (1<<31)-1");
+//         token.m_morton[0] = (iv[0] >= 0) ? static_cast<uint32_t>(iv[0]) + offset
+//             : static_cast<uint32_t>(iv[0]-std::numeric_limits<int>::lowest());
 
-#else
-        static_assert(false,"AMREX_SPACEDIM != 1, 2 or 3");
-#endif
+// #else
+//         static_assert(false,"AMREX_SPACEDIM != 1, 2 or 3");
+// #endif
 
-        return token;
-    }
-}
+//         return token;
+//     }
+
 
 void
 Distribute (const std::vector<SFCToken>&     tokens,
@@ -199,7 +199,10 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
     BL_PROFILE("SFCProcessorMapDoIt()");
 
     int nteams = nprocs;
+    /// is this for serial processing? 
+
     int nworkers = 1;
+
 #if defined(BL_USE_TEAM)
     nteams = ParallelDescriptor::NTeams();
     nworkers = ParallelDescriptor::TeamSize();
@@ -383,8 +386,16 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
             amrex::Print() << "SFC efficiency: " << efficiency << '\n';
         }
     }
+    // Output the distribution map with weights to a CSV file
+    std::ofstream outfile("distribution_map_sfc.csv");
+    outfile << "BoxID,Processor,Weight\n";
+    for (size_t i = 0; i < result.size(); ++i) {
+        outfile << i << "," << result[i] << "," << wgts[i] << "\n";
+    }
+    outfile.close();
 
     return result;
+
 }
 
 #if 0

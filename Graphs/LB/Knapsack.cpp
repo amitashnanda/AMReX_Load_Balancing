@@ -15,6 +15,9 @@
 
 
 
+// Sort function sorts the vector LIpair, reverse flag determines 
+// if the sorting to be done in descending order.
+
 void
 Sort (std::vector<LIpair>& vec,
       bool                 reverse)
@@ -29,6 +32,9 @@ Sort (std::vector<LIpair>& vec,
         }
     }
 }
+
+
+// represents a box with weight and ID
 
 class WeightedBox
 {
@@ -45,6 +51,9 @@ public:
         return weight() > rhs.weight();
     }
 };
+
+// class to add, erase and access boxes 
+
 
 class WeightedBoxList
 {
@@ -369,19 +378,29 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
     if (flag_verbose_mapper)
     {
         amrex::Print() << "KNAPSACK efficiency: " << efficiency << '\n';
+        amrex::Print() << "test......: " << '\n';
     }
 
-    return result;
-
-    amrex::Print() << "test......: " << '\n';
-// Output the distribution map to a CSV file
+    // Output the distribution map to a CSV file
     std::ofstream outfile("distribution_map_knapsack.csv");
-    for (const auto& elem : result) {
-        outfile << elem << "\n";
+    outfile << "BoxID,Processor,Weight\n";
+    for (size_t i = 0; i < result.size(); ++i) {
+        outfile << i << "," << result[i] << "," << wgts[i] << "\n";
     }
     outfile.close();
 
+
     return result;
+
+    // amrex::Print() << "test......: " << '\n';
+// Output the distribution map to a CSV file
+//     std::ofstream outfile("distribution_map_knapsack.csv");
+//     for (const auto& elem : result) {
+//         outfile << elem << "\n";
+//     }
+//     outfile.close();
+
+//     return result;
 }
 
 

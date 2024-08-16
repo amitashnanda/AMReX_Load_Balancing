@@ -1,3 +1,6 @@
+#ifndef AMREX_KNAPSACK
+#define AMREX_KNAPSACK
+
 #include <AMReX_INT.H>
 #include <AMReX_Vector.H>
 
@@ -62,3 +65,5 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,
 //               bool                            flag_verbose_mapper = false,
 //               bool                            sort = false,
 //               const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
+
+#endif

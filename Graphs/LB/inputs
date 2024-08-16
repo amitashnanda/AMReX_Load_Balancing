@@ -4,8 +4,10 @@ max_grid_size = (128, 128, 128)
 ncomp = 1
 nghost = (1, 0, 0) 
 periodicity = (0, 0, 0)
-nbins=2
+nbins = 2 
+ranks_per_node = 4 
 tiny_profiler.print_threshold = 0
 
 amrex.v = 1
 #DistributionMapping.verbose_mapper=1
+

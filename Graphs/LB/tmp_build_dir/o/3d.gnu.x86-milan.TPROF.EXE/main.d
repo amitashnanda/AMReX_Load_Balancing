@@ -107,7 +107,7 @@ tmp_build_dir/o/3d.gnu.x86-milan.TPROF.EXE/main.o: main.cpp \
  ../../../amrex/Src/Base/AMReX_NonLocalBC.H \
  ../../../amrex/Src/Base/AMReX_NonLocalBCImpl.H \
  ../../../amrex/Src/Base/AMReX_ParmParse.H Util.H Knapsack.H SFC.H \
- BruteForce.H
+ ../../../amrex/Src/Base/AMReX_Morton.H SFC_knapsack.H LeastUsed.H
 ../../../amrex/Src/Base/AMReX.H:
 tmp_build_dir/s/3d.gnu.x86-milan.TPROF.EXE/AMReX_Config.H:
 ../../../amrex/Src/Base/AMReX_GpuQualifiers.H:
@@ -220,4 +220,6 @@ tmp_build_dir/s/3d.gnu.x86-milan.TPROF.EXE/AMReX_Config.H:
 Util.H:
 Knapsack.H:
 SFC.H:
-BruteForce.H:
+../../../amrex/Src/Base/AMReX_Morton.H:
+SFC_knapsack.H:
+LeastUsed.H:
