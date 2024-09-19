@@ -41,13 +41,13 @@
 # done
 # ./main3d.gnu.x86-milan.TPROF.OMP.ex inputs 
 # ./main3d.gnu.x86-milan.TPROF.ex inputs 
-./main3d.gnu.x86-milan.TPROF.ex inputs  nnodes=2 max_grid_size="(64,128,128)" >output/2_8_combined_output.txt
-# ./main3d.gnu.x86-milan.TPROF.OMP.ex inputs  nbins=2 max_grid_size="(128,128,64)" >output/2_16_output.txt
+./main3d.gnu.x86-milan.TPROF.ex inputs  nnodes=128 max_grid_size="(32,16,16)" >output_withfixedseed/128_2048_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(128,128,64)" >output/2_16_combined_output_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(128,64,64)" >output/2_32_output.txt
-# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,64,64)" >output/2_64_output.txt
-# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,64,32)" >output/2_128_output.txt
-# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,32,32)" >output/2_256_output.txt
-# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,32,32)" >output/2_512_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,64,64)" >output/2_64_combined_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,64,32)" >output/2_128_combined_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,32,32)" >output/2_256_combined_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,32,32)" >output/2_512_combined_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,32,16)" >output/2_1024_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,16,16)" >output/2_2048_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(16,16,16)" >output/2_4096_output.txt

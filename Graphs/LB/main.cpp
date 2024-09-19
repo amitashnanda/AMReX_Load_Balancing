@@ -8,7 +8,8 @@
 #include <AMReX_ParallelDescriptor.H>
 #include <random>
 #include <string>
-#include <cstring>  
+#include <cstring>
+#include <time.h>  
 #include <omp.h>
 #include <fstream>
 #include <numeric>
@@ -56,6 +57,10 @@ void main_main() {
         pp.query("scaling", scaling);
     }
 
+    // srand(time(NULL));
+    // amrex::ResetRandomSeed(rand());
+    amrex::ResetRandomSeed(27182182459045);
+
 
     Box domain(IntVect{0}, (d_size -= 1));
     BoxArray ba(domain);
@@ -73,6 +78,7 @@ void main_main() {
     Real stdev = 4523;
     for (int i = 0; i < nitems; ++i) {
         wgts[i] = amrex::RandomNormal(mean, stdev);
+        amrex::Print()<<wgts[i]<<" , ";
     }
     std::vector<Long> scaled_wgts = scale_wgts(wgts);
 

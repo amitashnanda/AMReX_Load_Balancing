@@ -1,6 +1,6 @@
 name = "FB128-X"
 domain = (256,256,256)
-max_grid_size = (64, 128, 128)
+max_grid_size = (128, 128, 128)
 ncomp = 1
 nghost = (1, 0, 0) 
 periodicity = (0, 0, 0)

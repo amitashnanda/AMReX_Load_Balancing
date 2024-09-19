@@ -24,15 +24,31 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
 {
     if (flag_verbose_mapper) {
-        amrex::Print() << "DM: SFCProcessorMapDoIt called..." << std::endl;
+        amrex::Print() << "DM: SFCProcessorMapDoItCombined called..." << std::endl;
     }
 
-    BL_PROFILE("SFCProcessorMapDoIt()");
+    BL_PROFILE("SFCProcessorMapDoItCombined()");
 
     // RUN SFC with "node" number of bins 
 
     const int nteams = nnodes;
+    // int nteams = nnodes;
+//     int nworkers = 1;
 
+// #if defined(BL_USE_TEAM)
+//     nteams = ParallelDescriptor::NTeams();
+//     nworkers = ParallelDescriptor::TeamSize();     
+
+// #else
+//     if (node_size > 0) {
+//         nteams = nnodes/node_size;
+//         nworkers = node_size;
+//         if (nworkers*nteams != nnodes) {
+//             nteams = nnodes;
+//             nworkers = 1;
+//         }
+//     } 
+// #endif
     if (flag_verbose_mapper) {
         amrex::Print() << "  (nnodes, nteams, ranks_per_node) = ("
                        << nnodes << ", " << nteams << ", " << ranks_per_node << ")\n";
@@ -134,11 +150,17 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     for (int i = 0; i < nteams; ++i) {
         const amrex::Long W = LIpairV[i].first;
         if (W > max_wgt_sfc) max_wgt_sfc = W;
-        sum_wgt_sfc += W;clea
+        sum_wgt_sfc += W;
     }
     *sfc_eff = (sum_wgt_sfc / (nteams * max_wgt_sfc)); /// SFC eff
 
+    amrex::Real total_weight_knapsack = 0;
+    amrex::Real max_weight_knapsack_across_ranks = 0;
+
+
+
     for (int i = 0; i < nteams; ++i) {
+
         const int tid = i; // tid is team id
         const int ivec = LIpairV[i].second; // index into vec
         const std::vector<int>& vi = vec[ivec]; // this vector contains boxes assigned to this team
@@ -170,6 +192,21 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         // lowercase knapsack is just like distribute in SFC
 
         knapsack(local_wgts, ranks_per_node, knapsack_result, knapsack_local_efficiency, true, N);
+        amrex::Print() << "Node " << i << " Each Knapsack efficiency: " << knapsack_local_efficiency << "\n";        
+
+        
+
+
+   
+
+
+
+        // *knapsack_eff = knapsack_local_efficiency;
+
+
+
+
+      
 
         // amrex::Print()<<"Printing Knapsack vec team" << i << "\n"; 
 
@@ -211,6 +248,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         // }
 
         for (int j = 0; j < knapsack_result.size(); ++j) {
+            amrex::Real local_knapsack_wgt = 0;
             for (int k = 0; k < knapsack_result[j].size(); ++k) {
 
                 /// Here, the global index is obtained using local_indices.
@@ -218,15 +256,33 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
                 int global_idx = local_indices[knapsack_result[j][k]];
                 // assert(result[global_idx] == -1);  /// Ensure the box hasn't already been assigned
                 // result[global_idx] = j + (tid * ranks_per_node); //// Map local rank (0-3) to global rank
+                // Calculate local weight for each rank
+                local_knapsack_wgt += wgts[global_idx];
                 int global_rank = (tid * ranks_per_node) + j;
                 result[global_idx] = global_rank;
                 amrex::Print() << "Global Index: " << global_idx << ", Local Rank: " << j
                << ", Global Rank: " << global_rank << "\n";
             }
+
+            // Update total and max weights after knapsack redistribution
+
+            if (local_knapsack_wgt > max_weight_knapsack_across_ranks) {
+            max_weight_knapsack_across_ranks = local_knapsack_wgt;
+            }
+            total_weight_knapsack += local_knapsack_wgt;
+            
         }
+
+        //Print local results after each node's knapsack run
+
+        amrex::Print() << "Node " << i << " has total knapsack weight: " << total_weight_knapsack << "\n";
+        amrex::Print() << "Node " << i << " current max weight across ranks: " << max_weight_knapsack_across_ranks << "\n";
 
 
     }
+
+    
+
 
     
 
@@ -246,20 +302,30 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         assert(result[i] != -1);  
     }
 
+    *knapsack_eff = total_weight_knapsack / (ranks_per_node * nteams * max_weight_knapsack_across_ranks);
 
 
-    amrex::Real sum_wgt_knapsack = 0, max_wgt_knapsack = 0;
-    for (int i = 0; i < nteams; ++i) {
-        amrex::Real local_sum_wgt = 0;
-        for (const auto& idx : vec[i]) {
-            local_sum_wgt += wgts[idx];
-        }
-        if (local_sum_wgt > max_wgt_knapsack) max_wgt_knapsack = local_sum_wgt;
-        sum_wgt_knapsack += local_sum_wgt;
-    }
-    *knapsack_eff = (sum_wgt_knapsack / (nteams * max_wgt_knapsack));
+     
+
+
+
+
+    //// old way of calculating efficiency
+
+    // amrex::Real sum_wgt_knapsack = 0, max_wgt_knapsack = 0;
+    // for (int i = 0; i < nteams; ++i) {
+    //     amrex::Real local_sum_wgt = 0;
+    //     for (const auto& idx : vec[i]) {
+    //         local_sum_wgt += wgts[idx];
+    //     }
+    //     if (local_sum_wgt > max_wgt_knapsack) max_wgt_knapsack = local_sum_wgt;
+    //     sum_wgt_knapsack += local_sum_wgt;
+    // }
+    // *knapsack_eff = (sum_wgt_knapsack / (nteams * max_wgt_knapsack));
     
-    
+   /////
+
+
     // for (int i=0; i<result.size(); ++i) {
     //     amrex::Print()<<result[i]<<" , ";
     // }
@@ -268,7 +334,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
     if (flag_verbose_mapper) {
         amrex::Print() << "SFC efficiency: " << *sfc_eff << '\n';
-        amrex::Print() << "Knapsack efficiency: " << *knapsack_eff << '\n';
+        amrex::Print() << "Knapsack Total efficiency: " << *knapsack_eff << '\n';
     }
 
     // Output the distribution map with weights to a CSV file
@@ -293,3 +359,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 // Time profile for each knapsack vs SFC need to test 
 // double the node and double the dimension for boxes!! go up to 128 nodes 
 // inside the knapsack calculate each run efficiency
+
+
+
