@@ -333,9 +333,11 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
 
     if (flag_verbose_mapper) {
-        amrex::Print() << "SFC efficiency: " << *sfc_eff << '\n';
-        amrex::Print() << "Knapsack Total efficiency: " << *knapsack_eff << '\n';
+        amrex::Print() << "SFC efficiency for combined algorithm: " << *sfc_eff << '\n';
+        amrex::Print() << "SFC+Knapsack combined efficiency: " << *knapsack_eff << '\n';
     }
+
+
 
     // Output the distribution map with weights to a CSV file
     std::ofstream outfile("distribution_map_sfc_knapsack.csv");

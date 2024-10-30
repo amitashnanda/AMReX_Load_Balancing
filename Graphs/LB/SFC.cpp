@@ -383,7 +383,8 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
 
         if (flag_verbose_mapper)
         {
-            amrex::Print() << "SFC efficiency: " << efficiency << '\n';
+            amrex::Print() << "Only SFC efficiency: " << efficiency << '\n';
+            amrex::Print() << "test......: " << '\n';
         }
     }
     // Output the distribution map with weights to a CSV file

@@ -377,7 +377,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
 
     if (flag_verbose_mapper)
     {
-        amrex::Print() << "KNAPSACK efficiency: " << efficiency << '\n';
+        amrex::Print() << "Only KNAPSACK  efficiency: " << efficiency << '\n';
         amrex::Print() << "test......: " << '\n';
     }
 

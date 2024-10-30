@@ -41,7 +41,7 @@
 # done
 # ./main3d.gnu.x86-milan.TPROF.OMP.ex inputs 
 # ./main3d.gnu.x86-milan.TPROF.ex inputs 
-./main3d.gnu.x86-milan.TPROF.ex inputs  nnodes=128 max_grid_size="(32,16,16)" >output_withfixedseed/128_2048_output.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs  nnodes=128 max_grid_size="(32,16,16)" >output_withfixedseed/128_2048_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(128,128,64)" >output/2_16_combined_output_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(128,64,64)" >output/2_32_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(64,64,64)" >output/2_64_combined_output.txt
@@ -51,3 +51,73 @@
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,32,16)" >output/2_1024_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(32,16,16)" >output/2_2048_output.txt
 # ./main3d.gnu.x86-milan.TPROF.ex inputs  nbins=2 max_grid_size="(16,16,16)" >output/2_4096_output.txt
+
+
+
+./main3d.gnu.x86-milan.TPROF.ex inputs stdev=250 nruns=2  nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,128)" >output/2_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/2_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/2_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/4_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/4_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/4_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/8_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/8_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/8_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/16_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/16_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/16_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/32_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/32_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/32_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/64_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/64_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/64_16_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/128_4_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/128_8_output_best.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/128_16_output_best.txt
+
+
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,128)" >output/2_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/2_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/2_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/4_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/4_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/4_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/8_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/8_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/8_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/16_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/16_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/16_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/32_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/32_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/32_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/64_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/64_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/64_16_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/128_4_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/128_8_output_avg.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/128_16_output_avg.txt
+
+
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,128)" >output/2_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/2_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=2 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/2_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,128,64)" >output/4_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(128,64,64)" >output/4_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=4 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/4_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,64)" >output/8_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/8_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=8 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/8_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/16_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/16_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=16 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/16_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/32_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/32_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=32 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/32_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/64_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/64_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=64 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/64_16_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,64,32)" >output/128_4_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(64,32,32)" >output/128_8_output_worst.txt
+# ./main3d.gnu.x86-milan.TPROF.ex inputs nnodes=128 domain="(256,256,256)" max_grid_size="(32,32,32)" >output/128_16_output_worst.txt

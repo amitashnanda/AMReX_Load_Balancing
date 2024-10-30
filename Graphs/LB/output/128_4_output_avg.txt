@@ -1,0 +1,2875 @@
+Initializing AMReX (24.07-16-gdcb9cc0383dc)...
+AMReX (24.07-16-gdcb9cc0383dc) initialized
+Number of nodes: 128
+Number of boxes: 128
+Ranks per node: 4
+99831.72341 , 99955.48717 , 100077.4582 , 99759.16275 , 99651.68093 , 99959.2569 , 100293.687 , 99772.342 , 100316.4621 , 99632.50398 , 100001.7967 , 100023.5593 , 100030.0549 , 100006.7781 , 100126.6116 , 100359.806 , 100263.5777 , 100308.3329 , 99534.082 , 100363.4982 , 99969.55649 , 99677.10617 , 99721.10194 , 99966.97301 , 100140.9135 , 100317.2318 , 100093.0583 , 100154.2426 , 99893.08332 , 99859.20367 , 100337.9961 , 99865.31695 , 99835.28155 , 100158.7985 , 99900.52879 , 99904.93428 , 99953.09372 , 99839.3861 , 100049.4734 , 100060.3862 , 100182.295 , 99869.67834 , 99945.7217 , 100098.4938 , 100090.7879 , 99996.66126 , 100289.6693 , 100021.8169 , 100055.348 , 99928.08486 , 99540.67974 , 99939.61354 , 99914.60827 , 99810.72668 , 100081.1591 , 100011.2313 , 99552.84531 , 100162.5549 , 100003.0521 , 99953.17262 , 99636.24248 , 99741.3727 , 99525.11688 , 100037.147 , 99904.2039 , 99778.37825 , 99795.33701 , 99892.52957 , 99806.64974 , 99716.834 , 99977.10357 , 99515.49078 , 99776.34946 , 99884.10012 , 100185.3617 , 100251.9731 , 99901.24364 , 100180.766 , 100065.3232 , 99599.51175 , 99736.75363 , 100314.3933 , 99956.86969 , 99960.93001 , 100160.3051 , 100039.9695 , 99918.22727 , 100038.8917 , 100212.3321 , 100046.4929 , 100057.5147 , 100382.3852 , 99851.48875 , 99686.82827 , 99997.84505 , 99778.44224 , 100404.5361 , 100124.0276 , 99780.37668 , 99608.68544 , 99333.2181 , 99753.40252 , 99936.9926 , 100277.6244 , 100006.5604 , 100131.2269 , 100240.288 , 99940.51716 , 99840.86439 , 100016.6666 , 100101.7343 , 100155.4201 , 99842.65712 , 99922.3619 , 99476.56717 , 99845.15628 , 100219.3783 , 99940.25349 , 100149.1628 , 100350.3611 , 100132.811 , 100288.2082 , 100300.9068 , 99556.8145 , 100192.2647 , 99687.29069 , 100006.5834 , 99895.40038 ,  Scaled Weights: 994294952 , 995527603 , 996742399 , 993572269 , 992501781 , 995565149 , 998895975 , 993703531 , 999122809 , 992310785 , 995988832 , 996205582 , 996270277 , 996038446 , 997231953 , 999554501 , 998596095 , 999041844 , 991330530 , 999591275 , 995667730 , 992755009 , 993193194 , 995641999 , 997374396 , 999130474 , 996897771 , 997507149 , 994906079 , 994568648 , 999337281 , 994629534 , 994330390 , 997552525 , 994980234 , 995024111 , 995503765 , 994371270 , 996463679 , 996572367 , 997786544 , 994672972 , 995430342 , 996951908 , 996875159 , 995937685 , 998855960 , 996188228 , 996522188 , 995254684 , 991396242 , 995369506 , 995120461 , 994085831 , 996779259 , 996082799 , 991517407 , 997589938 , 996001336 , 995504551 , 992348019 , 993395085 , 991241240 , 996340911 , 995016837 , 993763650 , 993932554 , 994900564 , 994045226 , 993150687 , 995742896 , 991145367 , 993743444 , 994816609 , 997817087 , 998480517 , 994987353 , 997771315 , 996621538 , 991982191 , 993349081 , 999102204 , 995541373 , 995581812 , 997567530 , 996369023 , 995156505 , 996358288 , 998085704 , 996433994 , 996543768 , 999779384 , 994491809 , 992851839 , 995949475 , 993764287 , 1000000001 , 997206217 , 993783554 , 992073559 , 989329984 , 993514899 , 995343403 , 998735997 , 996036278 , 997277920 , 998364137 , 995378506 , 994385994 , 996136933 , 996984182 , 997518877 , 994403849 , 995197685 , 990757699 , 994428740 , 998155882 , 995375880 , 997456556 , 999460433 , 997293698 , 998841408 , 998967882 , 991556939 , 997885838 , 992856444 , 996036507 , 994929156 , DM: KnapSackDoIt called...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Bucket 0 total weight: 1000000001
+  Bucket 1 total weight: 999779384
+  Bucket 2 total weight: 999591275
+  Bucket 3 total weight: 999554501
+  Bucket 4 total weight: 999460433
+  Bucket 5 total weight: 999337281
+  Bucket 6 total weight: 999130474
+  Bucket 7 total weight: 999122809
+  Bucket 8 total weight: 999102204
+  Bucket 9 total weight: 999041844
+  Bucket 10 total weight: 998967882
+  Bucket 11 total weight: 998895975
+  Bucket 12 total weight: 998855960
+  Bucket 13 total weight: 998841408
+  Bucket 14 total weight: 998735997
+  Bucket 15 total weight: 998596095
+  Bucket 16 total weight: 998480517
+  Bucket 17 total weight: 998364137
+  Bucket 18 total weight: 998155882
+  Bucket 19 total weight: 998085704
+  Bucket 20 total weight: 997885838
+  Bucket 21 total weight: 997817087
+  Bucket 22 total weight: 997786544
+  Bucket 23 total weight: 997771315
+  Bucket 24 total weight: 997589938
+  Bucket 25 total weight: 997567530
+  Bucket 26 total weight: 997552525
+  Bucket 27 total weight: 997518877
+  Bucket 28 total weight: 997507149
+  Bucket 29 total weight: 997456556
+  Bucket 30 total weight: 997374396
+  Bucket 31 total weight: 997293698
+  Bucket 32 total weight: 997277920
+  Bucket 33 total weight: 997231953
+  Bucket 34 total weight: 997206217
+  Bucket 35 total weight: 996984182
+  Bucket 36 total weight: 996951908
+  Bucket 37 total weight: 996897771
+  Bucket 38 total weight: 996875159
+  Bucket 39 total weight: 996779259
+  Bucket 40 total weight: 996742399
+  Bucket 41 total weight: 996621538
+  Bucket 42 total weight: 996572367
+  Bucket 43 total weight: 996543768
+  Bucket 44 total weight: 996522188
+  Bucket 45 total weight: 996463679
+  Bucket 46 total weight: 996433994
+  Bucket 47 total weight: 996369023
+  Bucket 48 total weight: 996358288
+  Bucket 49 total weight: 996340911
+  Bucket 50 total weight: 996270277
+  Bucket 51 total weight: 996205582
+  Bucket 52 total weight: 996188228
+  Bucket 53 total weight: 996136933
+  Bucket 54 total weight: 996082799
+  Bucket 55 total weight: 996038446
+  Bucket 56 total weight: 996036507
+  Bucket 57 total weight: 996036278
+  Bucket 58 total weight: 996001336
+  Bucket 59 total weight: 995988832
+  Bucket 60 total weight: 995949475
+  Bucket 61 total weight: 995937685
+  Bucket 62 total weight: 995742896
+  Bucket 63 total weight: 995667730
+  Bucket 64 total weight: 995641999
+  Bucket 65 total weight: 995581812
+  Bucket 66 total weight: 995565149
+  Bucket 67 total weight: 995541373
+  Bucket 68 total weight: 995527603
+  Bucket 69 total weight: 995504551
+  Bucket 70 total weight: 995503765
+  Bucket 71 total weight: 995430342
+  Bucket 72 total weight: 995378506
+  Bucket 73 total weight: 995375880
+  Bucket 74 total weight: 995369506
+  Bucket 75 total weight: 995343403
+  Bucket 76 total weight: 995254684
+  Bucket 77 total weight: 995197685
+  Bucket 78 total weight: 995156505
+  Bucket 79 total weight: 995120461
+  Bucket 80 total weight: 995024111
+  Bucket 81 total weight: 995016837
+  Bucket 82 total weight: 994987353
+  Bucket 83 total weight: 994980234
+  Bucket 84 total weight: 994929156
+  Bucket 85 total weight: 994906079
+  Bucket 86 total weight: 994900564
+  Bucket 87 total weight: 994816609
+  Bucket 88 total weight: 994672972
+  Bucket 89 total weight: 994629534
+  Bucket 90 total weight: 994568648
+  Bucket 91 total weight: 994491809
+  Bucket 92 total weight: 994428740
+  Bucket 93 total weight: 994403849
+  Bucket 94 total weight: 994385994
+  Bucket 95 total weight: 994371270
+  Bucket 96 total weight: 994330390
+  Bucket 97 total weight: 994294952
+  Bucket 98 total weight: 994085831
+  Bucket 99 total weight: 994045226
+  Bucket 100 total weight: 993932554
+  Bucket 101 total weight: 993783554
+  Bucket 102 total weight: 993764287
+  Bucket 103 total weight: 993763650
+  Bucket 104 total weight: 993743444
+  Bucket 105 total weight: 993703531
+  Bucket 106 total weight: 993572269
+  Bucket 107 total weight: 993514899
+  Bucket 108 total weight: 993395085
+  Bucket 109 total weight: 993349081
+  Bucket 110 total weight: 993193194
+  Bucket 111 total weight: 993150687
+  Bucket 112 total weight: 992856444
+  Bucket 113 total weight: 992851839
+  Bucket 114 total weight: 992755009
+  Bucket 115 total weight: 992501781
+  Bucket 116 total weight: 992348019
+  Bucket 117 total weight: 992310785
+  Bucket 118 total weight: 992073559
+  Bucket 119 total weight: 991982191
+  Bucket 120 total weight: 991556939
+  Bucket 121 total weight: 991517407
+  Bucket 122 total weight: 991396242
+  Bucket 123 total weight: 991330530
+  Bucket 124 total weight: 991241240
+  Bucket 125 total weight: 991145367
+  Bucket 126 total weight: 990757699
+  Bucket 127 total weight: 989329984
+Only KNAPSACK  efficiency: 0.9956739162
+test......: 
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (128, 128, 1)
+  Bucket 0 contains 994294952
+  Bucket 1 contains 998596095
+  Bucket 2 contains 995527603
+  Bucket 3 contains 999041844
+  Bucket 4 contains 992501781
+  Bucket 5 contains 995667730
+  Bucket 6 contains 995565149
+  Bucket 7 contains 992755009
+  Bucket 8 contains 994330390
+  Bucket 9 contains 996522188
+  Bucket 10 contains 997552525
+  Bucket 11 contains 995254684
+  Bucket 12 contains 995503765
+  Bucket 13 contains 995120461
+  Bucket 14 contains 994371270
+  Bucket 15 contains 994085831
+  Bucket 16 contains 996742399
+  Bucket 17 contains 991330530
+  Bucket 18 contains 993572269
+  Bucket 19 contains 999591275
+  Bucket 20 contains 998895975
+  Bucket 21 contains 993193194
+  Bucket 22 contains 993703531
+  Bucket 23 contains 995641999
+  Bucket 24 contains 994980234
+  Bucket 25 contains 991396242
+  Bucket 26 contains 995024111
+  Bucket 27 contains 995369506
+  Bucket 28 contains 996463679
+  Bucket 29 contains 996779259
+  Bucket 30 contains 996572367
+  Bucket 31 contains 996082799
+  Bucket 32 contains 999122809
+  Bucket 33 contains 997374396
+  Bucket 34 contains 992310785
+  Bucket 35 contains 999130474
+  Bucket 36 contains 996270277
+  Bucket 37 contains 994906079
+  Bucket 38 contains 996038446
+  Bucket 39 contains 994568648
+  Bucket 40 contains 997786544
+  Bucket 41 contains 991517407
+  Bucket 42 contains 994672972
+  Bucket 43 contains 997589938
+  Bucket 44 contains 996875159
+  Bucket 45 contains 992348019
+  Bucket 46 contains 995937685
+  Bucket 47 contains 993395085
+  Bucket 48 contains 995988832
+  Bucket 49 contains 996897771
+  Bucket 50 contains 996205582
+  Bucket 51 contains 997507149
+  Bucket 52 contains 997231953
+  Bucket 53 contains 999337281
+  Bucket 54 contains 999554501
+  Bucket 55 contains 994629534
+  Bucket 56 contains 995430342
+  Bucket 57 contains 996001336
+  Bucket 58 contains 996951908
+  Bucket 59 contains 995504551
+  Bucket 60 contains 998855960
+  Bucket 61 contains 991241240
+  Bucket 62 contains 996188228
+  Bucket 63 contains 996340911
+  Bucket 64 contains 995016837
+  Bucket 65 contains 993349081
+  Bucket 66 contains 993763650
+  Bucket 67 contains 999102204
+  Bucket 68 contains 994045226
+  Bucket 69 contains 997567530
+  Bucket 70 contains 993150687
+  Bucket 71 contains 996369023
+  Bucket 72 contains 1000000001
+  Bucket 73 contains 994403849
+  Bucket 74 contains 997206217
+  Bucket 75 contains 995197685
+  Bucket 76 contains 989329984
+  Bucket 77 contains 998155882
+  Bucket 78 contains 993514899
+  Bucket 79 contains 995375880
+  Bucket 80 contains 993932554
+  Bucket 81 contains 995541373
+  Bucket 82 contains 994900564
+  Bucket 83 contains 995581812
+  Bucket 84 contains 995742896
+  Bucket 85 contains 995156505
+  Bucket 86 contains 991145367
+  Bucket 87 contains 996358288
+  Bucket 88 contains 993783554
+  Bucket 89 contains 990757699
+  Bucket 90 contains 992073559
+  Bucket 91 contains 994428740
+  Bucket 92 contains 995343403
+  Bucket 93 contains 997456556
+  Bucket 94 contains 998735997
+  Bucket 95 contains 999460433
+  Bucket 96 contains 993743444
+  Bucket 97 contains 998085704
+  Bucket 98 contains 994816609
+  Bucket 99 contains 996433994
+  Bucket 100 contains 994987353
+  Bucket 101 contains 994491809
+  Bucket 102 contains 997771315
+  Bucket 103 contains 992851839
+  Bucket 104 contains 996036278
+  Bucket 105 contains 997293698
+  Bucket 106 contains 997277920
+  Bucket 107 contains 998841408
+  Bucket 108 contains 994385994
+  Bucket 109 contains 997885838
+  Bucket 110 contains 996136933
+  Bucket 111 contains 992856444
+  Bucket 112 contains 997817087
+  Bucket 113 contains 996543768
+  Bucket 114 contains 998480517
+  Bucket 115 contains 999779384
+  Bucket 116 contains 996621538
+  Bucket 117 contains 995949475
+  Bucket 118 contains 991982191
+  Bucket 119 contains 993764287
+  Bucket 120 contains 998364137
+  Bucket 121 contains 998967882
+  Bucket 122 contains 995378506
+  Bucket 123 contains 991556939
+  Bucket 124 contains 996984182
+  Bucket 125 contains 996036507
+  Bucket 126 contains 997518877
+  Bucket 127 contains 994929156
+Only SFC efficiency: 0.9956739162
+test......: 
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (128, 128, 4)
+Distribute:
+  volpercpu: 995673917.2
+  Sorted SFC Tokens:
+    0: 0: (0,0,939524096)
+    1: 16: (131072,0,939524096)
+    2: 1: (262144,0,939524096)
+    3: 17: (393216,0,939524096)
+    4: 4: (524288,0,939524096)
+    5: 20: (655360,0,939524096)
+    6: 5: (786432,0,939524096)
+    7: 21: (917504,0,939524096)
+    8: 32: (1048576,0,939524096)
+    9: 48: (1179648,0,939524096)
+    10: 33: (1310720,0,939524096)
+    11: 49: (1441792,0,939524096)
+    12: 36: (1572864,0,939524096)
+    13: 52: (1703936,0,939524096)
+    14: 37: (1835008,0,939524096)
+    15: 53: (1966080,0,939524096)
+    16: 2: (2097152,0,939524096)
+    17: 18: (2228224,0,939524096)
+    18: 3: (2359296,0,939524096)
+    19: 19: (2490368,0,939524096)
+    20: 6: (2621440,0,939524096)
+    21: 22: (2752512,0,939524096)
+    22: 7: (2883584,0,939524096)
+    23: 23: (3014656,0,939524096)
+    24: 34: (3145728,0,939524096)
+    25: 50: (3276800,0,939524096)
+    26: 35: (3407872,0,939524096)
+    27: 51: (3538944,0,939524096)
+    28: 38: (3670016,0,939524096)
+    29: 54: (3801088,0,939524096)
+    30: 39: (3932160,0,939524096)
+    31: 55: (4063232,0,939524096)
+    32: 8: (4194304,0,939524096)
+    33: 24: (4325376,0,939524096)
+    34: 9: (4456448,0,939524096)
+    35: 25: (4587520,0,939524096)
+    36: 12: (4718592,0,939524096)
+    37: 28: (4849664,0,939524096)
+    38: 13: (4980736,0,939524096)
+    39: 29: (5111808,0,939524096)
+    40: 40: (5242880,0,939524096)
+    41: 56: (5373952,0,939524096)
+    42: 41: (5505024,0,939524096)
+    43: 57: (5636096,0,939524096)
+    44: 44: (5767168,0,939524096)
+    45: 60: (5898240,0,939524096)
+    46: 45: (6029312,0,939524096)
+    47: 61: (6160384,0,939524096)
+    48: 10: (6291456,0,939524096)
+    49: 26: (6422528,0,939524096)
+    50: 11: (6553600,0,939524096)
+    51: 27: (6684672,0,939524096)
+    52: 14: (6815744,0,939524096)
+    53: 30: (6946816,0,939524096)
+    54: 15: (7077888,0,939524096)
+    55: 31: (7208960,0,939524096)
+    56: 42: (7340032,0,939524096)
+    57: 58: (7471104,0,939524096)
+    58: 43: (7602176,0,939524096)
+    59: 59: (7733248,0,939524096)
+    60: 46: (7864320,0,939524096)
+    61: 62: (7995392,0,939524096)
+    62: 47: (8126464,0,939524096)
+    63: 63: (8257536,0,939524096)
+    64: 64: (8388608,0,939524096)
+    65: 80: (8519680,0,939524096)
+    66: 65: (8650752,0,939524096)
+    67: 81: (8781824,0,939524096)
+    68: 68: (8912896,0,939524096)
+    69: 84: (9043968,0,939524096)
+    70: 69: (9175040,0,939524096)
+    71: 85: (9306112,0,939524096)
+    72: 96: (9437184,0,939524096)
+    73: 112: (9568256,0,939524096)
+    74: 97: (9699328,0,939524096)
+    75: 113: (9830400,0,939524096)
+    76: 100: (9961472,0,939524096)
+    77: 116: (10092544,0,939524096)
+    78: 101: (10223616,0,939524096)
+    79: 117: (10354688,0,939524096)
+    80: 66: (10485760,0,939524096)
+    81: 82: (10616832,0,939524096)
+    82: 67: (10747904,0,939524096)
+    83: 83: (10878976,0,939524096)
+    84: 70: (11010048,0,939524096)
+    85: 86: (11141120,0,939524096)
+    86: 71: (11272192,0,939524096)
+    87: 87: (11403264,0,939524096)
+    88: 98: (11534336,0,939524096)
+    89: 114: (11665408,0,939524096)
+    90: 99: (11796480,0,939524096)
+    91: 115: (11927552,0,939524096)
+    92: 102: (12058624,0,939524096)
+    93: 118: (12189696,0,939524096)
+    94: 103: (12320768,0,939524096)
+    95: 119: (12451840,0,939524096)
+    96: 72: (12582912,0,939524096)
+    97: 88: (12713984,0,939524096)
+    98: 73: (12845056,0,939524096)
+    99: 89: (12976128,0,939524096)
+    100: 76: (13107200,0,939524096)
+    101: 92: (13238272,0,939524096)
+    102: 77: (13369344,0,939524096)
+    103: 93: (13500416,0,939524096)
+    104: 104: (13631488,0,939524096)
+    105: 120: (13762560,0,939524096)
+    106: 105: (13893632,0,939524096)
+    107: 121: (14024704,0,939524096)
+    108: 108: (14155776,0,939524096)
+    109: 124: (14286848,0,939524096)
+    110: 109: (14417920,0,939524096)
+    111: 125: (14548992,0,939524096)
+    112: 74: (14680064,0,939524096)
+    113: 90: (14811136,0,939524096)
+    114: 75: (14942208,0,939524096)
+    115: 91: (15073280,0,939524096)
+    116: 78: (15204352,0,939524096)
+    117: 94: (15335424,0,939524096)
+    118: 79: (15466496,0,939524096)
+    119: 95: (15597568,0,939524096)
+    120: 106: (15728640,0,939524096)
+    121: 122: (15859712,0,939524096)
+    122: 107: (15990784,0,939524096)
+    123: 123: (16121856,0,939524096)
+    124: 110: (16252928,0,939524096)
+    125: 126: (16384000,0,939524096)
+    126: 111: (16515072,0,939524096)
+    127: 127: (16646144,0,939524096)
+Distributed SFC Tokens:
+  Rank/Team 0:
+    0: 0: (0,0,939524096)
+    Total Rank Vol: 994294952
+  Rank/Team 1:
+    1: 16: (131072,0,939524096)
+    Total Rank Vol: 998596095
+  Rank/Team 2:
+    2: 1: (262144,0,939524096)
+    Total Rank Vol: 995527603
+  Rank/Team 3:
+    3: 17: (393216,0,939524096)
+    Total Rank Vol: 999041844
+  Rank/Team 4:
+    4: 4: (524288,0,939524096)
+    Total Rank Vol: 992501781
+  Rank/Team 5:
+    5: 20: (655360,0,939524096)
+    Total Rank Vol: 995667730
+  Rank/Team 6:
+    6: 5: (786432,0,939524096)
+    Total Rank Vol: 995565149
+  Rank/Team 7:
+    7: 21: (917504,0,939524096)
+    Total Rank Vol: 992755009
+  Rank/Team 8:
+    8: 32: (1048576,0,939524096)
+    Total Rank Vol: 994330390
+  Rank/Team 9:
+    9: 48: (1179648,0,939524096)
+    Total Rank Vol: 996522188
+  Rank/Team 10:
+    10: 33: (1310720,0,939524096)
+    Total Rank Vol: 997552525
+  Rank/Team 11:
+    11: 49: (1441792,0,939524096)
+    Total Rank Vol: 995254684
+  Rank/Team 12:
+    12: 36: (1572864,0,939524096)
+    Total Rank Vol: 995503765
+  Rank/Team 13:
+    13: 52: (1703936,0,939524096)
+    Total Rank Vol: 995120461
+  Rank/Team 14:
+    14: 37: (1835008,0,939524096)
+    Total Rank Vol: 994371270
+  Rank/Team 15:
+    15: 53: (1966080,0,939524096)
+    Total Rank Vol: 994085831
+  Rank/Team 16:
+    16: 2: (2097152,0,939524096)
+    Total Rank Vol: 996742399
+  Rank/Team 17:
+    17: 18: (2228224,0,939524096)
+    Total Rank Vol: 991330530
+  Rank/Team 18:
+    18: 3: (2359296,0,939524096)
+    Total Rank Vol: 993572269
+  Rank/Team 19:
+    19: 19: (2490368,0,939524096)
+    Total Rank Vol: 999591275
+  Rank/Team 20:
+    20: 6: (2621440,0,939524096)
+    Total Rank Vol: 998895975
+  Rank/Team 21:
+    21: 22: (2752512,0,939524096)
+    Total Rank Vol: 993193194
+  Rank/Team 22:
+    22: 7: (2883584,0,939524096)
+    Total Rank Vol: 993703531
+  Rank/Team 23:
+    23: 23: (3014656,0,939524096)
+    Total Rank Vol: 995641999
+  Rank/Team 24:
+    24: 34: (3145728,0,939524096)
+    Total Rank Vol: 994980234
+  Rank/Team 25:
+    25: 50: (3276800,0,939524096)
+    Total Rank Vol: 991396242
+  Rank/Team 26:
+    26: 35: (3407872,0,939524096)
+    Total Rank Vol: 995024111
+  Rank/Team 27:
+    27: 51: (3538944,0,939524096)
+    Total Rank Vol: 995369506
+  Rank/Team 28:
+    28: 38: (3670016,0,939524096)
+    Total Rank Vol: 996463679
+  Rank/Team 29:
+    29: 54: (3801088,0,939524096)
+    Total Rank Vol: 996779259
+  Rank/Team 30:
+    30: 39: (3932160,0,939524096)
+    Total Rank Vol: 996572367
+  Rank/Team 31:
+    31: 55: (4063232,0,939524096)
+    Total Rank Vol: 996082799
+  Rank/Team 32:
+    32: 8: (4194304,0,939524096)
+    Total Rank Vol: 999122809
+  Rank/Team 33:
+    33: 24: (4325376,0,939524096)
+    Total Rank Vol: 997374396
+  Rank/Team 34:
+    34: 9: (4456448,0,939524096)
+    Total Rank Vol: 992310785
+  Rank/Team 35:
+    35: 25: (4587520,0,939524096)
+    Total Rank Vol: 999130474
+  Rank/Team 36:
+    36: 12: (4718592,0,939524096)
+    Total Rank Vol: 996270277
+  Rank/Team 37:
+    37: 28: (4849664,0,939524096)
+    Total Rank Vol: 994906079
+  Rank/Team 38:
+    38: 13: (4980736,0,939524096)
+    Total Rank Vol: 996038446
+  Rank/Team 39:
+    39: 29: (5111808,0,939524096)
+    Total Rank Vol: 994568648
+  Rank/Team 40:
+    40: 40: (5242880,0,939524096)
+    Total Rank Vol: 997786544
+  Rank/Team 41:
+    41: 56: (5373952,0,939524096)
+    Total Rank Vol: 991517407
+  Rank/Team 42:
+    42: 41: (5505024,0,939524096)
+    Total Rank Vol: 994672972
+  Rank/Team 43:
+    43: 57: (5636096,0,939524096)
+    Total Rank Vol: 997589938
+  Rank/Team 44:
+    44: 44: (5767168,0,939524096)
+    Total Rank Vol: 996875159
+  Rank/Team 45:
+    45: 60: (5898240,0,939524096)
+    Total Rank Vol: 992348019
+  Rank/Team 46:
+    46: 45: (6029312,0,939524096)
+    Total Rank Vol: 995937685
+  Rank/Team 47:
+    47: 61: (6160384,0,939524096)
+    Total Rank Vol: 993395085
+  Rank/Team 48:
+    48: 10: (6291456,0,939524096)
+    Total Rank Vol: 995988832
+  Rank/Team 49:
+    49: 26: (6422528,0,939524096)
+    Total Rank Vol: 996897771
+  Rank/Team 50:
+    50: 11: (6553600,0,939524096)
+    Total Rank Vol: 996205582
+  Rank/Team 51:
+    51: 27: (6684672,0,939524096)
+    Total Rank Vol: 997507149
+  Rank/Team 52:
+    52: 14: (6815744,0,939524096)
+    Total Rank Vol: 997231953
+  Rank/Team 53:
+    53: 30: (6946816,0,939524096)
+    Total Rank Vol: 999337281
+  Rank/Team 54:
+    54: 15: (7077888,0,939524096)
+    Total Rank Vol: 999554501
+  Rank/Team 55:
+    55: 31: (7208960,0,939524096)
+    Total Rank Vol: 994629534
+  Rank/Team 56:
+    56: 42: (7340032,0,939524096)
+    Total Rank Vol: 995430342
+  Rank/Team 57:
+    57: 58: (7471104,0,939524096)
+    Total Rank Vol: 996001336
+  Rank/Team 58:
+    58: 43: (7602176,0,939524096)
+    Total Rank Vol: 996951908
+  Rank/Team 59:
+    59: 59: (7733248,0,939524096)
+    Total Rank Vol: 995504551
+  Rank/Team 60:
+    60: 46: (7864320,0,939524096)
+    Total Rank Vol: 998855960
+  Rank/Team 61:
+    61: 62: (7995392,0,939524096)
+    Total Rank Vol: 991241240
+  Rank/Team 62:
+    62: 47: (8126464,0,939524096)
+    Total Rank Vol: 996188228
+  Rank/Team 63:
+    63: 63: (8257536,0,939524096)
+    Total Rank Vol: 996340911
+  Rank/Team 64:
+    64: 64: (8388608,0,939524096)
+    Total Rank Vol: 995016837
+  Rank/Team 65:
+    65: 80: (8519680,0,939524096)
+    Total Rank Vol: 993349081
+  Rank/Team 66:
+    66: 65: (8650752,0,939524096)
+    Total Rank Vol: 993763650
+  Rank/Team 67:
+    67: 81: (8781824,0,939524096)
+    Total Rank Vol: 999102204
+  Rank/Team 68:
+    68: 68: (8912896,0,939524096)
+    Total Rank Vol: 994045226
+  Rank/Team 69:
+    69: 84: (9043968,0,939524096)
+    Total Rank Vol: 997567530
+  Rank/Team 70:
+    70: 69: (9175040,0,939524096)
+    Total Rank Vol: 993150687
+  Rank/Team 71:
+    71: 85: (9306112,0,939524096)
+    Total Rank Vol: 996369023
+  Rank/Team 72:
+    72: 96: (9437184,0,939524096)
+    Total Rank Vol: 1000000001
+  Rank/Team 73:
+    73: 112: (9568256,0,939524096)
+    Total Rank Vol: 994403849
+  Rank/Team 74:
+    74: 97: (9699328,0,939524096)
+    Total Rank Vol: 997206217
+  Rank/Team 75:
+    75: 113: (9830400,0,939524096)
+    Total Rank Vol: 995197685
+  Rank/Team 76:
+    76: 100: (9961472,0,939524096)
+    Total Rank Vol: 989329984
+  Rank/Team 77:
+    77: 116: (10092544,0,939524096)
+    Total Rank Vol: 998155882
+  Rank/Team 78:
+    78: 101: (10223616,0,939524096)
+    Total Rank Vol: 993514899
+  Rank/Team 79:
+    79: 117: (10354688,0,939524096)
+    Total Rank Vol: 995375880
+  Rank/Team 80:
+    80: 66: (10485760,0,939524096)
+    Total Rank Vol: 993932554
+  Rank/Team 81:
+    81: 82: (10616832,0,939524096)
+    Total Rank Vol: 995541373
+  Rank/Team 82:
+    82: 67: (10747904,0,939524096)
+    Total Rank Vol: 994900564
+  Rank/Team 83:
+    83: 83: (10878976,0,939524096)
+    Total Rank Vol: 995581812
+  Rank/Team 84:
+    84: 70: (11010048,0,939524096)
+    Total Rank Vol: 995742896
+  Rank/Team 85:
+    85: 86: (11141120,0,939524096)
+    Total Rank Vol: 995156505
+  Rank/Team 86:
+    86: 71: (11272192,0,939524096)
+    Total Rank Vol: 991145367
+  Rank/Team 87:
+    87: 87: (11403264,0,939524096)
+    Total Rank Vol: 996358288
+  Rank/Team 88:
+    88: 98: (11534336,0,939524096)
+    Total Rank Vol: 993783554
+  Rank/Team 89:
+    89: 114: (11665408,0,939524096)
+    Total Rank Vol: 990757699
+  Rank/Team 90:
+    90: 99: (11796480,0,939524096)
+    Total Rank Vol: 992073559
+  Rank/Team 91:
+    91: 115: (11927552,0,939524096)
+    Total Rank Vol: 994428740
+  Rank/Team 92:
+    92: 102: (12058624,0,939524096)
+    Total Rank Vol: 995343403
+  Rank/Team 93:
+    93: 118: (12189696,0,939524096)
+    Total Rank Vol: 997456556
+  Rank/Team 94:
+    94: 103: (12320768,0,939524096)
+    Total Rank Vol: 998735997
+  Rank/Team 95:
+    95: 119: (12451840,0,939524096)
+    Total Rank Vol: 999460433
+  Rank/Team 96:
+    96: 72: (12582912,0,939524096)
+    Total Rank Vol: 993743444
+  Rank/Team 97:
+    97: 88: (12713984,0,939524096)
+    Total Rank Vol: 998085704
+  Rank/Team 98:
+    98: 73: (12845056,0,939524096)
+    Total Rank Vol: 994816609
+  Rank/Team 99:
+    99: 89: (12976128,0,939524096)
+    Total Rank Vol: 996433994
+  Rank/Team 100:
+    100: 76: (13107200,0,939524096)
+    Total Rank Vol: 994987353
+  Rank/Team 101:
+    101: 92: (13238272,0,939524096)
+    Total Rank Vol: 994491809
+  Rank/Team 102:
+    102: 77: (13369344,0,939524096)
+    Total Rank Vol: 997771315
+  Rank/Team 103:
+    103: 93: (13500416,0,939524096)
+    Total Rank Vol: 992851839
+  Rank/Team 104:
+    104: 104: (13631488,0,939524096)
+    Total Rank Vol: 996036278
+  Rank/Team 105:
+    105: 120: (13762560,0,939524096)
+    Total Rank Vol: 997293698
+  Rank/Team 106:
+    106: 105: (13893632,0,939524096)
+    Total Rank Vol: 997277920
+  Rank/Team 107:
+    107: 121: (14024704,0,939524096)
+    Total Rank Vol: 998841408
+  Rank/Team 108:
+    108: 108: (14155776,0,939524096)
+    Total Rank Vol: 994385994
+  Rank/Team 109:
+    109: 124: (14286848,0,939524096)
+    Total Rank Vol: 997885838
+  Rank/Team 110:
+    110: 109: (14417920,0,939524096)
+    Total Rank Vol: 996136933
+  Rank/Team 111:
+    111: 125: (14548992,0,939524096)
+    Total Rank Vol: 992856444
+  Rank/Team 112:
+    112: 74: (14680064,0,939524096)
+    Total Rank Vol: 997817087
+  Rank/Team 113:
+    113: 90: (14811136,0,939524096)
+    Total Rank Vol: 996543768
+  Rank/Team 114:
+    114: 75: (14942208,0,939524096)
+    Total Rank Vol: 998480517
+  Rank/Team 115:
+    115: 91: (15073280,0,939524096)
+    Total Rank Vol: 999779384
+  Rank/Team 116:
+    116: 78: (15204352,0,939524096)
+    Total Rank Vol: 996621538
+  Rank/Team 117:
+    117: 94: (15335424,0,939524096)
+    Total Rank Vol: 995949475
+  Rank/Team 118:
+    118: 79: (15466496,0,939524096)
+    Total Rank Vol: 991982191
+  Rank/Team 119:
+    119: 95: (15597568,0,939524096)
+    Total Rank Vol: 993764287
+  Rank/Team 120:
+    120: 106: (15728640,0,939524096)
+    Total Rank Vol: 998364137
+  Rank/Team 121:
+    121: 122: (15859712,0,939524096)
+    Total Rank Vol: 998967882
+  Rank/Team 122:
+    122: 107: (15990784,0,939524096)
+    Total Rank Vol: 995378506
+  Rank/Team 123:
+    123: 123: (16121856,0,939524096)
+    Total Rank Vol: 991556939
+  Rank/Team 124:
+    124: 110: (16252928,0,939524096)
+    Total Rank Vol: 996984182
+  Rank/Team 125:
+    125: 126: (16384000,0,939524096)
+    Total Rank Vol: 996036507
+  Rank/Team 126:
+    126: 111: (16515072,0,939524096)
+    Total Rank Vol: 997518877
+  Rank/Team 127:
+    127: 127: (16646144,0,939524096)
+    Total Rank Vol: 994929156
+SFC Distribution Map (Node -> Boxes):
+Node 0: 0
+Node 1: 16
+Node 2: 1
+Node 3: 17
+Node 4: 4
+Node 5: 20
+Node 6: 5
+Node 7: 21
+Node 8: 32
+Node 9: 48
+Node 10: 33
+Node 11: 49
+Node 12: 36
+Node 13: 52
+Node 14: 37
+Node 15: 53
+Node 16: 2
+Node 17: 18
+Node 18: 3
+Node 19: 19
+Node 20: 6
+Node 21: 22
+Node 22: 7
+Node 23: 23
+Node 24: 34
+Node 25: 50
+Node 26: 35
+Node 27: 51
+Node 28: 38
+Node 29: 54
+Node 30: 39
+Node 31: 55
+Node 32: 8
+Node 33: 24
+Node 34: 9
+Node 35: 25
+Node 36: 12
+Node 37: 28
+Node 38: 13
+Node 39: 29
+Node 40: 40
+Node 41: 56
+Node 42: 41
+Node 43: 57
+Node 44: 44
+Node 45: 60
+Node 46: 45
+Node 47: 61
+Node 48: 10
+Node 49: 26
+Node 50: 11
+Node 51: 27
+Node 52: 14
+Node 53: 30
+Node 54: 15
+Node 55: 31
+Node 56: 42
+Node 57: 58
+Node 58: 43
+Node 59: 59
+Node 60: 46
+Node 61: 62
+Node 62: 47
+Node 63: 63
+Node 64: 64
+Node 65: 80
+Node 66: 65
+Node 67: 81
+Node 68: 68
+Node 69: 84
+Node 70: 69
+Node 71: 85
+Node 72: 96
+Node 73: 112
+Node 74: 97
+Node 75: 113
+Node 76: 100
+Node 77: 116
+Node 78: 101
+Node 79: 117
+Node 80: 66
+Node 81: 82
+Node 82: 67
+Node 83: 83
+Node 84: 70
+Node 85: 86
+Node 86: 71
+Node 87: 87
+Node 88: 98
+Node 89: 114
+Node 90: 99
+Node 91: 115
+Node 92: 102
+Node 93: 118
+Node 94: 103
+Node 95: 119
+Node 96: 72
+Node 97: 88
+Node 98: 73
+Node 99: 89
+Node 100: 76
+Node 101: 92
+Node 102: 77
+Node 103: 93
+Node 104: 104
+Node 105: 120
+Node 106: 105
+Node 107: 121
+Node 108: 108
+Node 109: 124
+Node 110: 109
+Node 111: 125
+Node 112: 74
+Node 113: 90
+Node 114: 75
+Node 115: 91
+Node 116: 78
+Node 117: 94
+Node 118: 79
+Node 119: 95
+Node 120: 106
+Node 121: 122
+Node 122: 107
+Node 123: 123
+Node 124: 110
+Node 125: 126
+Node 126: 111
+Node 127: 127
+
+  Bucket 0 contains 994294952
+  Bucket 1 contains 998596095
+  Bucket 2 contains 995527603
+  Bucket 3 contains 999041844
+  Bucket 4 contains 992501781
+  Bucket 5 contains 995667730
+  Bucket 6 contains 995565149
+  Bucket 7 contains 992755009
+  Bucket 8 contains 994330390
+  Bucket 9 contains 996522188
+  Bucket 10 contains 997552525
+  Bucket 11 contains 995254684
+  Bucket 12 contains 995503765
+  Bucket 13 contains 995120461
+  Bucket 14 contains 994371270
+  Bucket 15 contains 994085831
+  Bucket 16 contains 996742399
+  Bucket 17 contains 991330530
+  Bucket 18 contains 993572269
+  Bucket 19 contains 999591275
+  Bucket 20 contains 998895975
+  Bucket 21 contains 993193194
+  Bucket 22 contains 993703531
+  Bucket 23 contains 995641999
+  Bucket 24 contains 994980234
+  Bucket 25 contains 991396242
+  Bucket 26 contains 995024111
+  Bucket 27 contains 995369506
+  Bucket 28 contains 996463679
+  Bucket 29 contains 996779259
+  Bucket 30 contains 996572367
+  Bucket 31 contains 996082799
+  Bucket 32 contains 999122809
+  Bucket 33 contains 997374396
+  Bucket 34 contains 992310785
+  Bucket 35 contains 999130474
+  Bucket 36 contains 996270277
+  Bucket 37 contains 994906079
+  Bucket 38 contains 996038446
+  Bucket 39 contains 994568648
+  Bucket 40 contains 997786544
+  Bucket 41 contains 991517407
+  Bucket 42 contains 994672972
+  Bucket 43 contains 997589938
+  Bucket 44 contains 996875159
+  Bucket 45 contains 992348019
+  Bucket 46 contains 995937685
+  Bucket 47 contains 993395085
+  Bucket 48 contains 995988832
+  Bucket 49 contains 996897771
+  Bucket 50 contains 996205582
+  Bucket 51 contains 997507149
+  Bucket 52 contains 997231953
+  Bucket 53 contains 999337281
+  Bucket 54 contains 999554501
+  Bucket 55 contains 994629534
+  Bucket 56 contains 995430342
+  Bucket 57 contains 996001336
+  Bucket 58 contains 996951908
+  Bucket 59 contains 995504551
+  Bucket 60 contains 998855960
+  Bucket 61 contains 991241240
+  Bucket 62 contains 996188228
+  Bucket 63 contains 996340911
+  Bucket 64 contains 995016837
+  Bucket 65 contains 993349081
+  Bucket 66 contains 993763650
+  Bucket 67 contains 999102204
+  Bucket 68 contains 994045226
+  Bucket 69 contains 997567530
+  Bucket 70 contains 993150687
+  Bucket 71 contains 996369023
+  Bucket 72 contains 1000000001
+  Bucket 73 contains 994403849
+  Bucket 74 contains 997206217
+  Bucket 75 contains 995197685
+  Bucket 76 contains 989329984
+  Bucket 77 contains 998155882
+  Bucket 78 contains 993514899
+  Bucket 79 contains 995375880
+  Bucket 80 contains 993932554
+  Bucket 81 contains 995541373
+  Bucket 82 contains 994900564
+  Bucket 83 contains 995581812
+  Bucket 84 contains 995742896
+  Bucket 85 contains 995156505
+  Bucket 86 contains 991145367
+  Bucket 87 contains 996358288
+  Bucket 88 contains 993783554
+  Bucket 89 contains 990757699
+  Bucket 90 contains 992073559
+  Bucket 91 contains 994428740
+  Bucket 92 contains 995343403
+  Bucket 93 contains 997456556
+  Bucket 94 contains 998735997
+  Bucket 95 contains 999460433
+  Bucket 96 contains 993743444
+  Bucket 97 contains 998085704
+  Bucket 98 contains 994816609
+  Bucket 99 contains 996433994
+  Bucket 100 contains 994987353
+  Bucket 101 contains 994491809
+  Bucket 102 contains 997771315
+  Bucket 103 contains 992851839
+  Bucket 104 contains 996036278
+  Bucket 105 contains 997293698
+  Bucket 106 contains 997277920
+  Bucket 107 contains 998841408
+  Bucket 108 contains 994385994
+  Bucket 109 contains 997885838
+  Bucket 110 contains 996136933
+  Bucket 111 contains 992856444
+  Bucket 112 contains 997817087
+  Bucket 113 contains 996543768
+  Bucket 114 contains 998480517
+  Bucket 115 contains 999779384
+  Bucket 116 contains 996621538
+  Bucket 117 contains 995949475
+  Bucket 118 contains 991982191
+  Bucket 119 contains 993764287
+  Bucket 120 contains 998364137
+  Bucket 121 contains 998967882
+  Bucket 122 contains 995378506
+  Bucket 123 contains 991556939
+  Bucket 124 contains 996984182
+  Bucket 125 contains 996036507
+  Bucket 126 contains 997518877
+  Bucket 127 contains 994929156
+Node 0 Weights and Indices:
+  Index 0 -> Weight 994294952
+
+Node 0 Each Knapsack efficiency: 0.25
+Knapsack result for Node 0:
+  Processor Group 0: Global Index 0 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 0, Local Rank: 0, Global Rank: 0
+Node 0 has total knapsack weight: 994294952
+Node 0 current max weight across ranks: 994294952
+Node 1 Weights and Indices:
+  Index 16 -> Weight 998596095
+
+Node 1 Each Knapsack efficiency: 0.25
+Knapsack result for Node 1:
+  Processor Group 0: Global Index 16 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 16, Local Rank: 0, Global Rank: 4
+Node 1 has total knapsack weight: 1992891047
+Node 1 current max weight across ranks: 998596095
+Node 2 Weights and Indices:
+  Index 1 -> Weight 995527603
+
+Node 2 Each Knapsack efficiency: 0.25
+Knapsack result for Node 2:
+  Processor Group 0: Global Index 1 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 1, Local Rank: 0, Global Rank: 8
+Node 2 has total knapsack weight: 2988418650
+Node 2 current max weight across ranks: 998596095
+Node 3 Weights and Indices:
+  Index 17 -> Weight 999041844
+
+Node 3 Each Knapsack efficiency: 0.25
+Knapsack result for Node 3:
+  Processor Group 0: Global Index 17 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 17, Local Rank: 0, Global Rank: 12
+Node 3 has total knapsack weight: 3987460494
+Node 3 current max weight across ranks: 999041844
+Node 4 Weights and Indices:
+  Index 4 -> Weight 992501781
+
+Node 4 Each Knapsack efficiency: 0.25
+Knapsack result for Node 4:
+  Processor Group 0: Global Index 4 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 4, Local Rank: 0, Global Rank: 16
+Node 4 has total knapsack weight: 4979962275
+Node 4 current max weight across ranks: 999041844
+Node 5 Weights and Indices:
+  Index 20 -> Weight 995667730
+
+Node 5 Each Knapsack efficiency: 0.25
+Knapsack result for Node 5:
+  Processor Group 0: Global Index 20 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 20, Local Rank: 0, Global Rank: 20
+Node 5 has total knapsack weight: 5975630005
+Node 5 current max weight across ranks: 999041844
+Node 6 Weights and Indices:
+  Index 5 -> Weight 995565149
+
+Node 6 Each Knapsack efficiency: 0.25
+Knapsack result for Node 6:
+  Processor Group 0: Global Index 5 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 5, Local Rank: 0, Global Rank: 24
+Node 6 has total knapsack weight: 6971195154
+Node 6 current max weight across ranks: 999041844
+Node 7 Weights and Indices:
+  Index 21 -> Weight 992755009
+
+Node 7 Each Knapsack efficiency: 0.25
+Knapsack result for Node 7:
+  Processor Group 0: Global Index 21 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 21, Local Rank: 0, Global Rank: 28
+Node 7 has total knapsack weight: 7963950163
+Node 7 current max weight across ranks: 999041844
+Node 8 Weights and Indices:
+  Index 32 -> Weight 994330390
+
+Node 8 Each Knapsack efficiency: 0.25
+Knapsack result for Node 8:
+  Processor Group 0: Global Index 32 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 32, Local Rank: 0, Global Rank: 32
+Node 8 has total knapsack weight: 8958280553
+Node 8 current max weight across ranks: 999041844
+Node 9 Weights and Indices:
+  Index 48 -> Weight 996522188
+
+Node 9 Each Knapsack efficiency: 0.25
+Knapsack result for Node 9:
+  Processor Group 0: Global Index 48 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 48, Local Rank: 0, Global Rank: 36
+Node 9 has total knapsack weight: 9954802741
+Node 9 current max weight across ranks: 999041844
+Node 10 Weights and Indices:
+  Index 33 -> Weight 997552525
+
+Node 10 Each Knapsack efficiency: 0.25
+Knapsack result for Node 10:
+  Processor Group 0: Global Index 33 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 33, Local Rank: 0, Global Rank: 40
+Node 10 has total knapsack weight: 1.095235527e+10
+Node 10 current max weight across ranks: 999041844
+Node 11 Weights and Indices:
+  Index 49 -> Weight 995254684
+
+Node 11 Each Knapsack efficiency: 0.25
+Knapsack result for Node 11:
+  Processor Group 0: Global Index 49 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 49, Local Rank: 0, Global Rank: 44
+Node 11 has total knapsack weight: 1.194760995e+10
+Node 11 current max weight across ranks: 999041844
+Node 12 Weights and Indices:
+  Index 36 -> Weight 995503765
+
+Node 12 Each Knapsack efficiency: 0.25
+Knapsack result for Node 12:
+  Processor Group 0: Global Index 36 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 36, Local Rank: 0, Global Rank: 48
+Node 12 has total knapsack weight: 1.294311372e+10
+Node 12 current max weight across ranks: 999041844
+Node 13 Weights and Indices:
+  Index 52 -> Weight 995120461
+
+Node 13 Each Knapsack efficiency: 0.25
+Knapsack result for Node 13:
+  Processor Group 0: Global Index 52 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 52, Local Rank: 0, Global Rank: 52
+Node 13 has total knapsack weight: 1.393823418e+10
+Node 13 current max weight across ranks: 999041844
+Node 14 Weights and Indices:
+  Index 37 -> Weight 994371270
+
+Node 14 Each Knapsack efficiency: 0.25
+Knapsack result for Node 14:
+  Processor Group 0: Global Index 37 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 37, Local Rank: 0, Global Rank: 56
+Node 14 has total knapsack weight: 1.493260545e+10
+Node 14 current max weight across ranks: 999041844
+Node 15 Weights and Indices:
+  Index 53 -> Weight 994085831
+
+Node 15 Each Knapsack efficiency: 0.25
+Knapsack result for Node 15:
+  Processor Group 0: Global Index 53 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 53, Local Rank: 0, Global Rank: 60
+Node 15 has total knapsack weight: 1.592669128e+10
+Node 15 current max weight across ranks: 999041844
+Node 16 Weights and Indices:
+  Index 2 -> Weight 996742399
+
+Node 16 Each Knapsack efficiency: 0.25
+Knapsack result for Node 16:
+  Processor Group 0: Global Index 2 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 2, Local Rank: 0, Global Rank: 64
+Node 16 has total knapsack weight: 1.692343368e+10
+Node 16 current max weight across ranks: 999041844
+Node 17 Weights and Indices:
+  Index 18 -> Weight 991330530
+
+Node 17 Each Knapsack efficiency: 0.25
+Knapsack result for Node 17:
+  Processor Group 0: Global Index 18 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 18, Local Rank: 0, Global Rank: 68
+Node 17 has total knapsack weight: 1.791476421e+10
+Node 17 current max weight across ranks: 999041844
+Node 18 Weights and Indices:
+  Index 3 -> Weight 993572269
+
+Node 18 Each Knapsack efficiency: 0.25
+Knapsack result for Node 18:
+  Processor Group 0: Global Index 3 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 3, Local Rank: 0, Global Rank: 72
+Node 18 has total knapsack weight: 1.890833648e+10
+Node 18 current max weight across ranks: 999041844
+Node 19 Weights and Indices:
+  Index 19 -> Weight 999591275
+
+Node 19 Each Knapsack efficiency: 0.25
+Knapsack result for Node 19:
+  Processor Group 0: Global Index 19 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 19, Local Rank: 0, Global Rank: 76
+Node 19 has total knapsack weight: 1.990792775e+10
+Node 19 current max weight across ranks: 999591275
+Node 20 Weights and Indices:
+  Index 6 -> Weight 998895975
+
+Node 20 Each Knapsack efficiency: 0.25
+Knapsack result for Node 20:
+  Processor Group 0: Global Index 6 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 6, Local Rank: 0, Global Rank: 80
+Node 20 has total knapsack weight: 2.090682372e+10
+Node 20 current max weight across ranks: 999591275
+Node 21 Weights and Indices:
+  Index 22 -> Weight 993193194
+
+Node 21 Each Knapsack efficiency: 0.25
+Knapsack result for Node 21:
+  Processor Group 0: Global Index 22 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 22, Local Rank: 0, Global Rank: 84
+Node 21 has total knapsack weight: 2.190001692e+10
+Node 21 current max weight across ranks: 999591275
+Node 22 Weights and Indices:
+  Index 7 -> Weight 993703531
+
+Node 22 Each Knapsack efficiency: 0.25
+Knapsack result for Node 22:
+  Processor Group 0: Global Index 7 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 7, Local Rank: 0, Global Rank: 88
+Node 22 has total knapsack weight: 2.289372045e+10
+Node 22 current max weight across ranks: 999591275
+Node 23 Weights and Indices:
+  Index 23 -> Weight 995641999
+
+Node 23 Each Knapsack efficiency: 0.25
+Knapsack result for Node 23:
+  Processor Group 0: Global Index 23 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 23, Local Rank: 0, Global Rank: 92
+Node 23 has total knapsack weight: 2.388936245e+10
+Node 23 current max weight across ranks: 999591275
+Node 24 Weights and Indices:
+  Index 34 -> Weight 994980234
+
+Node 24 Each Knapsack efficiency: 0.25
+Knapsack result for Node 24:
+  Processor Group 0: Global Index 34 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 34, Local Rank: 0, Global Rank: 96
+Node 24 has total knapsack weight: 2.488434268e+10
+Node 24 current max weight across ranks: 999591275
+Node 25 Weights and Indices:
+  Index 50 -> Weight 991396242
+
+Node 25 Each Knapsack efficiency: 0.25
+Knapsack result for Node 25:
+  Processor Group 0: Global Index 50 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 50, Local Rank: 0, Global Rank: 100
+Node 25 has total knapsack weight: 2.587573892e+10
+Node 25 current max weight across ranks: 999591275
+Node 26 Weights and Indices:
+  Index 35 -> Weight 995024111
+
+Node 26 Each Knapsack efficiency: 0.25
+Knapsack result for Node 26:
+  Processor Group 0: Global Index 35 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 35, Local Rank: 0, Global Rank: 104
+Node 26 has total knapsack weight: 2.687076304e+10
+Node 26 current max weight across ranks: 999591275
+Node 27 Weights and Indices:
+  Index 51 -> Weight 995369506
+
+Node 27 Each Knapsack efficiency: 0.25
+Knapsack result for Node 27:
+  Processor Group 0: Global Index 51 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 51, Local Rank: 0, Global Rank: 108
+Node 27 has total knapsack weight: 2.786613254e+10
+Node 27 current max weight across ranks: 999591275
+Node 28 Weights and Indices:
+  Index 38 -> Weight 996463679
+
+Node 28 Each Knapsack efficiency: 0.25
+Knapsack result for Node 28:
+  Processor Group 0: Global Index 38 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 38, Local Rank: 0, Global Rank: 112
+Node 28 has total knapsack weight: 2.886259622e+10
+Node 28 current max weight across ranks: 999591275
+Node 29 Weights and Indices:
+  Index 54 -> Weight 996779259
+
+Node 29 Each Knapsack efficiency: 0.25
+Knapsack result for Node 29:
+  Processor Group 0: Global Index 54 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 54, Local Rank: 0, Global Rank: 116
+Node 29 has total knapsack weight: 2.985937548e+10
+Node 29 current max weight across ranks: 999591275
+Node 30 Weights and Indices:
+  Index 39 -> Weight 996572367
+
+Node 30 Each Knapsack efficiency: 0.25
+Knapsack result for Node 30:
+  Processor Group 0: Global Index 39 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 39, Local Rank: 0, Global Rank: 120
+Node 30 has total knapsack weight: 3.085594785e+10
+Node 30 current max weight across ranks: 999591275
+Node 31 Weights and Indices:
+  Index 55 -> Weight 996082799
+
+Node 31 Each Knapsack efficiency: 0.25
+Knapsack result for Node 31:
+  Processor Group 0: Global Index 55 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 55, Local Rank: 0, Global Rank: 124
+Node 31 has total knapsack weight: 3.185203065e+10
+Node 31 current max weight across ranks: 999591275
+Node 32 Weights and Indices:
+  Index 8 -> Weight 999122809
+
+Node 32 Each Knapsack efficiency: 0.25
+Knapsack result for Node 32:
+  Processor Group 0: Global Index 8 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 8, Local Rank: 0, Global Rank: 128
+Node 32 has total knapsack weight: 3.285115346e+10
+Node 32 current max weight across ranks: 999591275
+Node 33 Weights and Indices:
+  Index 24 -> Weight 997374396
+
+Node 33 Each Knapsack efficiency: 0.25
+Knapsack result for Node 33:
+  Processor Group 0: Global Index 24 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 24, Local Rank: 0, Global Rank: 132
+Node 33 has total knapsack weight: 3.384852785e+10
+Node 33 current max weight across ranks: 999591275
+Node 34 Weights and Indices:
+  Index 9 -> Weight 992310785
+
+Node 34 Each Knapsack efficiency: 0.25
+Knapsack result for Node 34:
+  Processor Group 0: Global Index 9 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 9, Local Rank: 0, Global Rank: 136
+Node 34 has total knapsack weight: 3.484083864e+10
+Node 34 current max weight across ranks: 999591275
+Node 35 Weights and Indices:
+  Index 25 -> Weight 999130474
+
+Node 35 Each Knapsack efficiency: 0.25
+Knapsack result for Node 35:
+  Processor Group 0: Global Index 25 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 25, Local Rank: 0, Global Rank: 140
+Node 35 has total knapsack weight: 3.583996911e+10
+Node 35 current max weight across ranks: 999591275
+Node 36 Weights and Indices:
+  Index 12 -> Weight 996270277
+
+Node 36 Each Knapsack efficiency: 0.25
+Knapsack result for Node 36:
+  Processor Group 0: Global Index 12 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 12, Local Rank: 0, Global Rank: 144
+Node 36 has total knapsack weight: 3.683623939e+10
+Node 36 current max weight across ranks: 999591275
+Node 37 Weights and Indices:
+  Index 28 -> Weight 994906079
+
+Node 37 Each Knapsack efficiency: 0.25
+Knapsack result for Node 37:
+  Processor Group 0: Global Index 28 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 28, Local Rank: 0, Global Rank: 148
+Node 37 has total knapsack weight: 3.783114547e+10
+Node 37 current max weight across ranks: 999591275
+Node 38 Weights and Indices:
+  Index 13 -> Weight 996038446
+
+Node 38 Each Knapsack efficiency: 0.25
+Knapsack result for Node 38:
+  Processor Group 0: Global Index 13 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 13, Local Rank: 0, Global Rank: 152
+Node 38 has total knapsack weight: 3.882718391e+10
+Node 38 current max weight across ranks: 999591275
+Node 39 Weights and Indices:
+  Index 29 -> Weight 994568648
+
+Node 39 Each Knapsack efficiency: 0.25
+Knapsack result for Node 39:
+  Processor Group 0: Global Index 29 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 29, Local Rank: 0, Global Rank: 156
+Node 39 has total knapsack weight: 3.982175256e+10
+Node 39 current max weight across ranks: 999591275
+Node 40 Weights and Indices:
+  Index 40 -> Weight 997786544
+
+Node 40 Each Knapsack efficiency: 0.25
+Knapsack result for Node 40:
+  Processor Group 0: Global Index 40 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 40, Local Rank: 0, Global Rank: 160
+Node 40 has total knapsack weight: 4.08195391e+10
+Node 40 current max weight across ranks: 999591275
+Node 41 Weights and Indices:
+  Index 56 -> Weight 991517407
+
+Node 41 Each Knapsack efficiency: 0.25
+Knapsack result for Node 41:
+  Processor Group 0: Global Index 56 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 56, Local Rank: 0, Global Rank: 164
+Node 41 has total knapsack weight: 4.181105651e+10
+Node 41 current max weight across ranks: 999591275
+Node 42 Weights and Indices:
+  Index 41 -> Weight 994672972
+
+Node 42 Each Knapsack efficiency: 0.25
+Knapsack result for Node 42:
+  Processor Group 0: Global Index 41 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 41, Local Rank: 0, Global Rank: 168
+Node 42 has total knapsack weight: 4.280572948e+10
+Node 42 current max weight across ranks: 999591275
+Node 43 Weights and Indices:
+  Index 57 -> Weight 997589938
+
+Node 43 Each Knapsack efficiency: 0.25
+Knapsack result for Node 43:
+  Processor Group 0: Global Index 57 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 57, Local Rank: 0, Global Rank: 172
+Node 43 has total knapsack weight: 4.380331942e+10
+Node 43 current max weight across ranks: 999591275
+Node 44 Weights and Indices:
+  Index 44 -> Weight 996875159
+
+Node 44 Each Knapsack efficiency: 0.25
+Knapsack result for Node 44:
+  Processor Group 0: Global Index 44 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 44, Local Rank: 0, Global Rank: 176
+Node 44 has total knapsack weight: 4.480019458e+10
+Node 44 current max weight across ranks: 999591275
+Node 45 Weights and Indices:
+  Index 60 -> Weight 992348019
+
+Node 45 Each Knapsack efficiency: 0.25
+Knapsack result for Node 45:
+  Processor Group 0: Global Index 60 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 60, Local Rank: 0, Global Rank: 180
+Node 45 has total knapsack weight: 4.57925426e+10
+Node 45 current max weight across ranks: 999591275
+Node 46 Weights and Indices:
+  Index 45 -> Weight 995937685
+
+Node 46 Each Knapsack efficiency: 0.25
+Knapsack result for Node 46:
+  Processor Group 0: Global Index 45 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 45, Local Rank: 0, Global Rank: 184
+Node 46 has total knapsack weight: 4.678848028e+10
+Node 46 current max weight across ranks: 999591275
+Node 47 Weights and Indices:
+  Index 61 -> Weight 993395085
+
+Node 47 Each Knapsack efficiency: 0.25
+Knapsack result for Node 47:
+  Processor Group 0: Global Index 61 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 61, Local Rank: 0, Global Rank: 188
+Node 47 has total knapsack weight: 4.778187537e+10
+Node 47 current max weight across ranks: 999591275
+Node 48 Weights and Indices:
+  Index 10 -> Weight 995988832
+
+Node 48 Each Knapsack efficiency: 0.25
+Knapsack result for Node 48:
+  Processor Group 0: Global Index 10 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 10, Local Rank: 0, Global Rank: 192
+Node 48 has total knapsack weight: 4.87778642e+10
+Node 48 current max weight across ranks: 999591275
+Node 49 Weights and Indices:
+  Index 26 -> Weight 996897771
+
+Node 49 Each Knapsack efficiency: 0.25
+Knapsack result for Node 49:
+  Processor Group 0: Global Index 26 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 26, Local Rank: 0, Global Rank: 196
+Node 49 has total knapsack weight: 4.977476197e+10
+Node 49 current max weight across ranks: 999591275
+Node 50 Weights and Indices:
+  Index 11 -> Weight 996205582
+
+Node 50 Each Knapsack efficiency: 0.25
+Knapsack result for Node 50:
+  Processor Group 0: Global Index 11 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 11, Local Rank: 0, Global Rank: 200
+Node 50 has total knapsack weight: 5.077096755e+10
+Node 50 current max weight across ranks: 999591275
+Node 51 Weights and Indices:
+  Index 27 -> Weight 997507149
+
+Node 51 Each Knapsack efficiency: 0.25
+Knapsack result for Node 51:
+  Processor Group 0: Global Index 27 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 27, Local Rank: 0, Global Rank: 204
+Node 51 has total knapsack weight: 5.17684747e+10
+Node 51 current max weight across ranks: 999591275
+Node 52 Weights and Indices:
+  Index 14 -> Weight 997231953
+
+Node 52 Each Knapsack efficiency: 0.25
+Knapsack result for Node 52:
+  Processor Group 0: Global Index 14 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 14, Local Rank: 0, Global Rank: 208
+Node 52 has total knapsack weight: 5.276570666e+10
+Node 52 current max weight across ranks: 999591275
+Node 53 Weights and Indices:
+  Index 30 -> Weight 999337281
+
+Node 53 Each Knapsack efficiency: 0.25
+Knapsack result for Node 53:
+  Processor Group 0: Global Index 30 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 30, Local Rank: 0, Global Rank: 212
+Node 53 has total knapsack weight: 5.376504394e+10
+Node 53 current max weight across ranks: 999591275
+Node 54 Weights and Indices:
+  Index 15 -> Weight 999554501
+
+Node 54 Each Knapsack efficiency: 0.25
+Knapsack result for Node 54:
+  Processor Group 0: Global Index 15 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 15, Local Rank: 0, Global Rank: 216
+Node 54 has total knapsack weight: 5.476459844e+10
+Node 54 current max weight across ranks: 999591275
+Node 55 Weights and Indices:
+  Index 31 -> Weight 994629534
+
+Node 55 Each Knapsack efficiency: 0.25
+Knapsack result for Node 55:
+  Processor Group 0: Global Index 31 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 31, Local Rank: 0, Global Rank: 220
+Node 55 has total knapsack weight: 5.575922797e+10
+Node 55 current max weight across ranks: 999591275
+Node 56 Weights and Indices:
+  Index 42 -> Weight 995430342
+
+Node 56 Each Knapsack efficiency: 0.25
+Knapsack result for Node 56:
+  Processor Group 0: Global Index 42 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 42, Local Rank: 0, Global Rank: 224
+Node 56 has total knapsack weight: 5.675465831e+10
+Node 56 current max weight across ranks: 999591275
+Node 57 Weights and Indices:
+  Index 58 -> Weight 996001336
+
+Node 57 Each Knapsack efficiency: 0.25
+Knapsack result for Node 57:
+  Processor Group 0: Global Index 58 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 58, Local Rank: 0, Global Rank: 228
+Node 57 has total knapsack weight: 5.775065965e+10
+Node 57 current max weight across ranks: 999591275
+Node 58 Weights and Indices:
+  Index 43 -> Weight 996951908
+
+Node 58 Each Knapsack efficiency: 0.25
+Knapsack result for Node 58:
+  Processor Group 0: Global Index 43 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 43, Local Rank: 0, Global Rank: 232
+Node 58 has total knapsack weight: 5.874761156e+10
+Node 58 current max weight across ranks: 999591275
+Node 59 Weights and Indices:
+  Index 59 -> Weight 995504551
+
+Node 59 Each Knapsack efficiency: 0.25
+Knapsack result for Node 59:
+  Processor Group 0: Global Index 59 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 59, Local Rank: 0, Global Rank: 236
+Node 59 has total knapsack weight: 5.974311611e+10
+Node 59 current max weight across ranks: 999591275
+Node 60 Weights and Indices:
+  Index 46 -> Weight 998855960
+
+Node 60 Each Knapsack efficiency: 0.25
+Knapsack result for Node 60:
+  Processor Group 0: Global Index 46 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 46, Local Rank: 0, Global Rank: 240
+Node 60 has total knapsack weight: 6.074197207e+10
+Node 60 current max weight across ranks: 999591275
+Node 61 Weights and Indices:
+  Index 62 -> Weight 991241240
+
+Node 61 Each Knapsack efficiency: 0.25
+Knapsack result for Node 61:
+  Processor Group 0: Global Index 62 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 62, Local Rank: 0, Global Rank: 244
+Node 61 has total knapsack weight: 6.173321331e+10
+Node 61 current max weight across ranks: 999591275
+Node 62 Weights and Indices:
+  Index 47 -> Weight 996188228
+
+Node 62 Each Knapsack efficiency: 0.25
+Knapsack result for Node 62:
+  Processor Group 0: Global Index 47 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 47, Local Rank: 0, Global Rank: 248
+Node 62 has total knapsack weight: 6.272940154e+10
+Node 62 current max weight across ranks: 999591275
+Node 63 Weights and Indices:
+  Index 63 -> Weight 996340911
+
+Node 63 Each Knapsack efficiency: 0.25
+Knapsack result for Node 63:
+  Processor Group 0: Global Index 63 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 63, Local Rank: 0, Global Rank: 252
+Node 63 has total knapsack weight: 6.372574245e+10
+Node 63 current max weight across ranks: 999591275
+Node 64 Weights and Indices:
+  Index 64 -> Weight 995016837
+
+Node 64 Each Knapsack efficiency: 0.25
+Knapsack result for Node 64:
+  Processor Group 0: Global Index 64 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 64, Local Rank: 0, Global Rank: 256
+Node 64 has total knapsack weight: 6.472075928e+10
+Node 64 current max weight across ranks: 999591275
+Node 65 Weights and Indices:
+  Index 80 -> Weight 993349081
+
+Node 65 Each Knapsack efficiency: 0.25
+Knapsack result for Node 65:
+  Processor Group 0: Global Index 80 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 80, Local Rank: 0, Global Rank: 260
+Node 65 has total knapsack weight: 6.571410837e+10
+Node 65 current max weight across ranks: 999591275
+Node 66 Weights and Indices:
+  Index 65 -> Weight 993763650
+
+Node 66 Each Knapsack efficiency: 0.25
+Knapsack result for Node 66:
+  Processor Group 0: Global Index 65 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 65, Local Rank: 0, Global Rank: 264
+Node 66 has total knapsack weight: 6.670787202e+10
+Node 66 current max weight across ranks: 999591275
+Node 67 Weights and Indices:
+  Index 81 -> Weight 999102204
+
+Node 67 Each Knapsack efficiency: 0.25
+Knapsack result for Node 67:
+  Processor Group 0: Global Index 81 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 81, Local Rank: 0, Global Rank: 268
+Node 67 has total knapsack weight: 6.770697422e+10
+Node 67 current max weight across ranks: 999591275
+Node 68 Weights and Indices:
+  Index 68 -> Weight 994045226
+
+Node 68 Each Knapsack efficiency: 0.25
+Knapsack result for Node 68:
+  Processor Group 0: Global Index 68 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 68, Local Rank: 0, Global Rank: 272
+Node 68 has total knapsack weight: 6.870101945e+10
+Node 68 current max weight across ranks: 999591275
+Node 69 Weights and Indices:
+  Index 84 -> Weight 997567530
+
+Node 69 Each Knapsack efficiency: 0.25
+Knapsack result for Node 69:
+  Processor Group 0: Global Index 84 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 84, Local Rank: 0, Global Rank: 276
+Node 69 has total knapsack weight: 6.969858698e+10
+Node 69 current max weight across ranks: 999591275
+Node 70 Weights and Indices:
+  Index 69 -> Weight 993150687
+
+Node 70 Each Knapsack efficiency: 0.25
+Knapsack result for Node 70:
+  Processor Group 0: Global Index 69 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 69, Local Rank: 0, Global Rank: 280
+Node 70 has total knapsack weight: 7.069173766e+10
+Node 70 current max weight across ranks: 999591275
+Node 71 Weights and Indices:
+  Index 85 -> Weight 996369023
+
+Node 71 Each Knapsack efficiency: 0.25
+Knapsack result for Node 71:
+  Processor Group 0: Global Index 85 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 85, Local Rank: 0, Global Rank: 284
+Node 71 has total knapsack weight: 7.168810669e+10
+Node 71 current max weight across ranks: 999591275
+Node 72 Weights and Indices:
+  Index 96 -> Weight 1000000001
+
+Node 72 Each Knapsack efficiency: 0.25
+Knapsack result for Node 72:
+  Processor Group 0: Global Index 96 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 96, Local Rank: 0, Global Rank: 288
+Node 72 has total knapsack weight: 7.268810669e+10
+Node 72 current max weight across ranks: 1000000001
+Node 73 Weights and Indices:
+  Index 112 -> Weight 994403849
+
+Node 73 Each Knapsack efficiency: 0.25
+Knapsack result for Node 73:
+  Processor Group 0: Global Index 112 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 112, Local Rank: 0, Global Rank: 292
+Node 73 has total knapsack weight: 7.368251054e+10
+Node 73 current max weight across ranks: 1000000001
+Node 74 Weights and Indices:
+  Index 97 -> Weight 997206217
+
+Node 74 Each Knapsack efficiency: 0.25
+Knapsack result for Node 74:
+  Processor Group 0: Global Index 97 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 97, Local Rank: 0, Global Rank: 296
+Node 74 has total knapsack weight: 7.467971675e+10
+Node 74 current max weight across ranks: 1000000001
+Node 75 Weights and Indices:
+  Index 113 -> Weight 995197685
+
+Node 75 Each Knapsack efficiency: 0.25
+Knapsack result for Node 75:
+  Processor Group 0: Global Index 113 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 113, Local Rank: 0, Global Rank: 300
+Node 75 has total knapsack weight: 7.567491444e+10
+Node 75 current max weight across ranks: 1000000001
+Node 76 Weights and Indices:
+  Index 100 -> Weight 989329984
+
+Node 76 Each Knapsack efficiency: 0.25
+Knapsack result for Node 76:
+  Processor Group 0: Global Index 100 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 100, Local Rank: 0, Global Rank: 304
+Node 76 has total knapsack weight: 7.666424442e+10
+Node 76 current max weight across ranks: 1000000001
+Node 77 Weights and Indices:
+  Index 116 -> Weight 998155882
+
+Node 77 Each Knapsack efficiency: 0.25
+Knapsack result for Node 77:
+  Processor Group 0: Global Index 116 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 116, Local Rank: 0, Global Rank: 308
+Node 77 has total knapsack weight: 7.76624003e+10
+Node 77 current max weight across ranks: 1000000001
+Node 78 Weights and Indices:
+  Index 101 -> Weight 993514899
+
+Node 78 Each Knapsack efficiency: 0.25
+Knapsack result for Node 78:
+  Processor Group 0: Global Index 101 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 101, Local Rank: 0, Global Rank: 312
+Node 78 has total knapsack weight: 7.86559152e+10
+Node 78 current max weight across ranks: 1000000001
+Node 79 Weights and Indices:
+  Index 117 -> Weight 995375880
+
+Node 79 Each Knapsack efficiency: 0.25
+Knapsack result for Node 79:
+  Processor Group 0: Global Index 117 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 117, Local Rank: 0, Global Rank: 316
+Node 79 has total knapsack weight: 7.965129108e+10
+Node 79 current max weight across ranks: 1000000001
+Node 80 Weights and Indices:
+  Index 66 -> Weight 993932554
+
+Node 80 Each Knapsack efficiency: 0.25
+Knapsack result for Node 80:
+  Processor Group 0: Global Index 66 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 66, Local Rank: 0, Global Rank: 320
+Node 80 has total knapsack weight: 8.064522364e+10
+Node 80 current max weight across ranks: 1000000001
+Node 81 Weights and Indices:
+  Index 82 -> Weight 995541373
+
+Node 81 Each Knapsack efficiency: 0.25
+Knapsack result for Node 81:
+  Processor Group 0: Global Index 82 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 82, Local Rank: 0, Global Rank: 324
+Node 81 has total knapsack weight: 8.164076501e+10
+Node 81 current max weight across ranks: 1000000001
+Node 82 Weights and Indices:
+  Index 67 -> Weight 994900564
+
+Node 82 Each Knapsack efficiency: 0.25
+Knapsack result for Node 82:
+  Processor Group 0: Global Index 67 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 67, Local Rank: 0, Global Rank: 328
+Node 82 has total knapsack weight: 8.263566557e+10
+Node 82 current max weight across ranks: 1000000001
+Node 83 Weights and Indices:
+  Index 83 -> Weight 995581812
+
+Node 83 Each Knapsack efficiency: 0.25
+Knapsack result for Node 83:
+  Processor Group 0: Global Index 83 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 83, Local Rank: 0, Global Rank: 332
+Node 83 has total knapsack weight: 8.363124739e+10
+Node 83 current max weight across ranks: 1000000001
+Node 84 Weights and Indices:
+  Index 70 -> Weight 995742896
+
+Node 84 Each Knapsack efficiency: 0.25
+Knapsack result for Node 84:
+  Processor Group 0: Global Index 70 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 70, Local Rank: 0, Global Rank: 336
+Node 84 has total knapsack weight: 8.462699028e+10
+Node 84 current max weight across ranks: 1000000001
+Node 85 Weights and Indices:
+  Index 86 -> Weight 995156505
+
+Node 85 Each Knapsack efficiency: 0.25
+Knapsack result for Node 85:
+  Processor Group 0: Global Index 86 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 86, Local Rank: 0, Global Rank: 340
+Node 85 has total knapsack weight: 8.562214679e+10
+Node 85 current max weight across ranks: 1000000001
+Node 86 Weights and Indices:
+  Index 71 -> Weight 991145367
+
+Node 86 Each Knapsack efficiency: 0.25
+Knapsack result for Node 86:
+  Processor Group 0: Global Index 71 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 71, Local Rank: 0, Global Rank: 344
+Node 86 has total knapsack weight: 8.661329215e+10
+Node 86 current max weight across ranks: 1000000001
+Node 87 Weights and Indices:
+  Index 87 -> Weight 996358288
+
+Node 87 Each Knapsack efficiency: 0.25
+Knapsack result for Node 87:
+  Processor Group 0: Global Index 87 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 87, Local Rank: 0, Global Rank: 348
+Node 87 has total knapsack weight: 8.760965044e+10
+Node 87 current max weight across ranks: 1000000001
+Node 88 Weights and Indices:
+  Index 98 -> Weight 993783554
+
+Node 88 Each Knapsack efficiency: 0.25
+Knapsack result for Node 88:
+  Processor Group 0: Global Index 98 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 98, Local Rank: 0, Global Rank: 352
+Node 88 has total knapsack weight: 8.8603434e+10
+Node 88 current max weight across ranks: 1000000001
+Node 89 Weights and Indices:
+  Index 114 -> Weight 990757699
+
+Node 89 Each Knapsack efficiency: 0.25
+Knapsack result for Node 89:
+  Processor Group 0: Global Index 114 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 114, Local Rank: 0, Global Rank: 356
+Node 89 has total knapsack weight: 8.95941917e+10
+Node 89 current max weight across ranks: 1000000001
+Node 90 Weights and Indices:
+  Index 99 -> Weight 992073559
+
+Node 90 Each Knapsack efficiency: 0.25
+Knapsack result for Node 90:
+  Processor Group 0: Global Index 99 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 99, Local Rank: 0, Global Rank: 360
+Node 90 has total knapsack weight: 9.058626525e+10
+Node 90 current max weight across ranks: 1000000001
+Node 91 Weights and Indices:
+  Index 115 -> Weight 994428740
+
+Node 91 Each Knapsack efficiency: 0.25
+Knapsack result for Node 91:
+  Processor Group 0: Global Index 115 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 115, Local Rank: 0, Global Rank: 364
+Node 91 has total knapsack weight: 9.158069399e+10
+Node 91 current max weight across ranks: 1000000001
+Node 92 Weights and Indices:
+  Index 102 -> Weight 995343403
+
+Node 92 Each Knapsack efficiency: 0.25
+Knapsack result for Node 92:
+  Processor Group 0: Global Index 102 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 102, Local Rank: 0, Global Rank: 368
+Node 92 has total knapsack weight: 9.25760374e+10
+Node 92 current max weight across ranks: 1000000001
+Node 93 Weights and Indices:
+  Index 118 -> Weight 997456556
+
+Node 93 Each Knapsack efficiency: 0.25
+Knapsack result for Node 93:
+  Processor Group 0: Global Index 118 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 118, Local Rank: 0, Global Rank: 372
+Node 93 has total knapsack weight: 9.357349395e+10
+Node 93 current max weight across ranks: 1000000001
+Node 94 Weights and Indices:
+  Index 103 -> Weight 998735997
+
+Node 94 Each Knapsack efficiency: 0.25
+Knapsack result for Node 94:
+  Processor Group 0: Global Index 103 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 103, Local Rank: 0, Global Rank: 376
+Node 94 has total knapsack weight: 9.457222995e+10
+Node 94 current max weight across ranks: 1000000001
+Node 95 Weights and Indices:
+  Index 119 -> Weight 999460433
+
+Node 95 Each Knapsack efficiency: 0.25
+Knapsack result for Node 95:
+  Processor Group 0: Global Index 119 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 119, Local Rank: 0, Global Rank: 380
+Node 95 has total knapsack weight: 9.557169038e+10
+Node 95 current max weight across ranks: 1000000001
+Node 96 Weights and Indices:
+  Index 72 -> Weight 993743444
+
+Node 96 Each Knapsack efficiency: 0.25
+Knapsack result for Node 96:
+  Processor Group 0: Global Index 72 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 72, Local Rank: 0, Global Rank: 384
+Node 96 has total knapsack weight: 9.656543383e+10
+Node 96 current max weight across ranks: 1000000001
+Node 97 Weights and Indices:
+  Index 88 -> Weight 998085704
+
+Node 97 Each Knapsack efficiency: 0.25
+Knapsack result for Node 97:
+  Processor Group 0: Global Index 88 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 88, Local Rank: 0, Global Rank: 388
+Node 97 has total knapsack weight: 9.756351953e+10
+Node 97 current max weight across ranks: 1000000001
+Node 98 Weights and Indices:
+  Index 73 -> Weight 994816609
+
+Node 98 Each Knapsack efficiency: 0.25
+Knapsack result for Node 98:
+  Processor Group 0: Global Index 73 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 73, Local Rank: 0, Global Rank: 392
+Node 98 has total knapsack weight: 9.855833614e+10
+Node 98 current max weight across ranks: 1000000001
+Node 99 Weights and Indices:
+  Index 89 -> Weight 996433994
+
+Node 99 Each Knapsack efficiency: 0.25
+Knapsack result for Node 99:
+  Processor Group 0: Global Index 89 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 89, Local Rank: 0, Global Rank: 396
+Node 99 has total knapsack weight: 9.955477013e+10
+Node 99 current max weight across ranks: 1000000001
+Node 100 Weights and Indices:
+  Index 76 -> Weight 994987353
+
+Node 100 Each Knapsack efficiency: 0.25
+Knapsack result for Node 100:
+  Processor Group 0: Global Index 76 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 76, Local Rank: 0, Global Rank: 400
+Node 100 has total knapsack weight: 1.005497575e+11
+Node 100 current max weight across ranks: 1000000001
+Node 101 Weights and Indices:
+  Index 92 -> Weight 994491809
+
+Node 101 Each Knapsack efficiency: 0.25
+Knapsack result for Node 101:
+  Processor Group 0: Global Index 92 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 92, Local Rank: 0, Global Rank: 404
+Node 101 has total knapsack weight: 1.015442493e+11
+Node 101 current max weight across ranks: 1000000001
+Node 102 Weights and Indices:
+  Index 77 -> Weight 997771315
+
+Node 102 Each Knapsack efficiency: 0.25
+Knapsack result for Node 102:
+  Processor Group 0: Global Index 77 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 77, Local Rank: 0, Global Rank: 408
+Node 102 has total knapsack weight: 1.025420206e+11
+Node 102 current max weight across ranks: 1000000001
+Node 103 Weights and Indices:
+  Index 93 -> Weight 992851839
+
+Node 103 Each Knapsack efficiency: 0.25
+Knapsack result for Node 103:
+  Processor Group 0: Global Index 93 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 93, Local Rank: 0, Global Rank: 412
+Node 103 has total knapsack weight: 1.035348724e+11
+Node 103 current max weight across ranks: 1000000001
+Node 104 Weights and Indices:
+  Index 104 -> Weight 996036278
+
+Node 104 Each Knapsack efficiency: 0.25
+Knapsack result for Node 104:
+  Processor Group 0: Global Index 104 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 104, Local Rank: 0, Global Rank: 416
+Node 104 has total knapsack weight: 1.045309087e+11
+Node 104 current max weight across ranks: 1000000001
+Node 105 Weights and Indices:
+  Index 120 -> Weight 997293698
+
+Node 105 Each Knapsack efficiency: 0.25
+Knapsack result for Node 105:
+  Processor Group 0: Global Index 120 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 120, Local Rank: 0, Global Rank: 420
+Node 105 has total knapsack weight: 1.055282024e+11
+Node 105 current max weight across ranks: 1000000001
+Node 106 Weights and Indices:
+  Index 105 -> Weight 997277920
+
+Node 106 Each Knapsack efficiency: 0.25
+Knapsack result for Node 106:
+  Processor Group 0: Global Index 105 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 105, Local Rank: 0, Global Rank: 424
+Node 106 has total knapsack weight: 1.065254803e+11
+Node 106 current max weight across ranks: 1000000001
+Node 107 Weights and Indices:
+  Index 121 -> Weight 998841408
+
+Node 107 Each Knapsack efficiency: 0.25
+Knapsack result for Node 107:
+  Processor Group 0: Global Index 121 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 121, Local Rank: 0, Global Rank: 428
+Node 107 has total knapsack weight: 1.075243218e+11
+Node 107 current max weight across ranks: 1000000001
+Node 108 Weights and Indices:
+  Index 108 -> Weight 994385994
+
+Node 108 Each Knapsack efficiency: 0.25
+Knapsack result for Node 108:
+  Processor Group 0: Global Index 108 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 108, Local Rank: 0, Global Rank: 432
+Node 108 has total knapsack weight: 1.085187077e+11
+Node 108 current max weight across ranks: 1000000001
+Node 109 Weights and Indices:
+  Index 124 -> Weight 997885838
+
+Node 109 Each Knapsack efficiency: 0.25
+Knapsack result for Node 109:
+  Processor Group 0: Global Index 124 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 124, Local Rank: 0, Global Rank: 436
+Node 109 has total knapsack weight: 1.095165936e+11
+Node 109 current max weight across ranks: 1000000001
+Node 110 Weights and Indices:
+  Index 109 -> Weight 996136933
+
+Node 110 Each Knapsack efficiency: 0.25
+Knapsack result for Node 110:
+  Processor Group 0: Global Index 109 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 109, Local Rank: 0, Global Rank: 440
+Node 110 has total knapsack weight: 1.105127305e+11
+Node 110 current max weight across ranks: 1000000001
+Node 111 Weights and Indices:
+  Index 125 -> Weight 992856444
+
+Node 111 Each Knapsack efficiency: 0.25
+Knapsack result for Node 111:
+  Processor Group 0: Global Index 125 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 125, Local Rank: 0, Global Rank: 444
+Node 111 has total knapsack weight: 1.11505587e+11
+Node 111 current max weight across ranks: 1000000001
+Node 112 Weights and Indices:
+  Index 74 -> Weight 997817087
+
+Node 112 Each Knapsack efficiency: 0.25
+Knapsack result for Node 112:
+  Processor Group 0: Global Index 74 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 74, Local Rank: 0, Global Rank: 448
+Node 112 has total knapsack weight: 1.12503404e+11
+Node 112 current max weight across ranks: 1000000001
+Node 113 Weights and Indices:
+  Index 90 -> Weight 996543768
+
+Node 113 Each Knapsack efficiency: 0.25
+Knapsack result for Node 113:
+  Processor Group 0: Global Index 90 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 90, Local Rank: 0, Global Rank: 452
+Node 113 has total knapsack weight: 1.134999478e+11
+Node 113 current max weight across ranks: 1000000001
+Node 114 Weights and Indices:
+  Index 75 -> Weight 998480517
+
+Node 114 Each Knapsack efficiency: 0.25
+Knapsack result for Node 114:
+  Processor Group 0: Global Index 75 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 75, Local Rank: 0, Global Rank: 456
+Node 114 has total knapsack weight: 1.144984283e+11
+Node 114 current max weight across ranks: 1000000001
+Node 115 Weights and Indices:
+  Index 91 -> Weight 999779384
+
+Node 115 Each Knapsack efficiency: 0.25
+Knapsack result for Node 115:
+  Processor Group 0: Global Index 91 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 91, Local Rank: 0, Global Rank: 460
+Node 115 has total knapsack weight: 1.154982077e+11
+Node 115 current max weight across ranks: 1000000001
+Node 116 Weights and Indices:
+  Index 78 -> Weight 996621538
+
+Node 116 Each Knapsack efficiency: 0.25
+Knapsack result for Node 116:
+  Processor Group 0: Global Index 78 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 78, Local Rank: 0, Global Rank: 464
+Node 116 has total knapsack weight: 1.164948293e+11
+Node 116 current max weight across ranks: 1000000001
+Node 117 Weights and Indices:
+  Index 94 -> Weight 995949475
+
+Node 117 Each Knapsack efficiency: 0.25
+Knapsack result for Node 117:
+  Processor Group 0: Global Index 94 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 94, Local Rank: 0, Global Rank: 468
+Node 117 has total knapsack weight: 1.174907787e+11
+Node 117 current max weight across ranks: 1000000001
+Node 118 Weights and Indices:
+  Index 79 -> Weight 991982191
+
+Node 118 Each Knapsack efficiency: 0.25
+Knapsack result for Node 118:
+  Processor Group 0: Global Index 79 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 79, Local Rank: 0, Global Rank: 472
+Node 118 has total knapsack weight: 1.184827609e+11
+Node 118 current max weight across ranks: 1000000001
+Node 119 Weights and Indices:
+  Index 95 -> Weight 993764287
+
+Node 119 Each Knapsack efficiency: 0.25
+Knapsack result for Node 119:
+  Processor Group 0: Global Index 95 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 95, Local Rank: 0, Global Rank: 476
+Node 119 has total knapsack weight: 1.194765252e+11
+Node 119 current max weight across ranks: 1000000001
+Node 120 Weights and Indices:
+  Index 106 -> Weight 998364137
+
+Node 120 Each Knapsack efficiency: 0.25
+Knapsack result for Node 120:
+  Processor Group 0: Global Index 106 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 106, Local Rank: 0, Global Rank: 480
+Node 120 has total knapsack weight: 1.204748893e+11
+Node 120 current max weight across ranks: 1000000001
+Node 121 Weights and Indices:
+  Index 122 -> Weight 998967882
+
+Node 121 Each Knapsack efficiency: 0.25
+Knapsack result for Node 121:
+  Processor Group 0: Global Index 122 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 122, Local Rank: 0, Global Rank: 484
+Node 121 has total knapsack weight: 1.214738572e+11
+Node 121 current max weight across ranks: 1000000001
+Node 122 Weights and Indices:
+  Index 107 -> Weight 995378506
+
+Node 122 Each Knapsack efficiency: 0.25
+Knapsack result for Node 122:
+  Processor Group 0: Global Index 107 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 107, Local Rank: 0, Global Rank: 488
+Node 122 has total knapsack weight: 1.224692357e+11
+Node 122 current max weight across ranks: 1000000001
+Node 123 Weights and Indices:
+  Index 123 -> Weight 991556939
+
+Node 123 Each Knapsack efficiency: 0.25
+Knapsack result for Node 123:
+  Processor Group 0: Global Index 123 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 123, Local Rank: 0, Global Rank: 492
+Node 123 has total knapsack weight: 1.234607927e+11
+Node 123 current max weight across ranks: 1000000001
+Node 124 Weights and Indices:
+  Index 110 -> Weight 996984182
+
+Node 124 Each Knapsack efficiency: 0.25
+Knapsack result for Node 124:
+  Processor Group 0: Global Index 110 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 110, Local Rank: 0, Global Rank: 496
+Node 124 has total knapsack weight: 1.244577769e+11
+Node 124 current max weight across ranks: 1000000001
+Node 125 Weights and Indices:
+  Index 126 -> Weight 996036507
+
+Node 125 Each Knapsack efficiency: 0.25
+Knapsack result for Node 125:
+  Processor Group 0: Global Index 126 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 126, Local Rank: 0, Global Rank: 500
+Node 125 has total knapsack weight: 1.254538134e+11
+Node 125 current max weight across ranks: 1000000001
+Node 126 Weights and Indices:
+  Index 111 -> Weight 997518877
+
+Node 126 Each Knapsack efficiency: 0.25
+Knapsack result for Node 126:
+  Processor Group 0: Global Index 111 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 111, Local Rank: 0, Global Rank: 504
+Node 126 has total knapsack weight: 1.264513322e+11
+Node 126 current max weight across ranks: 1000000001
+Node 127 Weights and Indices:
+  Index 127 -> Weight 994929156
+
+Node 127 Each Knapsack efficiency: 0.25
+Knapsack result for Node 127:
+  Processor Group 0: Global Index 127 (Local Weight Index 0), 
+  Processor Group 1: 
+  Processor Group 2: 
+  Processor Group 3: 
+
+Global Index: 127, Local Rank: 0, Global Rank: 508
+Node 127 has total knapsack weight: 1.274462614e+11
+Node 127 current max weight across ranks: 1000000001
+Printing final result
+0,8,64,72,16,24,80,88,128,136,192,200,144,152,208,216,4,12,68,76,20,28,84,92,132,140,196,204,148,156,212,220,32,40,96,104,48,56,112,120,160,168,224,232,176,184,240,248,36,44,100,108,52,60,116,124,164,172,228,236,180,188,244,252,256,264,320,328,272,280,336,344,384,392,448,456,400,408,464,472,260,268,324,332,276,284,340,348,388,396,452,460,404,412,468,476,288,296,352,360,304,312,368,376,416,424,480,488,432,440,496,504,292,300,356,364,308,316,372,380,420,428,484,492,436,444,500,508,
+
+SFC efficiency for combined algorithm: 0.9956739162
+SFC+Knapsack combined efficiency: 0.248918479
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.6382 ... 0.6382 ... 0.6382
+
+------------------------------------------------------------------------------
+Name                           NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+------------------------------------------------------------------------------
+SFCProcessorMapDoItCombined()       1     0.4404     0.4404     0.4404  69.01%
+Distribute()                        2    0.08256    0.08256    0.08256  12.94%
+KnapSackDoIt()                      1     0.0488     0.0488     0.0488   7.65%
+main                                1    0.04401    0.04401    0.04401   6.90%
+SFCProcessorMapDoIt()               1    0.02224    0.02224    0.02224   3.49%
+knapsack()                        129  0.0001456  0.0001456  0.0001456   0.02%
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Name                           NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+------------------------------------------------------------------------------
+main                                1     0.6381     0.6381     0.6381 100.00%
+SFCProcessorMapDoItCombined()       1      0.523      0.523      0.523  81.96%
+Distribute()                        2    0.08256    0.08256    0.08256  12.94%
+KnapSackDoIt()                      1    0.04884    0.04884    0.04884   7.65%
+SFCProcessorMapDoIt()               1    0.02225    0.02225    0.02225   3.49%
+knapsack()                        129  0.0001456  0.0001456  0.0001456   0.02%
+------------------------------------------------------------------------------
+
+Pinned Memory Usage:
+---------------------------------------------------------------
+Name                            Nalloc  Nfree  AvgMem    MaxMem
+---------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  12 KiB  8192 KiB
+---------------------------------------------------------------
+
+AMReX (24.07-16-gdcb9cc0383dc) finalized

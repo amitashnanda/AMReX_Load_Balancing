@@ -6,7 +6,17 @@ nghost = (1, 0, 0)
 periodicity = (0, 0, 0)
 nnodes = 2
 ranks_per_node = 4 
+mean = 100000
+stdev = 4523
+
+#stdev = 25231
+
+#stdev = 250
+
+nruns = 2
+
 tiny_profiler.print_threshold = 0
+
 
 amrex.v = 1
 #DistributionMapping.verbose_mapper=1
