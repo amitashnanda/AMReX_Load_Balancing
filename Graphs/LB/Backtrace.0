@@ -1,4 +1,4 @@
-Host Name: nid004194
+Host Name: nid004252
 === If no file names and line numbers are shown below, one can run
             addr2line -Cpfie my_exefile my_line_address
     to convert `my_line_address` (e.g., 0x4a6b) into file name and line number.
@@ -9,39 +9,53 @@ Host Name: nid004194
             readelf -wl my_exefile | grep my_line_address'
     to find out the offset for that line.
 
- 0: ./main3d.gnu.x86-milan.TPROF.ex() [0x5ed2bc]
+ 0: ./main3d.gnu.x86-milan.TPROF.ex() [0x5ea54c]
     _ZN5amrex11BLBackTrace20print_backtrace_infoEP8_IO_FILE inlined at ../../../amrex/Src/Base/AMReX_BLBackTrace.cpp:98:42 in _ZN5amrex11BLBackTrace7handlerEi
 ../../../amrex/Src/Base/AMReX_BLBackTrace.cpp:200:36
 _ZN5amrex11BLBackTrace7handlerEi
 ../../../amrex/Src/Base/AMReX_BLBackTrace.cpp:98:42
 
- 1: ./main3d.gnu.x86-milan.TPROF.ex() [0x468739]
-    _ZN5amrex5AbortEPKc inlined at ../../../amrex/Src/Base/AMReX_ParmParse.cpp:870:21 in _ZN5amrex12_GLOBAL__N_112_GLOBAL__N_19squeryvalIdEEbRKNSt7__cxx114listINS_9ParmParse8PP_entryESaIS6_EEERKNS3_12basic_stringIcSt11char_traitsIcESaIcEEERT_ii
-../../../amrex/Src/Base/AMReX.H:160:5
-squeryval<double>
-../../../amrex/Src/Base/AMReX_ParmParse.cpp:870:21
+ 1: /lib64/libc.so.6(+0x4adc0) [0x7f0fa642ddc0]
 
- 2: ./main3d.gnu.x86-milan.TPROF.ex() [0x4689b3]
-    sgetval<double> inlined at ../../../amrex/Src/Base/AMReX_ParmParse.cpp:1698:12 in _ZNK5amrex9ParmParse3getEPKcRdi
-../../../amrex/Src/Base/AMReX_ParmParse.cpp:883:5
-_ZNK5amrex9ParmParse3getEPKcRdi
-../../../amrex/Src/Base/AMReX_ParmParse.cpp:1698:12
+ 2: /lib64/libc.so.6(__write+0x15) [0x7f0fa64ea173]
 
- 3: ./main3d.gnu.x86-milan.TPROF.ex() [0x41c86d]
-    _Z9main_mainv
-/global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/main.cpp:61:9
+ 3: /lib64/libc.so.6(_IO_file_write+0x2f) [0x7f0fa6475eed]
 
- 4: ./main3d.gnu.x86-milan.TPROF.ex() [0x41992c]
+ 4: /lib64/libc.so.6(+0x9214f) [0x7f0fa647514f]
+
+ 5: /lib64/libc.so.6(_IO_do_write+0x1b) [0x7f0fa64770a9]
+
+ 6: /lib64/libc.so.6(_IO_file_sync+0xba) [0x7f0fa6474f48]
+
+ 7: /lib64/libc.so.6(fflush+0x84) [0x7f0fa6468712]
+
+ 8: /usr/lib64/libstdc++.so.6(_ZNSo5flushEv+0x48) [0x7f0fa6b39258]
+    ?? ??:0
+
+ 9: ./main3d.gnu.x86-milan.TPROF.ex() [0x45813c]
+    _ZN5amrex5PrintD4Ev inlined at /global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/painterPartition.cpp:181:20 in _Z16painterPartitionSt6vectorIlSaIlEEi
+../../../amrex/Src/Base/AMReX_Print.H:80:25
+_Z16painterPartitionSt6vectorIlSaIlEEi
+/global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/painterPartition.cpp:181:20
+
+10: ./main3d.gnu.x86-milan.TPROF.ex() [0x41e565]
+    _ZNSt6vectorIlSaIlEED4Ev inlined at /global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/main.cpp:131:76 in _Z9main_mainv
+/usr/include/c++/12/bits/stl_vector.h:730:15
+_Z9main_mainv
+/global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/main.cpp:131:76
+
+11: ./main3d.gnu.x86-milan.TPROF.ex() [0x41972c]
     main
 /global/homes/a/ananda/load_balancing/AMReX_Load_Balancing/Graphs/LB/main.cpp:36:20
 
- 5: /lib64/libc.so.6(__libc_start_main+0xef) [0x7f361e61824d]
+12: /lib64/libc.so.6(__libc_start_main+0xef) [0x7f0fa641824d]
 
- 6: ./main3d.gnu.x86-milan.TPROF.ex() [0x41c58a]
+13: ./main3d.gnu.x86-milan.TPROF.ex() [0x41c38a]
     _start
 ../sysdeps/x86_64/start.S:122
 
 
 ===== TinyProfilers ======
 main
+painterPartition()
 

@@ -108,17 +108,17 @@ Distribute (const std::vector<SFCToken>&     tokens,
 {
     BL_PROFILE("Distribute()");
 
-    if (flag_verbose_mapper) {
-        amrex::Print() << "Distribute:" << std::endl;
-        amrex::Print() << "  volpercpu: " << volpercpu << std::endl;
-        amrex::Print() << "  Sorted SFC Tokens:" << std::endl;
-        int idx = 0;
-        for (const auto &t : tokens) {
-            amrex::Print() << "    " << idx++ << ": "
-                           << t.m_box << ": "
-                           << t.m_morton << std::endl;
-        }
-    }
+    // if (flag_verbose_mapper) {
+    //     amrex::Print() << "Distribute:" << std::endl;
+    //     amrex::Print() << "  volpercpu: " << volpercpu << std::endl;
+    //     amrex::Print() << "  Sorted SFC Tokens:" << std::endl;
+    //     int idx = 0;
+    //     for (const auto &t : tokens) {
+    //         amrex::Print() << "    " << idx++ << ": "
+    //                        << t.m_box << ": "
+    //                        << t.m_morton << std::endl;
+    //     }
+    // }
 
     BL_ASSERT(static_cast<int>(v.size()) == nprocs);
 
@@ -152,25 +152,25 @@ Distribute (const std::vector<SFCToken>&     tokens,
         }
     }
 
-    if (flag_verbose_mapper) {
-        amrex::Print() << "Distributed SFC Tokens:" << std::endl;
-        int idx = 0;
-        for (int i = 0; i < nprocs; ++i) {
-            amrex::Print() << "  Rank/Team " << i << ":" << std::endl;
-            amrex::Real rank_vol = 0;
-            for (const auto &box : v[i]) {
-                amrex::ignore_unused(box);
-                const auto &t = tokens[idx];
-                BL_ASSERT(box == t.m_box);
-                amrex::Print() << "    " << idx << ": "
-                               << t.m_box << ": "
-                               << t.m_morton << std::endl;
-                rank_vol += wgts[t.m_box];
-                idx++;
-            }
-            amrex::Print() << "    Total Rank Vol: " << rank_vol << std::endl;
-        }
-    }
+    // if (flag_verbose_mapper) {
+    //     amrex::Print() << "Distributed SFC Tokens:" << std::endl;
+    //     int idx = 0;
+    //     for (int i = 0; i < nprocs; ++i) {
+    //         amrex::Print() << "  Rank/Team " << i << ":" << std::endl;
+    //         amrex::Real rank_vol = 0;
+    //         for (const auto &box : v[i]) {
+    //             amrex::ignore_unused(box);
+    //             const auto &t = tokens[idx];
+    //             BL_ASSERT(box == t.m_box);
+    //             amrex::Print() << "    " << idx << ": "
+    //                            << t.m_box << ": "
+    //                            << t.m_morton << std::endl;
+    //             rank_vol += wgts[t.m_box];
+    //             idx++;
+    //         }
+    //         amrex::Print() << "    Total Rank Vol: " << rank_vol << std::endl;
+    //     }
+    // }
 
 #ifdef AMREX_DEBUG
     int cnt = 0;

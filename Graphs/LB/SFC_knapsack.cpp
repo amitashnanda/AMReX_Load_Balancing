@@ -95,21 +95,36 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     // }
     // amrex::Print()<<"\n\n";  
 
-    amrex::Print() << "SFC Distribution Map (Node -> Boxes):\n";
+    ///// Commented Out ////////
 
-    for (int i = 0; i < vec.size(); ++i)
-    {
-        amrex::Print() << "Node " << i << ": ";
-        for (int j = 0; j < vec[i].size(); ++j)
-        {
-            amrex::Print() << vec[i][j];
-            if (j < vec[i].size() - 1) {
-                amrex::Print() << ", ";  
-            }
-        }
-        amrex::Print() << "\n";
-    }
-    amrex::Print() << "\n";
+
+
+
+
+    // amrex::Print() << "SFC Distribution Map (Node -> Boxes):\n";
+
+
+
+    // for (int i = 0; i < vec.size(); ++i)
+    // {
+    //     amrex::Print() << "Node " << i << ": ";
+    //     for (int j = 0; j < vec[i].size(); ++j)
+    //     {
+    //         amrex::Print() << vec[i][j];
+    //         if (j < vec[i].size() - 1) {
+    //             amrex::Print() << ", ";  
+    //         }
+    //     }
+    //     amrex::Print() << "\n";
+    // }
+    // amrex::Print() << "\n";
+
+
+
+
+
+
+    ///// Commented Out ////////
 
 /////
 
@@ -179,11 +194,19 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
         /// Print local weights and indices for debugging
 
-        amrex::Print() << "Node " << i << " Weights and Indices:\n";
-        for (int j = 0; j < Nbx; ++j) {
-            amrex::Print() << "  Index " << local_indices[j] << " -> Weight " << local_wgts[j] << "\n";
-        }
-        amrex::Print() << "\n";
+
+
+
+
+        // amrex::Print() << "Node " << i << " Weights and Indices:\n";
+        // for (int j = 0; j < Nbx; ++j) {
+        //     amrex::Print() << "  Index " << local_indices[j] << " -> Weight " << local_wgts[j] << "\n";
+        // }
+        // amrex::Print() << "\n";
+
+
+
+
 
         // The Knapsack algorithm is run on the smaller weight vector.
 
@@ -224,16 +247,23 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
         /// Print the knapsack result with corresponding global indices for each node
 
-        amrex::Print() << "Knapsack result for Node " << i << ":\n";
-        for (int j = 0; j < knapsack_result.size(); ++j) {
-            amrex::Print() << "  Processor Group " << j << ": ";
-            for (int k = 0; k < knapsack_result[j].size(); ++k) {
-                int global_idx = local_indices[knapsack_result[j][k]];
-                amrex::Print() << "Global Index " << global_idx << " (Local Weight Index " << knapsack_result[j][k] << "), ";
-            }
-            amrex::Print() << "\n";
-        }
-        amrex::Print() << "\n";
+
+
+
+        // amrex::Print() << "Knapsack result for Node " << i << ":\n";
+        // for (int j = 0; j < knapsack_result.size(); ++j) {
+        //     amrex::Print() << "  Processor Group " << j << ": ";
+        //     for (int k = 0; k < knapsack_result[j].size(); ++k) {
+        //         int global_idx = local_indices[knapsack_result[j][k]];
+        //         amrex::Print() << "Global Index " << global_idx << " (Local Weight Index " << knapsack_result[j][k] << "), ";
+        //     }
+        //     amrex::Print() << "\n";
+        // }
+        // amrex::Print() << "\n";
+
+
+
+
 
         ///
 
@@ -260,8 +290,8 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
                 local_knapsack_wgt += wgts[global_idx];
                 int global_rank = (tid * ranks_per_node) + j;
                 result[global_idx] = global_rank;
-                amrex::Print() << "Global Index: " << global_idx << ", Local Rank: " << j
-               << ", Global Rank: " << global_rank << "\n";
+            //     amrex::Print() << "Global Index: " << global_idx << ", Local Rank: " << j
+            //    << ", Global Rank: " << global_rank << "\n";
             }
 
             // Update total and max weights after knapsack redistribution
@@ -275,8 +305,8 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
         //Print local results after each node's knapsack run
 
-        amrex::Print() << "Node " << i << " has total knapsack weight: " << total_weight_knapsack << "\n";
-        amrex::Print() << "Node " << i << " current max weight across ranks: " << max_weight_knapsack_across_ranks << "\n";
+        // amrex::Print() << "Node " << i << " has total knapsack weight: " << total_weight_knapsack << "\n";
+        // amrex::Print() << "Node " << i << " current max weight across ranks: " << max_weight_knapsack_across_ranks << "\n";
 
 
     }
@@ -286,14 +316,14 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
     
 
-    amrex::Print()<<"Printing final result" << "\n"; 
-    for (int i = 0; i < result.size(); ++i)
-    {
+    // amrex::Print()<<"Printing final result" << "\n"; 
+    // for (int i = 0; i < result.size(); ++i)
+    // {
                 
-        amrex::Print()<<result[i] << "," ;
-    }
+    //     amrex::Print()<<result[i] << "," ;
+    // }
 
-     amrex::Print()<<"\n\n"; 
+    //  amrex::Print()<<"\n\n"; 
              
 
 //// Ensure all boxes have been assigned

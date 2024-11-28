@@ -99,6 +99,10 @@ void main_main() {
 
 for (int r = 0; r<nruns; r++) {
 
+    amrex::Print() << "\n=== Starting Run " << r + 1 << " ===\n";
+
+    amrex::ResetRandomSeed(rand());
+
 
     for (int i = 0; i < nitems; ++i) {
         wgts[i] = amrex::RandomNormal(mean, stdev);
@@ -118,19 +122,22 @@ for (int r = 0; r<nruns; r++) {
 
     time_start = amrex::second();
     std::vector<int> k_dmap = KnapSackDoIt(scaled_wgts, nnodes, k_eff, true, nmax, true, false, bytes);
-    amrex::Print()<<" Final Knapsack time" << amrex::second() - time_start << std::endl;
+    amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << std::endl;
 
     time_start = amrex::second();
     std::vector<int> s_dmap = SFCProcessorMapDoIt(ba, scaled_wgts, nnodes, &s_eff, node_size, true, false, bytes);
-    amrex::Print()<<" Final SFC time" << amrex::second() - time_start << std::endl;
+    amrex::Print()<<" Final SFC time: " << amrex::second() - time_start << std::endl;
 
     time_start = amrex::second();
-    std::vector< std::vector<int> > vec=painterPartition(scaled_wgts,nnodes);
-    amrex::Print()<<" Final Painter time" << amrex::second() - time_start << std::endl;
+    std::vector<int> vec=painterPartition(ba,scaled_wgts,nnodes);
+    amrex::Print()<<" Final SFC+Painter time: " << amrex::second() - time_start << std::endl;
 
     time_start = amrex::second();
     std::vector<int> sfc_knapsack_dmap = SFCProcessorMapDoItCombined(ba, scaled_wgts, nnodes, ranks_per_node, &sfc_eff, &knapsack_eff, true, false, bytes);
-    amrex::Print()<<" Final SFC+Knapsack_Combined time" << amrex::second() - time_start << std::endl;
+    amrex::Print()<<" Final SFC+Knapsack_Combined time: " << amrex::second() - time_start << std::endl;
+
+    amrex::Print() << "\n=== End of Run " << r + 1 << " ===\n";
+    amrex::Print() << "======================================\n\n";
 
 }
 

@@ -1,0 +1,195 @@
+Initializing AMReX (24.07-16-gdcb9cc0383dc)...
+AMReX (24.07-16-gdcb9cc0383dc) initialized
+Number of nodes: 4
+Number of boxes: 16
+Ranks per node: 4
+99831.72341 , 99955.48717 , 100077.4582 , 99759.16275 , 99651.68093 , 99959.2569 , 100293.687 , 99772.342 , 100316.4621 , 99632.50398 , 100001.7967 , 100023.5593 , 100030.0549 , 100006.7781 , 100126.6116 , 100359.806 ,  Scaled Weights: 994738107 , 995971308 , 997186645 , 994015102 , 992944137 , 996008870 , 999341181 , 994146422 , 999568115 , 992753055 , 996432742 , 996649588 , 996714312 , 996482378 , 997676417 , 1000000001 , DM: KnapSackDoIt called...
+
+
+
+
+  Bucket 0 total weight: 3985366908
+  Bucket 1 total weight: 3985310906
+  Bucket 2 total weight: 3985008500
+  Bucket 3 total weight: 3984942066
+Only KNAPSACK  efficiency: 0.9999473542
+test......: 
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (4, 4, 1)
+  Bucket 0 contains 3979662422
+  Bucket 1 contains 3984689350
+  Bucket 2 contains 3985517860
+  Bucket 3 contains 3990758748
+Only SFC efficiency: 0.9985963439
+test......: 
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (4, 4, 4)
+Distribute:
+  volpercpu: 3985157095
+  Sorted SFC Tokens:
+    0: 0: (0,0,939524096)
+    1: 4: (1048576,0,939524096)
+    2: 1: (2097152,0,939524096)
+    3: 5: (3145728,0,939524096)
+    4: 2: (4194304,0,939524096)
+    5: 6: (5242880,0,939524096)
+    6: 3: (6291456,0,939524096)
+    7: 7: (7340032,0,939524096)
+    8: 8: (8388608,0,939524096)
+    9: 12: (9437184,0,939524096)
+    10: 9: (10485760,0,939524096)
+    11: 13: (11534336,0,939524096)
+    12: 10: (12582912,0,939524096)
+    13: 14: (13631488,0,939524096)
+    14: 11: (14680064,0,939524096)
+    15: 15: (15728640,0,939524096)
+Distributed SFC Tokens:
+  Rank/Team 0:
+    0: 0: (0,0,939524096)
+    1: 4: (1048576,0,939524096)
+    2: 1: (2097152,0,939524096)
+    3: 5: (3145728,0,939524096)
+    Total Rank Vol: 3979662422
+  Rank/Team 1:
+    4: 2: (4194304,0,939524096)
+    5: 6: (5242880,0,939524096)
+    6: 3: (6291456,0,939524096)
+    7: 7: (7340032,0,939524096)
+    Total Rank Vol: 3984689350
+  Rank/Team 2:
+    8: 8: (8388608,0,939524096)
+    9: 12: (9437184,0,939524096)
+    10: 9: (10485760,0,939524096)
+    11: 13: (11534336,0,939524096)
+    Total Rank Vol: 3985517860
+  Rank/Team 3:
+    12: 10: (12582912,0,939524096)
+    13: 14: (13631488,0,939524096)
+    14: 11: (14680064,0,939524096)
+    15: 15: (15728640,0,939524096)
+    Total Rank Vol: 3990758748
+SFC Distribution Map (Node -> Boxes):
+Node 0: 0, 4, 1, 5
+Node 1: 2, 6, 3, 7
+Node 2: 8, 12, 9, 13
+Node 3: 10, 14, 11, 15
+
+  Bucket 0 contains 3979662422
+  Bucket 1 contains 3984689350
+  Bucket 2 contains 3985517860
+  Bucket 3 contains 3990758748
+Node 0 Weights and Indices:
+  Index 0 -> Weight 994738107
+  Index 4 -> Weight 992944137
+  Index 1 -> Weight 995971308
+  Index 5 -> Weight 996008870
+
+Node 0 Each Knapsack efficiency: 0.9989023547
+Knapsack result for Node 0:
+  Processor Group 0: Global Index 5 (Local Weight Index 3), 
+  Processor Group 1: Global Index 1 (Local Weight Index 2), 
+  Processor Group 2: Global Index 0 (Local Weight Index 0), 
+  Processor Group 3: Global Index 4 (Local Weight Index 1), 
+
+Global Index: 5, Local Rank: 0, Global Rank: 0
+Global Index: 1, Local Rank: 1, Global Rank: 1
+Global Index: 0, Local Rank: 2, Global Rank: 2
+Global Index: 4, Local Rank: 3, Global Rank: 3
+Node 0 has total knapsack weight: 3979662422
+Node 0 current max weight across ranks: 996008870
+Node 1 Weights and Indices:
+  Index 2 -> Weight 997186645
+  Index 6 -> Weight 999341181
+  Index 3 -> Weight 994015102
+  Index 7 -> Weight 994146422
+
+Node 1 Each Knapsack efficiency: 0.9968290674
+Knapsack result for Node 1:
+  Processor Group 0: Global Index 6 (Local Weight Index 1), 
+  Processor Group 1: Global Index 2 (Local Weight Index 0), 
+  Processor Group 2: Global Index 7 (Local Weight Index 3), 
+  Processor Group 3: Global Index 3 (Local Weight Index 2), 
+
+Global Index: 6, Local Rank: 0, Global Rank: 4
+Global Index: 2, Local Rank: 1, Global Rank: 5
+Global Index: 7, Local Rank: 2, Global Rank: 6
+Global Index: 3, Local Rank: 3, Global Rank: 7
+Node 1 has total knapsack weight: 7964351772
+Node 1 current max weight across ranks: 999341181
+Node 2 Weights and Indices:
+  Index 8 -> Weight 999568115
+  Index 12 -> Weight 996714312
+  Index 9 -> Weight 992753055
+  Index 13 -> Weight 996482378
+
+Node 2 Each Knapsack efficiency: 0.9968099723
+Knapsack result for Node 2:
+  Processor Group 0: Global Index 8 (Local Weight Index 0), 
+  Processor Group 1: Global Index 12 (Local Weight Index 1), 
+  Processor Group 2: Global Index 13 (Local Weight Index 3), 
+  Processor Group 3: Global Index 9 (Local Weight Index 2), 
+
+Global Index: 8, Local Rank: 0, Global Rank: 8
+Global Index: 12, Local Rank: 1, Global Rank: 9
+Global Index: 13, Local Rank: 2, Global Rank: 10
+Global Index: 9, Local Rank: 3, Global Rank: 11
+Node 2 has total knapsack weight: 1.194986963e+10
+Node 2 current max weight across ranks: 999568115
+Node 3 Weights and Indices:
+  Index 10 -> Weight 996432742
+  Index 14 -> Weight 997676417
+  Index 11 -> Weight 996649588
+  Index 15 -> Weight 1000000001
+
+Node 3 Each Knapsack efficiency: 0.997689686
+Knapsack result for Node 3:
+  Processor Group 0: Global Index 15 (Local Weight Index 3), 
+  Processor Group 1: Global Index 14 (Local Weight Index 1), 
+  Processor Group 2: Global Index 11 (Local Weight Index 2), 
+  Processor Group 3: Global Index 10 (Local Weight Index 0), 
+
+Global Index: 15, Local Rank: 0, Global Rank: 12
+Global Index: 14, Local Rank: 1, Global Rank: 13
+Global Index: 11, Local Rank: 2, Global Rank: 14
+Global Index: 10, Local Rank: 3, Global Rank: 15
+Node 3 has total knapsack weight: 1.594062838e+10
+Node 3 current max weight across ranks: 1000000001
+Printing final result
+2,1,5,7,3,0,4,6,8,11,15,14,9,10,13,12,
+
+SFC efficiency for combined algorithm: 0.9985963439
+SFC+Knapsack combined efficiency: 0.9962892728
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.05817 ... 0.05817 ... 0.05817
+
+------------------------------------------------------------------------------
+Name                           NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+------------------------------------------------------------------------------
+SFCProcessorMapDoItCombined()       1    0.03206    0.03206    0.03206  55.11%
+KnapSackDoIt()                      1   0.008068   0.008068   0.008068  13.87%
+Distribute()                        2   0.007306   0.007306   0.007306  12.56%
+main                                1   0.006827   0.006827   0.006827  11.74%
+SFCProcessorMapDoIt()               1   0.003886   0.003886   0.003886   6.68%
+knapsack()                          5  1.125e-05  1.125e-05  1.125e-05   0.02%
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Name                           NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+------------------------------------------------------------------------------
+main                                1    0.05816    0.05816    0.05816  99.97%
+SFCProcessorMapDoItCombined()       1    0.03937    0.03937    0.03937  67.68%
+KnapSackDoIt()                      1   0.008073   0.008073   0.008073  13.88%
+Distribute()                        2   0.007306   0.007306   0.007306  12.56%
+SFCProcessorMapDoIt()               1   0.003888   0.003888   0.003888   6.68%
+knapsack()                          5  1.125e-05  1.125e-05  1.125e-05   0.02%
+------------------------------------------------------------------------------
+
+Pinned Memory Usage:
+----------------------------------------------------------------
+Name                            Nalloc  Nfree   AvgMem    MaxMem
+----------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  125 KiB  8192 KiB
+----------------------------------------------------------------
+
+AMReX (24.07-16-gdcb9cc0383dc) finalized

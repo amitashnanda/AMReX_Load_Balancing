@@ -11,6 +11,6 @@ long  sum(vector<long> arr, int from, int to);
 // bottom up tabular dp 
 long  findMax(vector<long> arr, int n, int k); 
 bool isPartitionPossible(vector<long> arr, int n, int k, long maxTime);
-long minTime(vector<long> arr, int n, int k);
+long minWeight(vector<long> wgts, int n, int k);
 // driver function 
-vector< vector<int> > painterPartition(vector<long> arr,int k);
+vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k);
