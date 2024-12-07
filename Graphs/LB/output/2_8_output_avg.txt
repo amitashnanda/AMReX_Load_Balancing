@@ -1,0 +1,3246 @@
+Initializing AMReX (24.07-16-gdcb9cc0383dc)...
+AMReX (24.07-16-gdcb9cc0383dc) initialized
+Mean: 100000
+Stdev: 4523
+No of Run: 100
+Number of nodes: 2
+Number of boxes: 16
+Ranks per node: 4
+
+=== Starting Run 1 ===
+100915.2229 , 101626.6681 , 99389.7998 , 108123.4317 , 101679.6924 , 106880.1123 , 104566.7457 , 104160.9979 , 94184.11612 , 103353.6437 , 107155.1144 , 93984.59503 , 99924.08038 , 98100.84618 , 100995.2294 , 97121.01879 ,  Scaled Weights: 933333519 , 939913454 , 919225355 , 1000000001 , 940403859 , 988500926 , 967105317 , 963352683 , 871079605 , 955885714 , 991044335 , 869234297 , 924166750 , 907304224 , 934073474 , 898242105 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7504441824
+  Bucket 1 total weight: 7498423794
+Only KNAPSACK  efficiency: 0.9995990355
+test......: 
+ Final Knapsack time: 0.000248213
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6688482431
+  Bucket 1 contains 8314383187
+Only SFC efficiency: 0.9022236094
+test......: 
+ Final SFC time: 0.000201446
+SFC+painterPartition efficiency: 0.9803442831
+ Final SFC+Painter time: 3.4865e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6688482431
+  Bucket 1 contains 8314383187
+Node 0 Each Knapsack efficiency: 0.8764992255
+Node 1 Each Knapsack efficiency: 0.7850814195
+SFC efficiency for combined algorithm: 0.9022236094
+SFC+Knapsack combined efficiency: 0.708318992
+ Final SFC+Knapsack_Combined time: 0.000232454
+
+=== End of Run 1 ===
+======================================
+
+
+=== Starting Run 2 ===
+97761.75622 , 94121.66712 , 98961.51807 , 99253.57722 , 98387.86117 , 106447.4575 , 100131.1768 , 100881.262 , 105469.3012 , 100460.6213 , 102815.5206 , 96440.62195 , 97073.37172 , 93660.06705 , 91392.61573 , 99361.90432 ,  Scaled Weights: 918403864 , 884207753 , 929674794 , 932418487 , 924285686 , 1000000001 , 940662926 , 947709456 , 990810901 , 943757829 , 965880474 , 905992724 , 911936969 , 879871340 , 858570209 , 933436145 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7436541431
+  Bucket 1 total weight: 7431078127
+Only KNAPSACK  efficiency: 0.9996326717
+test......: 
+ Final Knapsack time: 0.000189153
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6529653511
+  Bucket 1 contains 8337966047
+Only SFC efficiency: 0.8915615316
+test......: 
+ Final SFC time: 0.000151543
+SFC+painterPartition efficiency: 0.9941753278
+ Final SFC+Painter time: 1.1792e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6529653511
+  Bucket 1 contains 8337966047
+Node 0 Each Knapsack efficiency: 0.8805006338
+Node 1 Each Knapsack efficiency: 0.7882561246
+SFC efficiency for combined algorithm: 0.8915615316
+SFC+Knapsack combined efficiency: 0.7027788377
+ Final SFC+Knapsack_Combined time: 0.000164918
+
+=== End of Run 2 ===
+======================================
+
+
+=== Starting Run 3 ===
+99242.59747 , 92439.81903 , 101748.1626 , 98995.39678 , 100706.1307 , 99174.25942 , 97754.53366 , 96259.95655 , 99452.58051 , 97298.66625 , 103267.503 , 100137.6131 , 105096.1909 , 104025.5092 , 92709.61638 , 111413.5472 ,  Scaled Weights: 890758799 , 829699991 , 913247673 , 888540032 , 903894843 , 890145426 , 877402580 , 863987900 , 892643517 , 873310910 , 926884617 , 898792074 , 943298132 , 933688155 , 832121576 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7184658875
+  Bucket 1 total weight: 7173757351
+Only KNAPSACK  efficiency: 0.9992413332
+test......: 
+ Final Knapsack time: 0.000153517
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7057677244
+  Bucket 1 contains 7300738982
+Only SFC efficiency: 0.9833536209
+test......: 
+ Final SFC time: 0.000146343
+SFC+painterPartition efficiency: 0.9833536209
+ Final SFC+Painter time: 1.1632e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7057677244
+  Bucket 1 contains 7300738982
+Node 0 Each Knapsack efficiency: 0.9919793874
+Node 1 Each Knapsack efficiency: 0.9962137712
+SFC efficiency for combined algorithm: 0.9833536209
+SFC+Knapsack combined efficiency: 0.9796304191
+ Final SFC+Knapsack_Combined time: 0.000165078
+
+=== End of Run 3 ===
+======================================
+
+
+=== Starting Run 4 ===
+103525.8905 , 101140.8008 , 98084.53307 , 102615.2541 , 102318.0261 , 97374.48862 , 102381.8287 , 97899.33963 , 101280.6041 , 96753.05631 , 94615.37481 , 94212.89195 , 95595.26468 , 99482.07384 , 99486.22481 , 95365.35428 ,  Scaled Weights: 1000000000 , 976961419 , 947439647 , 991203782 , 988332732 , 940581030 , 988949028 , 945650786 , 978311838 , 934578355 , 913929592 , 910041841 , 923394760 , 960939080 , 960979175 , 921173958 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7642568050
+  Bucket 1 total weight: 7639898973
+Only KNAPSACK  efficiency: 0.9998253809
+test......: 
+ Final Knapsack time: 0.000175117
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6833467638
+  Bucket 1 contains 8448999385
+Only SFC efficiency: 0.9043950844
+test......: 
+ Final SFC time: 0.000147064
+SFC+painterPartition efficiency: 0.9822749951
+ Final SFC+Painter time: 1.2974e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6833467638
+  Bucket 1 contains 8448999385
+Node 0 Each Knapsack efficiency: 0.8692677931
+Node 1 Each Knapsack efficiency: 0.7688271959
+SFC efficiency for combined algorithm: 0.9043950844
+SFC+Knapsack combined efficiency: 0.6953235367
+ Final SFC+Knapsack_Combined time: 0.000165739
+
+=== End of Run 4 ===
+======================================
+
+
+=== Starting Run 5 ===
+106691.8168 , 100991.9506 , 91353.43858 , 100502.1407 , 107946.0475 , 102097.2344 , 99364.56903 , 102128.0832 , 98186.59448 , 96179.0103 , 99282.20971 , 103252.5062 , 106079.4701 , 95117.09919 , 99130.6383 , 104507.356 ,  Scaled Weights: 988380949 , 935578032 , 846287944 , 931040488 , 1000000001 , 945817256 , 920502152 , 946103035 , 909589529 , 890991496 , 919739185 , 956519563 , 982708238 , 881154071 , 918335044 , 968144351 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7481763046
+  Bucket 1 total weight: 7459128288
+Only KNAPSACK  efficiency: 0.998487338
+test......: 
+ Final Knapsack time: 0.000152174
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6567606822
+  Bucket 1 contains 8373284512
+Only SFC efficiency: 0.8921762609
+test......: 
+ Final SFC time: 0.000140543
+SFC+painterPartition efficiency: 0.9942419669
+ Final SFC+Painter time: 1.1351e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6567606822
+  Bucket 1 contains 8373284512
+Node 0 Each Knapsack efficiency: 0.8796128871
+Node 1 Each Knapsack efficiency: 0.7780472825
+SFC efficiency for combined algorithm: 0.8921762609
+SFC+Knapsack combined efficiency: 0.6941553153
+ Final SFC+Knapsack_Combined time: 0.00016572
+
+=== End of Run 5 ===
+======================================
+
+
+=== Starting Run 6 ===
+98360.50796 , 97809.04015 , 95972.27448 , 100758.6701 , 99382.76165 , 107123.2669 , 94463.26572 , 107864.3836 , 102484.1718 , 100218.9814 , 103442.2522 , 100317.3676 , 102645.0263 , 95806.78923 , 99662.33762 , 94570.81242 ,  Scaled Weights: 911890512 , 906777909 , 889749436 , 934123635 , 921367724 , 993129181 , 875759566 , 1000000001 , 950120590 , 929120235 , 959002858 , 930032363 , 951611856 , 888215239 , 923959646 , 876756620 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7422973120
+  Bucket 1 total weight: 7418644251
+Only KNAPSACK  efficiency: 0.9997084141
+test......: 
+ Final Knapsack time: 0.000151262
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6432797963
+  Bucket 1 contains 8408819408
+Only SFC efficiency: 0.8825030394
+test......: 
+ Final SFC time: 0.000152003
+SFC+painterPartition efficiency: 0.9983869764
+ Final SFC+Painter time: 1.1412e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6432797963
+  Bucket 1 contains 8408819408
+Node 0 Each Knapsack efficiency: 0.8842730605
+Node 1 Each Knapsack efficiency: 0.7803017784
+SFC efficiency for combined algorithm: 0.8825030394
+SFC+Knapsack combined efficiency: 0.6886186911
+ Final SFC+Knapsack_Combined time: 0.000165198
+
+=== End of Run 6 ===
+======================================
+
+
+=== Starting Run 7 ===
+90758.16103 , 109485.7111 , 109704.4997 , 106763.2437 , 106199.1934 , 98484.36088 , 95368.70927 , 105632.4878 , 94950.03547 , 97383.25395 , 99358.01997 , 100205.3569 , 98364.78131 , 93795.23151 , 98164.37588 , 101191.9656 ,  Scaled Weights: 827296613 , 998005655 , 1000000001 , 973189286 , 968047744 , 897723987 , 869323588 , 962881997 , 865507210 , 887686961 , 905687736 , 913411548 , 896633972 , 854980714 , 894807197 , 922404878 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7323846853
+  Bucket 1 total weight: 7313742234
+Only KNAPSACK  efficiency: 0.9993101563
+test......: 
+ Final Knapsack time: 0.000158856
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6533586874
+  Bucket 1 contains 8104002213
+Only SFC efficiency: 0.9031086556
+test......: 
+ Final SFC time: 0.000145251
+SFC+painterPartition efficiency: 0.9762989308
+ Final SFC+Painter time: 1.1231e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6533586874
+  Bucket 1 contains 8104002213
+Node 0 Each Knapsack efficiency: 0.8754536749
+Node 1 Each Knapsack efficiency: 0.7681591869
+SFC efficiency for combined algorithm: 0.9031086556
+SFC+Knapsack combined efficiency: 0.6937312106
+ Final SFC+Knapsack_Combined time: 0.000166361
+
+=== End of Run 7 ===
+======================================
+
+
+=== Starting Run 8 ===
+99550.55788 , 109315.6987 , 93928.42366 , 92611.19043 , 108089.4171 , 100359.5383 , 98851.1542 , 93896.49236 , 105573.0038 , 104367.3235 , 106175.7857 , 91342.54635 , 110379.2569 , 95641.63171 , 98647.60108 , 94227.36128 ,  Scaled Weights: 901895525 , 990364511 , 850960826 , 839027124 , 979254800 , 909224624 , 895559157 , 850671539 , 956456917 , 945533848 , 961917924 , 827533623 , 1000000001 , 866481932 , 893715032 , 853669104 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7261749869
+  Bucket 1 total weight: 7260516618
+Only KNAPSACK  efficiency: 0.9999150858
+test......: 
+ Final Knapsack time: 0.000156291
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7216958106
+  Bucket 1 contains 7305308381
+Only SFC efficiency: 0.9939530085
+test......: 
+ Final SFC time: 0.000142295
+SFC+painterPartition efficiency: 0.9939530085
+ Final SFC+Painter time: 1.1902e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7216958106
+  Bucket 1 contains 7305308381
+Node 0 Each Knapsack efficiency: 0.9859629254
+Node 1 Each Knapsack efficiency: 0.9929744229
+SFC efficiency for combined algorithm: 0.9939530085
+SFC+Knapsack combined efficiency: 0.9869699151
+ Final SFC+Knapsack_Combined time: 0.000167332
+
+=== End of Run 8 ===
+======================================
+
+
+=== Starting Run 9 ===
+104956.3701 , 108879.6569 , 107121.4224 , 102018.6433 , 101704.4929 , 98177.00431 , 97062.04023 , 102611.3836 , 97259.38432 , 96681.58347 , 105184.8931 , 103433.8091 , 95993.10068 , 102246.3394 , 100093.2531 , 102126.9883 ,  Scaled Weights: 963966760 , 1000000001 , 983851580 , 936985349 , 934100049 , 901702000 , 891461665 , 942429344 , 893274163 , 887967378 , 966065619 , 949982871 , 881644041 , 939076613 , 919301695 , 937980439 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7468369433
+  Bucket 1 total weight: 7461420134
+Only KNAPSACK  efficiency: 0.9995347513
+test......: 
+ Final Knapsack time: 0.000148156
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6612067404
+  Bucket 1 contains 8317722163
+Only SFC efficiency: 0.8974686383
+test......: 
+ Final SFC time: 0.000143167
+SFC+painterPartition efficiency: 0.9881392543
+ Final SFC+Painter time: 1.1171e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6612067404
+  Bucket 1 contains 8317722163
+Node 0 Each Knapsack efficiency: 0.8814617267
+Node 1 Each Knapsack efficiency: 0.7808936872
+SFC efficiency for combined algorithm: 0.8974686383
+SFC+Knapsack combined efficiency: 0.7008275941
+ Final SFC+Knapsack_Combined time: 0.000185245
+
+=== End of Run 9 ===
+======================================
+
+
+=== Starting Run 10 ===
+99613.34938 , 105971.6937 , 97963.90048 , 97501.32109 , 93768.54645 , 100910.6049 , 96038.8113 , 96548.4169 , 100967.2542 , 94763.02415 , 94773.45432 , 95876.62899 , 95993.73146 , 98813.89233 , 106817.8673 , 102879.7867 ,  Scaled Weights: 932553251 , 992078353 , 917111557 , 912781013 , 877835786 , 944697807 , 899089392 , 903860182 , 945228142 , 887145818 , 887243462 , 897571085 , 898667367 , 925068951 , 1000000001 , 963132754 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7392875167
+  Bucket 1 total weight: 7391189754
+Only KNAPSACK  efficiency: 0.999886011
+test......: 
+ Final Knapsack time: 0.000153827
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7380007341
+  Bucket 1 contains 7404057580
+Only SFC efficiency: 0.9983758744
+test......: 
+ Final SFC time: 0.000142576
+SFC+painterPartition efficiency: 0.9983758744
+ Final SFC+Painter time: 1.2343e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7380007341
+  Bucket 1 contains 7404057580
+Node 0 Each Knapsack efficiency: 0.9866773007
+Node 1 Each Knapsack efficiency: 0.980853931
+SFC efficiency for combined algorithm: 0.9983758744
+SFC+Knapsack combined efficiency: 0.979260901
+ Final SFC+Knapsack_Combined time: 0.000159869
+
+=== End of Run 10 ===
+======================================
+
+
+=== Starting Run 11 ===
+103965.4634 , 105875.0013 , 96440.45618 , 104279.8284 , 97740.34475 , 94627.52063 , 93052.91672 , 100620.9726 , 104547.3245 , 96461.3793 , 98775.35864 , 104813.3933 , 103198.8623 , 102451.4554 , 105684.0827 , 97357.20849 ,  Scaled Weights: 981964224 , 1000000001 , 910889776 , 984933433 , 923167354 , 893766418 , 878894126 , 950375173 , 987459960 , 911087397 , 932943164 , 989973007 , 974723599 , 967664266 , 998196756 , 919548594 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7605821919
+  Bucket 1 total weight: 7599765329
+Only KNAPSACK  efficiency: 0.9996018451
+test......: 
+ Final Knapsack time: 0.000150551
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7523990505
+  Bucket 1 contains 7681596743
+Only SFC efficiency: 0.9897413101
+test......: 
+ Final SFC time: 0.000139761
+SFC+painterPartition efficiency: 0.9897413101
+ Final SFC+Painter time: 1.1291e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7523990505
+  Bucket 1 contains 7681596743
+Node 0 Each Knapsack efficiency: 0.993736245
+Node 1 Each Knapsack efficiency: 0.9886795631
+SFC efficiency for combined algorithm: 0.9897413101
+SFC+Knapsack combined efficiency: 0.978537006
+ Final SFC+Knapsack_Combined time: 0.000160058
+
+=== End of Run 11 ===
+======================================
+
+
+=== Starting Run 12 ===
+96934.14504 , 93675.23607 , 106883.0569 , 96750.7371 , 98736.85983 , 98331.3539 , 96773.65616 , 102247.9609 , 102153.1389 , 101614.0704 , 102261.8843 , 98182.76641 , 106725.95 , 100315.924 , 96948.89841 , 96317.43181 ,  Scaled Weights: 906917784 , 876427367 , 1000000001 , 905201816 , 923784020 , 919990098 , 905416247 , 956633951 , 955746794 , 950703258 , 956764219 , 918599910 , 998530106 , 938557775 , 907055817 , 901147803 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7468435104
+  Bucket 1 total weight: 7453041862
+Only KNAPSACK  efficiency: 0.9989694466
+test......: 
+ Final Knapsack time: 0.000151182
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7394371284
+  Bucket 1 contains 7527105682
+Only SFC efficiency: 0.9911829059
+test......: 
+ Final SFC time: 0.000143487
+SFC+painterPartition efficiency: 0.9911829059
+ Final SFC+Painter time: 1.2403e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7394371284
+  Bucket 1 contains 7527105682
+Node 0 Each Knapsack efficiency: 0.9851662007
+Node 1 Each Knapsack efficiency: 0.9905765665
+SFC efficiency for combined algorithm: 0.9911829059
+SFC+Knapsack combined efficiency: 0.9818425597
+ Final SFC+Knapsack_Combined time: 0.000159828
+
+=== End of Run 12 ===
+======================================
+
+
+=== Starting Run 13 ===
+99708.98925 , 98183.51682 , 99981.67048 , 102541.424 , 101362.9268 , 106158.2083 , 96815.77689 , 98248.9944 , 108910.0671 , 96259.35448 , 109964.576 , 101081.1303 , 98714.95961 , 95915.71219 , 103617.9821 , 97647.30504 ,  Scaled Weights: 906737359 , 892864961 , 909217078 , 932495061 , 921777999 , 965385510 , 880426956 , 893460403 , 990410467 , 875366941 , 1000000001 , 919215388 , 897697815 , 872241914 , 942285105 , 887988738 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7345384425
+  Bucket 1 total weight: 7342187271
+Only KNAPSACK  efficiency: 0.9997823699
+test......: 
+ Final Knapsack time: 0.000149579
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7302365327
+  Bucket 1 contains 7385206369
+Only SFC efficiency: 0.99439142
+test......: 
+ Final SFC time: 0.000142406
+SFC+painterPartition efficiency: 0.99439142
+ Final SFC+Painter time: 1.2143e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7302365327
+  Bucket 1 contains 7385206369
+Node 0 Each Knapsack efficiency: 0.9890448599
+Node 1 Each Knapsack efficiency: 0.9861447805
+SFC efficiency for combined algorithm: 0.99439142
+SFC+Knapsack combined efficiency: 0.9806139085
+ Final SFC+Knapsack_Combined time: 0.000163455
+
+=== End of Run 13 ===
+======================================
+
+
+=== Starting Run 14 ===
+99411.88538 , 103044.0278 , 104694.0893 , 95213.75691 , 109609.5466 , 99114.33347 , 100985.2892 , 102141.8265 , 93944.67078 , 91830.36363 , 100551.8723 , 97255.61165 , 102004.0951 , 97775.34606 , 105593.6761 , 100250.6698 ,  Scaled Weights: 906963750 , 940100850 , 955154844 , 868662995 , 1000000001 , 904249097 , 921318374 , 931869803 , 857084750 , 837795307 , 917364185 , 887291434 , 930613239 , 892033123 , 963362038 , 914616226 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7316318127
+  Bucket 1 total weight: 7312161889
+Only KNAPSACK  efficiency: 0.9997159611
+test......: 
+ Final Knapsack time: 0.000149549
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6496449911
+  Bucket 1 contains 8132030105
+Only SFC efficiency: 0.8994359236
+test......: 
+ Final SFC time: 0.000141795
+SFC+painterPartition efficiency: 0.9846425961
+ Final SFC+Painter time: 1.2373e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6496449911
+  Bucket 1 contains 8132030105
+Node 0 Each Knapsack efficiency: 0.8805880253
+Node 1 Each Knapsack efficiency: 0.787324751
+SFC efficiency for combined algorithm: 0.8994359236
+SFC+Knapsack combined efficiency: 0.7081481646
+ Final SFC+Knapsack_Combined time: 0.000159207
+
+=== End of Run 14 ===
+======================================
+
+
+=== Starting Run 15 ===
+101654.2022 , 103899.2055 , 110350.9441 , 101452.394 , 104203.6982 , 111548.7984 , 99671.62652 , 94055.98415 , 97478.47266 , 105785.2753 , 104456.8424 , 99037.02413 , 104104.0187 , 95897.41312 , 103684.1428 , 97165.50998 ,  Scaled Weights: 911298048 , 931423799 , 989261612 , 909488900 , 934153480 , 1000000001 , 893524879 , 843182406 , 873863942 , 948331824 , 936422839 , 887835867 , 933259885 , 859690239 , 929495829 , 871058330 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7333037246
+  Bucket 1 total weight: 7319254634
+Only KNAPSACK  efficiency: 0.9990602385
+test......: 
+ Final Knapsack time: 0.000157895
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6569150719
+  Bucket 1 contains 8083141161
+Only SFC efficiency: 0.9063488802
+test......: 
+ Final SFC time: 0.000142155
+SFC+painterPartition efficiency: 0.988372462
+ Final SFC+Painter time: 1.2363e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6569150719
+  Bucket 1 contains 8083141161
+Node 0 Each Knapsack efficiency: 0.872264427
+Node 1 Each Knapsack efficiency: 0.7842420915
+SFC efficiency for combined algorithm: 0.9063488802
+SFC+Knapsack combined efficiency: 0.7107969415
+ Final SFC+Knapsack_Combined time: 0.000161641
+
+=== End of Run 15 ===
+======================================
+
+
+=== Starting Run 16 ===
+98843.51518 , 100597.9519 , 106046.3105 , 103407.627 , 94545.01374 , 103471.0972 , 100367.4551 , 98672.44945 , 100151.5486 , 98638.58625 , 92602.98331 , 94008.41594 , 108789.6361 , 93040.71549 , 96321.10113 , 97821.18623 ,  Scaled Weights: 908574739 , 924701613 , 974783209 , 950528293 , 869062690 , 951111714 , 922582874 , 907002294 , 920598251 , 906691022 , 851211445 , 864130255 , 1000000001 , 855235102 , 885388578 , 899177438 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7296739876
+  Bucket 1 total weight: 7294039642
+Only KNAPSACK  efficiency: 0.9998149698
+test......: 
+ Final Knapsack time: 0.000147335
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6501345132
+  Bucket 1 contains 8089434386
+Only SFC efficiency: 0.9018417618
+test......: 
+ Final SFC time: 0.000145622
+SFC+painterPartition efficiency: 0.9847526499
+ Final SFC+Painter time: 1.2634e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6501345132
+  Bucket 1 contains 8089434386
+Node 0 Each Knapsack efficiency: 0.8742583144
+Node 1 Each Knapsack efficiency: 0.7776118168
+SFC efficiency for combined algorithm: 0.9018417618
+SFC+Knapsack combined efficiency: 0.7012828109
+ Final SFC+Knapsack_Combined time: 0.000162333
+
+=== End of Run 16 ===
+======================================
+
+
+=== Starting Run 17 ===
+100092.5021 , 102228.5263 , 101954.6299 , 107121.7823 , 99346.53765 , 99442.33224 , 106126.2083 , 96970.17474 , 101476.1071 , 104860.5194 , 105988.1806 , 102342.5446 , 104671.1864 , 98956.08012 , 97327.52583 , 102945.0714 ,  Scaled Weights: 934380478 , 954320626 , 951763756 , 1000000001 , 927416773 , 928311032 , 990706148 , 905233023 , 947296665 , 978890728 , 989417636 , 955385006 , 977123272 , 923771786 , 908568956 , 961009696 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7618283066
+  Bucket 1 total weight: 7615312516
+Only KNAPSACK  efficiency: 0.9998050381
+test......: 
+ Final Knapsack time: 0.000154178
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7592131837
+  Bucket 1 contains 7641463745
+Only SFC efficiency: 0.9967720904
+test......: 
+ Final SFC time: 0.000142446
+SFC+painterPartition efficiency: 0.9967720904
+ Final SFC+Painter time: 1.3034e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7592131837
+  Bucket 1 contains 7641463745
+Node 0 Each Knapsack efficiency: 0.9895262386
+Node 1 Each Knapsack efficiency: 0.9926970198
+SFC efficiency for combined algorithm: 0.9967720904
+SFC+Knapsack combined efficiency: 0.9894926836
+ Final SFC+Knapsack_Combined time: 0.000157193
+
+=== End of Run 17 ===
+======================================
+
+
+=== Starting Run 18 ===
+104520.3022 , 107182.7904 , 97266.85336 , 103945.5033 , 100120.4182 , 102700.4624 , 92793.83998 , 106789.5372 , 96785.89148 , 98267.08345 , 101238.5023 , 101693.3408 , 96647.26349 , 108157.9212 , 103447.2848 , 101937.6847 ,  Scaled Weights: 966367522 , 990984194 , 899304021 , 961053081 , 925687339 , 949541756 , 857947703 , 987348277 , 894857172 , 908551888 , 936024853 , 940230171 , 893575454 , 1000000001 , 956446682 , 942489312 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7518623894
+  Bucket 1 total weight: 7491785532
+Only KNAPSACK  efficiency: 0.9982152078
+test......: 
+ Final Knapsack time: 0.00015528
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6550885616
+  Bucket 1 contains 8459523810
+Only SFC efficiency: 0.8871899745
+test......: 
+ Final SFC time: 0.000137807
+SFC+painterPartition efficiency: 0.9956184458
+ Final SFC+Painter time: 1.1271e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6550885616
+  Bucket 1 contains 8459523810
+Node 0 Each Knapsack efficiency: 0.8733447067
+Node 1 Each Knapsack efficiency: 0.7841650338
+SFC efficiency for combined algorithm: 0.8871899745
+SFC+Knapsack combined efficiency: 0.6957033563
+ Final SFC+Knapsack_Combined time: 0.00016109
+
+=== End of Run 18 ===
+======================================
+
+
+=== Starting Run 19 ===
+102065.8575 , 106764.8476 , 102982.2692 , 96765.0935 , 91083.97234 , 95288.18125 , 103852.6353 , 102596.2516 , 106757.9134 , 104661.137 , 99869.30375 , 101243.2908 , 103758.3958 , 101885.6956 , 101046.4662 , 104073.529 ,  Scaled Weights: 955987479 , 1000000000 , 964570939 , 906338516 , 853126984 , 892505197 , 972723117 , 960955352 , 999935052 , 980295851 , 935413725 , 948283008 , 971840434 , 954300015 , 946439475 , 974792092 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7614453425
+  Bucket 1 total weight: 7603053811
+Only KNAPSACK  efficiency: 0.999251449
+test......: 
+ Final Knapsack time: 0.000148336
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7506207584
+  Bucket 1 contains 7711299652
+Only SFC efficiency: 0.9867018481
+test......: 
+ Final SFC time: 0.000141735
+SFC+painterPartition efficiency: 0.9867018481
+ Final SFC+Painter time: 1.2443e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7506207584
+  Bucket 1 contains 7711299652
+Node 0 Each Knapsack efficiency: 0.9789295047
+Node 1 Each Knapsack efficiency: 0.9961123989
+SFC efficiency for combined algorithm: 0.9867018481
+SFC+Knapsack combined efficiency: 0.9828659449
+ Final SFC+Knapsack_Combined time: 0.000162183
+
+=== End of Run 19 ===
+======================================
+
+
+=== Starting Run 20 ===
+98019.18379 , 97355.57599 , 98423.35026 , 100768.8163 , 98691.21652 , 97572.31775 , 98635.67697 , 93569.87622 , 106460.9267 , 104652.4029 , 104034.3197 , 91347.00982 , 100853.989 , 99155.7771 , 98536.40422 , 99673.35514 ,  Scaled Weights: 920705717 , 914472371 , 924502100 , 946533338 , 927018199 , 916508252 , 926496510 , 878912848 , 1000000001 , 983012324 , 977206595 , 858033202 , 947333375 , 931381871 , 925564029 , 936243543 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7466939431
+  Bucket 1 total weight: 7446984844
+Only KNAPSACK  efficiency: 0.9986638041
+test......: 
+ Final Knapsack time: 0.000155721
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7355149335
+  Bucket 1 contains 7558774940
+Only SFC efficiency: 0.9865305154
+test......: 
+ Final SFC time: 0.000163946
+SFC+painterPartition efficiency: 0.9865305154
+ Final SFC+Painter time: 1.1421e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7355149335
+  Bucket 1 contains 7558774940
+Node 0 Each Knapsack efficiency: 0.9965204552
+Node 1 Each Knapsack efficiency: 0.9901001545
+SFC efficiency for combined algorithm: 0.9865305154
+SFC+Knapsack combined efficiency: 0.9767640157
+ Final SFC+Knapsack_Combined time: 0.00017144
+
+=== End of Run 20 ===
+======================================
+
+
+=== Starting Run 21 ===
+97777.24141 , 94235.93193 , 104768.4214 , 100876.9724 , 98751.48844 , 105276.1276 , 98321.24614 , 99224.38158 , 96163.42343 , 109361.6779 , 101225.3281 , 106253.114 , 104873.1815 , 102842.346 , 105877.8561 , 95123.20472 ,  Scaled Weights: 894072250 , 861690619 , 957999396 , 922416100 , 902980736 , 962641847 , 899046613 , 907304858 , 879315545 , 1000000001 , 925601454 , 971575382 , 958957320 , 940387419 , 968144035 , 869803816 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7412291161
+  Bucket 1 total weight: 7409646230
+Only KNAPSACK  efficiency: 0.9998215848
+test......: 
+ Final Knapsack time: 0.000150742
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7308152419
+  Bucket 1 contains 7513784972
+Only SFC efficiency: 0.9863163137
+test......: 
+ Final SFC time: 0.000139891
+SFC+painterPartition efficiency: 0.9863163137
+ Final SFC+Painter time: 1.1832e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7308152419
+  Bucket 1 contains 7513784972
+Node 0 Each Knapsack efficiency: 0.986483492
+Node 1 Each Knapsack efficiency: 0.9889969969
+SFC efficiency for combined algorithm: 0.9863163137
+SFC+Knapsack combined efficiency: 0.9754638723
+ Final SFC+Knapsack_Combined time: 0.000170769
+
+=== End of Run 21 ===
+======================================
+
+
+=== Starting Run 22 ===
+107990.8218 , 106206.7075 , 96814.31137 , 90444.48512 , 92698.75891 , 106273.6106 , 105548.4374 , 99703.53058 , 94164.47274 , 100462.2957 , 100671.6776 , 107876.565 , 102226.0092 , 94015.03568 , 104979.1237 , 111355.2775 ,  Scaled Weights: 969786294 , 953764473 , 869418259 , 812215525 , 832459503 , 954365281 , 947853033 , 895364215 , 845622003 , 902178128 , 904058433 , 968760238 , 918016744 , 844280019 , 942740445 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7284729343
+  Bucket 1 total weight: 7276153251
+Only KNAPSACK  efficiency: 0.9994113651
+test......: 
+ Final Knapsack time: 0.000154238
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7235226583
+  Bucket 1 contains 7325656011
+Only SFC efficiency: 0.9938278956
+test......: 
+ Final SFC time: 0.000137657
+SFC+painterPartition efficiency: 0.9938278956
+ Final SFC+Painter time: 1.1191e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7235226583
+  Bucket 1 contains 7325656011
+Node 0 Each Knapsack efficiency: 0.9813312282
+Node 1 Each Knapsack efficiency: 0.9926801267
+SFC efficiency for combined algorithm: 0.9938278956
+SFC+Knapsack combined efficiency: 0.9865532013
+ Final SFC+Knapsack_Combined time: 0.000156062
+
+=== End of Run 22 ===
+======================================
+
+
+=== Starting Run 23 ===
+100195.6362 , 106861.3058 , 100187.2133 , 100994.9002 , 103100.7114 , 105607.5337 , 99707.89395 , 104777.2276 , 100566.4163 , 101761.7067 , 105198.0974 , 107159.5439 , 98808.98702 , 103362.0407 , 98370.17499 , 97648.15064 ,  Scaled Weights: 935013649 , 997216878 , 934935048 , 942472285 , 962123462 , 985516827 , 930462097 , 977768511 , 938473725 , 949628032 , 981696016 , 1000000001 , 922073606 , 964562156 , 917978665 , 911240820 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7626552164
+  Bucket 1 total weight: 7624609614
+Only KNAPSACK  efficiency: 0.9998726456
+test......: 
+ Final Knapsack time: 0.000149088
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6687740246
+  Bucket 1 contains 8563421532
+Only SFC efficiency: 0.8904829525
+test......: 
+ Final SFC time: 0.000139961
+SFC+painterPartition efficiency: 0.9947912305
+ Final SFC+Painter time: 1.2683e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6687740246
+  Bucket 1 contains 8563421532
+Node 0 Each Knapsack efficiency: 0.8726270631
+Node 1 Each Knapsack efficiency: 0.7781269796
+SFC efficiency for combined algorithm: 0.8904829525
+SFC+Knapsack combined efficiency: 0.6929088102
+ Final SFC+Knapsack_Combined time: 0.000158967
+
+=== End of Run 23 ===
+======================================
+
+
+=== Starting Run 24 ===
+106443.926 , 96414.3771 , 101562.7283 , 96424.60393 , 92817.45112 , 107739.7916 , 106360.435 , 98995.94306 , 105399.7187 , 105037.0319 , 92931.61113 , 97180.12397 , 99539.38225 , 107739.3697 , 99415.75399 , 103342.4447 ,  Scaled Weights: 987972267 , 894881786 , 942666835 , 894976708 , 861496480 , 1000000001 , 987197334 , 918842905 , 978280329 , 974914007 , 862556070 , 901989159 , 923886902 , 999996084 , 922739432 , 959185490 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7507252572
+  Bucket 1 total weight: 7504329217
+Only KNAPSACK  efficiency: 0.9998052979
+test......: 
+ Final Knapsack time: 0.000148277
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7488034316
+  Bucket 1 contains 7523547473
+Only SFC efficiency: 0.9976398662
+test......: 
+ Final SFC time: 0.000140663
+SFC+painterPartition efficiency: 0.9976398662
+ Final SFC+Painter time: 1.2653e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7488034316
+  Bucket 1 contains 7523547473
+Node 0 Each Knapsack efficiency: 0.9942398754
+Node 1 Each Knapsack efficiency: 0.991164577
+SFC efficiency for combined algorithm: 0.9976398662
+SFC+Knapsack combined efficiency: 0.9888252961
+ Final SFC+Knapsack_Combined time: 0.00015504
+
+=== End of Run 24 ===
+======================================
+
+
+=== Starting Run 25 ===
+97070.07104 , 97971.5843 , 99146.16488 , 102508.6955 , 102015.6468 , 103038.6573 , 98234.20399 , 93365.67728 , 103075.4004 , 104745.3464 , 104630.9545 , 101242.4792 , 93755.00286 , 99378.79708 , 102993.5885 , 98827.58642 ,  Scaled Weights: 926724427 , 935331141 , 946544819 , 978646776 , 973939659 , 983706302 , 937838362 , 891358715 , 984057087 , 1000000001 , 998907905 , 966558256 , 895075592 , 948765750 , 983276032 , 943503362 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7647365775
+  Bucket 1 total weight: 7646868411
+Only KNAPSACK  efficiency: 0.9999674814
+test......: 
+ Final Knapsack time: 0.000149178
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7574090201
+  Bucket 1 contains 7720143985
+Only SFC efficiency: 0.9905407345
+test......: 
+ Final SFC time: 0.000137156
+SFC+painterPartition efficiency: 0.9905407345
+ Final SFC+Painter time: 1.2173e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7574090201
+  Bucket 1 contains 7720143985
+Node 0 Each Knapsack efficiency: 0.991751694
+Node 1 Each Knapsack efficiency: 0.989846167
+SFC efficiency for combined algorithm: 0.9905407345
+SFC+Knapsack combined efficiency: 0.9804829493
+ Final SFC+Knapsack_Combined time: 0.000159788
+
+=== End of Run 25 ===
+======================================
+
+
+=== Starting Run 26 ===
+100928.6078 , 96709.6544 , 100560.1038 , 98989.8177 , 100196.2763 , 103315.9743 , 104180.0383 , 97251.26719 , 88897.68785 , 92629.16478 , 106793.3036 , 109761.5378 , 104728.0117 , 98134.04824 , 95707.99168 , 101184.0888 ,  Scaled Weights: 919526183 , 881088735 , 916168868 , 901862526 , 912854160 , 941276666 , 949148859 , 886023185 , 809916567 , 843912783 , 972957429 , 1000000001 , 954141258 , 894065902 , 871962927 , 921853783 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7301924566
+  Bucket 1 total weight: 7274835266
+Only KNAPSACK  efficiency: 0.9981450575
+test......: 
+ Final Knapsack time: 0.000156513
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6421925997
+  Bucket 1 contains 8154833835
+Only SFC efficiency: 0.8937496537
+test......: 
+ Final SFC time: 0.000144309
+SFC+painterPartition efficiency: 0.9973221946
+ Final SFC+Painter time: 1.2804e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6421925997
+  Bucket 1 contains 8154833835
+Node 0 Each Knapsack efficiency: 0.8777809107
+Node 1 Each Knapsack efficiency: 0.8071560268
+SFC efficiency for combined algorithm: 0.8937496537
+SFC+Knapsack combined efficiency: 0.7213954194
+ Final SFC+Knapsack_Combined time: 0.000162683
+
+=== End of Run 26 ===
+======================================
+
+
+=== Starting Run 27 ===
+99727.02328 , 101291.6792 , 104506.3872 , 101246.0575 , 102978.6797 , 90031.21993 , 97167.18834 , 96364.81961 , 101783.3851 , 96109.85378 , 102819.141 , 110380.3156 , 100535.8054 , 99431.63674 , 102274.0434 , 107234.0547 ,  Scaled Weights: 903485579 , 917660715 , 946784640 , 917247401 , 932944241 , 815645612 , 880294534 , 873025405 , 922115367 , 870715520 , 931498886 , 1000000001 , 910812811 , 900809499 , 926560528 , 971496179 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7335204800
+  Bucket 1 total weight: 7285892118
+Only KNAPSACK  efficiency: 0.9966386295
+test......: 
+ Final Knapsack time: 0.00015012
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7187088127
+  Bucket 1 contains 7434008791
+Only SFC efficiency: 0.9833924958
+test......: 
+ Final SFC time: 0.000140783
+SFC+painterPartition efficiency: 0.9833924958
+ Final SFC+Painter time: 1.2894e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7187088127
+  Bucket 1 contains 7434008791
+Node 0 Each Knapsack efficiency: 0.9868399439
+Node 1 Each Knapsack efficiency: 0.9926275499
+SFC efficiency for combined algorithm: 0.9833924958
+SFC+Knapsack combined efficiency: 0.9761424837
+ Final SFC+Knapsack_Combined time: 0.000157774
+
+=== End of Run 27 ===
+======================================
+
+
+=== Starting Run 28 ===
+94002.83308 , 99144.36834 , 105688.0197 , 97658.17399 , 94936.29678 , 103272.3342 , 103144.6666 , 99838.71017 , 106058.2466 , 103490.6762 , 101476.1432 , 102211.0682 , 94488.47294 , 101063.007 , 105613.6091 , 99342.44929 ,  Scaled Weights: 886332144 , 934810555 , 996509212 , 920797554 , 895133570 , 973732242 , 972528492 , 941357353 , 1000000001 , 975790941 , 956796351 , 963725797 , 890911136 , 952900980 , 995807611 , 936678217 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7606806934
+  Bucket 1 total weight: 7587005222
+Only KNAPSACK  efficiency: 0.9986984215
+test......: 
+ Final Knapsack time: 0.000145422
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7521201122
+  Bucket 1 contains 7672611034
+Only SFC efficiency: 0.9901330909
+test......: 
+ Final SFC time: 0.000137797
+SFC+painterPartition efficiency: 0.9901330909
+ Final SFC+Painter time: 1.1121e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7521201122
+  Bucket 1 contains 7672611034
+Node 0 Each Knapsack efficiency: 0.9931201678
+Node 1 Each Knapsack efficiency: 0.9925830921
+SFC efficiency for combined algorithm: 0.9901330909
+SFC+Knapsack combined efficiency: 0.9827893649
+ Final SFC+Knapsack_Combined time: 0.000158717
+
+=== End of Run 28 ===
+======================================
+
+
+=== Starting Run 29 ===
+103996.5924 , 97230.78457 , 94336.83015 , 91489.2301 , 100931.0167 , 100419.6389 , 100832.6252 , 103244.5484 , 100646.4627 , 98466.37712 , 104514.1752 , 105502.8812 , 100397.9296 , 106171.5748 , 99189.94548 , 98917.34176 ,  Scaled Weights: 979514457 , 915789229 , 888531891 , 861711153 , 950640668 , 945824144 , 949713946 , 972431168 , 947960534 , 927426925 , 984389423 , 993701764 , 945619671 , 1000000001 , 934242011 , 931674433 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7575894043
+  Bucket 1 total weight: 7553277375
+Only KNAPSACK  efficiency: 0.9985073268
+test......: 
+ Final Knapsack time: 0.000146673
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7464156656
+  Bucket 1 contains 7665014762
+Only SFC efficiency: 0.9868977352
+test......: 
+ Final SFC time: 0.000140222
+SFC+painterPartition efficiency: 0.9868977352
+ Final SFC+Painter time: 1.2132e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7464156656
+  Bucket 1 contains 7665014762
+Node 0 Each Knapsack efficiency: 0.9844377034
+Node 1 Each Knapsack efficiency: 0.9942030303
+SFC efficiency for combined algorithm: 0.9868977352
+SFC+Knapsack combined efficiency: 0.9811767189
+ Final SFC+Knapsack_Combined time: 0.000158556
+
+=== End of Run 29 ===
+======================================
+
+
+=== Starting Run 30 ===
+96370.14294 , 104509.0887 , 101485.2541 , 104271.144 , 95182.30463 , 106052.1667 , 102187.9268 , 99243.43943 , 108736.404 , 92602.60711 , 99166.06036 , 100510.8499 , 105187.0406 , 98883.27019 , 99279.30113 , 101177.932 ,  Scaled Weights: 886273037 , 961123275 , 933314424 , 958935005 , 875349020 , 975314272 , 939776589 , 912697458 , 1000000001 , 851624698 , 911985837 , 924353264 , 967358096 , 909385143 , 913027262 , 930488119 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7430056650
+  Bucket 1 total weight: 7420948850
+Only KNAPSACK  efficiency: 0.9993870975
+test......: 
+ Final Knapsack time: 0.000151362
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6530085622
+  Bucket 1 contains 8320919878
+Only SFC efficiency: 0.8923896467
+test......: 
+ Final SFC time: 0.000140623
+SFC+painterPartition efficiency: 0.9976782435
+ Final SFC+Painter time: 1.2293e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6530085622
+  Bucket 1 contains 8320919878
+Node 0 Each Knapsack efficiency: 0.8715654467
+Node 1 Each Knapsack efficiency: 0.7769736574
+SFC efficiency for combined algorithm: 0.8923896467
+SFC+Knapsack combined efficiency: 0.6933632476
+ Final SFC+Knapsack_Combined time: 0.000158856
+
+=== End of Run 30 ===
+======================================
+
+
+=== Starting Run 31 ===
+96857.45665 , 104400.2987 , 97669.73822 , 95100.52804 , 99332.54492 , 109329.6151 , 106018.4751 , 97747.85583 , 105083.0701 , 96429.85446 , 98354.82025 , 94957.01469 , 106786.6883 , 96948.59681 , 93570.77678 , 101707.4329 ,  Scaled Weights: 885921501 , 954913256 , 893351158 , 869851485 , 908560273 , 1000000001 , 969714153 , 894065672 , 961158329 , 882010372 , 899617365 , 868538818 , 976740732 , 886755128 , 855859382 , 930282548 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7319212254
+  Bucket 1 total weight: 7318127919
+Only KNAPSACK  efficiency: 0.9999259254
+test......: 
+ Final Knapsack time: 0.000148067
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6482311827
+  Bucket 1 contains 8155028346
+Only SFC efficiency: 0.89744263
+test......: 
+ Final SFC time: 0.00016089
+SFC+painterPartition efficiency: 0.9921767273
+ Final SFC+Painter time: 1.1301e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6482311827
+  Bucket 1 contains 8155028346
+Node 0 Each Knapsack efficiency: 0.8803494994
+Node 1 Each Knapsack efficiency: 0.7732288127
+SFC efficiency for combined algorithm: 0.89744263
+SFC+Knapsack combined efficiency: 0.6939284992
+ Final SFC+Knapsack_Combined time: 0.000167091
+
+=== End of Run 31 ===
+======================================
+
+
+=== Starting Run 32 ===
+94858.19207 , 102007.3376 , 101253.2122 , 104370.9702 , 91752.54049 , 93036.9412 , 105812.7594 , 96376.76956 , 102434.3876 , 101394.9276 , 96835.46807 , 96454.89371 , 99928.84857 , 92656.00843 , 102913.1473 , 104820.5841 ,  Scaled Weights: 896472152 , 964036268 , 956909289 , 986374147 , 867121707 , 879260136 , 1000000001 , 910823706 , 968072171 , 958248592 , 915158708 , 911562030 , 944393183 , 875660072 , 972596764 , 990623293 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7499541729
+  Bucket 1 total weight: 7497770490
+Only KNAPSACK  efficiency: 0.9998819102
+test......: 
+ Final Knapsack time: 0.000152765
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7460997406
+  Bucket 1 contains 7536314813
+Only SFC efficiency: 0.9950030347
+test......: 
+ Final SFC time: 0.00013934
+SFC+painterPartition efficiency: 0.9950030347
+ Final SFC+Painter time: 1.1432e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7460997406
+  Bucket 1 contains 7536314813
+Node 0 Each Knapsack efficiency: 0.9986702363
+Node 1 Each Knapsack efficiency: 0.9902435277
+SFC efficiency for combined algorithm: 0.9950030347
+SFC+Knapsack combined efficiency: 0.9852953152
+ Final SFC+Knapsack_Combined time: 0.000161972
+
+=== End of Run 32 ===
+======================================
+
+
+=== Starting Run 33 ===
+105004.8556 , 110806.1878 , 103618.1756 , 95191.29223 , 99604.43081 , 98233.33157 , 100041.4321 , 102390.7208 , 99464.3703 , 97379.59441 , 108112.7942 , 102574.5708 , 104468.991 , 103988.9151 , 98237.46893 , 97891.63216 ,  Scaled Weights: 947644331 , 1000000000 , 935129867 , 859079210 , 898906757 , 886532906 , 902850592 , 924052374 , 897642743 , 878828127 , 975692752 , 925711577 , 942808278 , 938475705 , 886570245 , 883449148 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7350294975
+  Bucket 1 total weight: 7333079637
+Only KNAPSACK  efficiency: 0.9988289356
+test......: 
+ Final Knapsack time: 0.000148668
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6430143663
+  Bucket 1 contains 8253230949
+Only SFC efficiency: 0.8895531158
+test......: 
+ Final SFC time: 0.000141114
+SFC+painterPartition efficiency: 0.9982991029
+ Final SFC+Painter time: 1.1882e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6430143663
+  Bucket 1 contains 8253230949
+Node 0 Each Knapsack efficiency: 0.8824552709
+Node 1 Each Knapsack efficiency: 0.7747937971
+SFC efficiency for combined algorithm: 0.8895531158
+SFC+Knapsack combined efficiency: 0.6892202363
+ Final SFC+Knapsack_Combined time: 0.000164026
+
+=== End of Run 33 ===
+======================================
+
+
+=== Starting Run 34 ===
+101654.099 , 100553.4185 , 101945.7738 , 101295.4129 , 98955.57238 , 103677.5568 , 94415.7634 , 95414.58434 , 104465.8567 , 98768.49692 , 99581.33549 , 104009.0665 , 99670.20853 , 106532.9241 , 115261.5724 , 97809.11212 ,  Scaled Weights: 881942671 , 872393257 , 884473218 , 878830740 , 858530475 , 899498026 , 819143462 , 827809151 , 906337252 , 856907423 , 863959544 , 902374177 , 864730600 , 924270960 , 1000000000 , 848583879 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7056666551
+  Bucket 1 total weight: 7033118284
+Only KNAPSACK  efficiency: 0.9983314879
+test......: 
+ Final Knapsack time: 0.000154569
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6922621000
+  Bucket 1 contains 7167163835
+Only SFC efficiency: 0.9829400555
+test......: 
+ Final SFC time: 0.000141725
+SFC+painterPartition efficiency: 0.9829400555
+ Final SFC+Painter time: 1.2202e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6922621000
+  Bucket 1 contains 7167163835
+Node 0 Each Knapsack efficiency: 0.9882546453
+Node 1 Each Knapsack efficiency: 0.9692776071
+SFC efficiency for combined algorithm: 0.9829400555
+SFC+Knapsack combined efficiency: 0.9527417849
+ Final SFC+Knapsack_Combined time: 0.000167262
+
+=== End of Run 34 ===
+======================================
+
+
+=== Starting Run 35 ===
+102036.4627 , 100476.0214 , 107521.7791 , 102083.2318 , 106613.1257 , 103028.8812 , 93820.11718 , 100006.5406 , 100343.3558 , 101051.3976 , 98139.33832 , 106026.9376 , 97817.35384 , 99559.68572 , 105782.0977 , 100050.7851 ,  Scaled Weights: 948984137 , 934471345 , 1000000001 , 949419110 , 991549123 , 958214067 , 872568497 , 930104966 , 933237495 , 939822597 , 912739160 , 986097315 , 909744563 , 925949018 , 983820195 , 930516459 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7568049627
+  Bucket 1 total weight: 7539188421
+Only KNAPSACK  efficiency: 0.9980932204
+test......: 
+ Final Knapsack time: 0.000151623
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6655206280
+  Bucket 1 contains 8452031768
+Only SFC efficiency: 0.8937045235
+test......: 
+ Final SFC time: 0.000142636
+SFC+painterPartition efficiency: 0.9958218956
+ Final SFC+Painter time: 1.1501e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6655206280
+  Bucket 1 contains 8452031768
+Node 0 Each Knapsack efficiency: 0.8764215783
+Node 1 Each Knapsack efficiency: 0.762717977
+SFC efficiency for combined algorithm: 0.8937045235
+SFC+Knapsack combined efficiency: 0.6816445062
+ Final SFC+Knapsack_Combined time: 0.000157013
+
+=== End of Run 35 ===
+======================================
+
+
+=== Starting Run 36 ===
+89272.59583 , 104061.9078 , 93439.14125 , 108508.2025 , 102675.1224 , 102127.2356 , 101873.5737 , 96772.44587 , 100426.4346 , 103116.845 , 101694.8288 , 104355.8488 , 105693.3292 , 105093.0127 , 95117.9765 , 107699.7542 ,  Scaled Weights: 822726705 , 959023423 , 861125142 , 1000000001 , 946242957 , 941193692 , 938855971 , 891844521 , 925519291 , 950313826 , 937208676 , 961732352 , 974058428 , 968525977 , 876597108 , 992549427 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7490707782
+  Bucket 1 total weight: 7456809715
+Only KNAPSACK  efficiency: 0.9977373255
+test......: 
+ Final Knapsack time: 0.000149269
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7361012412
+  Bucket 1 contains 7586505085
+Only SFC efficiency: 0.9851385671
+test......: 
+ Final SFC time: 0.000157504
+SFC+painterPartition efficiency: 0.9851385671
+ Final SFC+Painter time: 1.2954e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7361012412
+  Bucket 1 contains 7586505085
+Node 0 Each Knapsack efficiency: 0.9788321762
+Node 1 Each Knapsack efficiency: 0.99193539
+SFC efficiency for combined algorithm: 0.9851385671
+SFC+Knapsack combined efficiency: 0.9771938087
+ Final SFC+Knapsack_Combined time: 0.000160349
+
+=== End of Run 36 ===
+======================================
+
+
+=== Starting Run 37 ===
+94384.32151 , 101868.0141 , 100114.8246 , 106739.7198 , 97294.71966 , 96604.16554 , 101637.6026 , 106635.5964 , 96815.04707 , 102859.4096 , 98580.15841 , 91478.36084 , 103748.1821 , 103037.8103 , 98001.90258 , 100217.9352 ,  Scaled Weights: 884247417 , 954359018 , 937934116 , 1000000001 , 911513726 , 905044212 , 952200388 , 999024512 , 907019873 , 963646990 , 923556466 , 857022682 , 971973529 , 965318352 , 918139028 , 938900116 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7508544570
+  Bucket 1 total weight: 7481355856
+Only KNAPSACK  efficiency: 0.9981894817
+test......: 
+ Final Knapsack time: 0.000155831
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6545298878
+  Bucket 1 contains 8444601548
+Only SFC efficiency: 0.8875433815
+test......: 
+ Final SFC time: 0.000141574
+SFC+painterPartition efficiency: 0.9934555858
+ Final SFC+Painter time: 1.2503e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6545298878
+  Bucket 1 contains 8444601548
+Node 0 Each Knapsack efficiency: 0.8810496579
+Node 1 Each Knapsack efficiency: 0.7822789374
+SFC efficiency for combined algorithm: 0.8875433815
+SFC+Knapsack combined efficiency: 0.6943064933
+ Final SFC+Knapsack_Combined time: 0.000160269
+
+=== End of Run 37 ===
+======================================
+
+
+=== Starting Run 38 ===
+103055.9002 , 101725.9586 , 99502.9724 , 103711.4322 , 102599.2938 , 100514.3085 , 95045.39631 , 102539.0821 , 93465.53634 , 94126.36144 , 97893.33752 , 102705.5838 , 99364.94648 , 99883.57409 , 105067.8365 , 103516.846 ,  Scaled Weights: 980851074 , 968193141 , 947035513 , 987090205 , 976505249 , 956661066 , 904609817 , 975932174 , 889573246 , 895862755 , 931715555 , 977516882 , 945721829 , 950657951 , 1000000001 , 985238200 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7644759726
+  Bucket 1 total weight: 7628404932
+Only KNAPSACK  efficiency: 0.9989303265
+test......: 
+ Final Knapsack time: 0.000145642
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6720946065
+  Bucket 1 contains 8552218593
+Only SFC efficiency: 0.8929358208
+test......: 
+ Final SFC time: 0.000137286
+SFC+painterPartition efficiency: 0.9921661863
+ Final SFC+Painter time: 1.0991e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6720946065
+  Bucket 1 contains 8552218593
+Node 0 Each Knapsack efficiency: 0.87291625
+Node 1 Each Knapsack efficiency: 0.7868735344
+SFC efficiency for combined algorithm: 0.8929358208
+SFC+Knapsack combined efficiency: 0.7026275653
+ Final SFC+Knapsack_Combined time: 0.000170729
+
+=== End of Run 38 ===
+======================================
+
+
+=== Starting Run 39 ===
+92426.73587 , 94511.21462 , 97672.93411 , 98258.23819 , 102278.6795 , 103081.8981 , 99930.82438 , 89745.13868 , 100124.6126 , 101175.4232 , 98335.67231 , 104014.6595 , 95791.07856 , 101512.6378 , 107107.6702 , 89133.39722 ,  Scaled Weights: 862932932 , 882394459 , 911913535 , 917378168 , 954914614 , 962413784 , 932994101 , 837896470 , 934803385 , 944614172 , 918101124 , 971122417 , 894343780 , 947762543 , 1000000001 , 832185007 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7358824302
+  Bucket 1 total weight: 7346946190
+Only KNAPSACK  efficiency: 0.9991929341
+test......: 
+ Final Knapsack time: 0.000147405
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7262838063
+  Bucket 1 contains 7442932429
+Only SFC efficiency: 0.9879016525
+test......: 
+ Final SFC time: 0.000140101
+SFC+painterPartition efficiency: 0.9879016525
+ Final SFC+Painter time: 1.2223e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7262838063
+  Bucket 1 contains 7442932429
+Node 0 Each Knapsack efficiency: 0.992575166
+Node 1 Each Knapsack efficiency: 0.9900583829
+SFC efficiency for combined algorithm: 0.9879016525
+SFC+Knapsack combined efficiency: 0.9780803125
+ Final SFC+Knapsack_Combined time: 0.000163285
+
+=== End of Run 39 ===
+======================================
+
+
+=== Starting Run 40 ===
+106762.8714 , 104733.3028 , 98569.92888 , 98741.90904 , 104056.8834 , 102640.7855 , 108563.9603 , 101173.4045 , 105613.6676 , 96586.44482 , 99105.77935 , 99922.59358 , 107808.6886 , 103191.3774 , 104377.7888 , 92004.64442 ,  Scaled Weights: 983409883 , 964715202 , 907943379 , 909527516 , 958484594 , 945440690 , 1000000001 , 931924409 , 972824383 , 889673190 , 912879183 , 920402990 , 993043072 , 950512280 , 961440505 , 847469494 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7545926319
+  Bucket 1 total weight: 7503764452
+Only KNAPSACK  efficiency: 0.997206316
+test......: 
+ Final Knapsack time: 0.000154217
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6669521265
+  Bucket 1 contains 8380169506
+Only SFC efficiency: 0.897934747
+test......: 
+ Final SFC time: 0.000137938
+SFC+painterPartition efficiency: 0.9899229315
+ Final SFC+Painter time: 1.1982e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6669521265
+  Bucket 1 contains 8380169506
+Node 0 Each Knapsack efficiency: 0.8757593222
+Node 1 Each Knapsack efficiency: 0.7905755053
+SFC efficiency for combined algorithm: 0.897934747
+SFC+Knapsack combined efficiency: 0.7098852163
+ Final SFC+Knapsack_Combined time: 0.000157264
+
+=== End of Run 40 ===
+======================================
+
+
+=== Starting Run 41 ===
+105563.2736 , 100238.4126 , 97260.07898 , 100942.1538 , 101072.2636 , 93592.85941 , 97432.73381 , 94816.52521 , 99197.16201 , 98215.56773 , 101255.58 , 103066.3372 , 95509.30643 , 96026.77022 , 104253.1349 , 107913.8849 ,  Scaled Weights: 978217713 , 928874100 , 901274930 , 935395422 , 936601104 , 867292097 , 902874862 , 878631377 , 919225197 , 910129108 , 938299832 , 955079483 , 885051137 , 889846292 , 966077118 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7402036327
+  Bucket 1 total weight: 7390833446
+Only KNAPSACK  efficiency: 0.9992432568
+test......: 
+ Final Knapsack time: 0.000147084
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7329161605
+  Bucket 1 contains 7463708168
+Only SFC efficiency: 0.9909866142
+test......: 
+ Final SFC time: 0.000142165
+SFC+painterPartition efficiency: 0.9909866142
+ Final SFC+Painter time: 1.2263e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7329161605
+  Bucket 1 contains 7463708168
+Node 0 Each Knapsack efficiency: 0.9928369881
+Node 1 Each Knapsack efficiency: 0.9898548662
+SFC efficiency for combined algorithm: 0.9909866142
+SFC+Knapsack combined efficiency: 0.9809329224
+ Final SFC+Knapsack_Combined time: 0.00016078
+
+=== End of Run 41 ===
+======================================
+
+
+=== Starting Run 42 ===
+104363.7998 , 96828.62426 , 101799.3911 , 101726.245 , 101660.8302 , 98313.71875 , 100801.3361 , 106256.6995 , 97921.90483 , 94230.48998 , 92267.38022 , 99401.57611 , 97974.29093 , 95558.89941 , 91858.68371 , 110406.5958 ,  Scaled Weights: 945267799 , 877018475 , 922040847 , 921378332 , 920785842 , 890469615 , 913001034 , 962412606 , 886920787 , 853486056 , 835705327 , 900322806 , 887395271 , 865518032 , 832003587 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7207069480
+  Bucket 1 total weight: 7206656937
+Only KNAPSACK  efficiency: 0.9999713793
+test......: 
+ Final Knapsack time: 0.00014994
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6389961944
+  Bucket 1 contains 8023764473
+Only SFC efficiency: 0.8981897752
+test......: 
+ Final SFC time: 0.000158716
+SFC+painterPartition efficiency: 0.9802089324
+ Final SFC+Painter time: 1.2624e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6389961944
+  Bucket 1 contains 8023764473
+Node 0 Each Knapsack efficiency: 0.8711429376
+Node 1 Each Knapsack efficiency: 0.7761601162
+SFC efficiency for combined algorithm: 0.8981897752
+SFC+Knapsack combined efficiency: 0.6971390803
+ Final SFC+Knapsack_Combined time: 0.000197298
+
+=== End of Run 42 ===
+======================================
+
+
+=== Starting Run 43 ===
+96250.44099 , 99830.09533 , 103349.6083 , 97141.99204 , 90528.09229 , 101362.5497 , 104032.9265 , 102295.5575 , 98448.00951 , 104826.1754 , 103600.54 , 104669.8164 , 100914.9765 , 96873.68282 , 104991.2323 , 88261.56168 ,  Scaled Weights: 916747417 , 950842211 , 984364181 , 925239089 , 862244307 , 965438233 , 990872517 , 974324763 , 937678389 , 998427899 , 986754206 , 996938642 , 961175275 , 922683550 , 1000000001 , 840656499 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7616511176
+  Bucket 1 total weight: 7597876003
+Only KNAPSACK  efficiency: 0.9987766595
+test......: 
+ Final Knapsack time: 0.000160089
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7570072718
+  Bucket 1 contains 7644314461
+Only SFC efficiency: 0.9951439895
+test......: 
+ Final SFC time: 0.00015026
+SFC+painterPartition efficiency: 0.9951439895
+ Final SFC+Painter time: 1.3325e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7570072718
+  Bucket 1 contains 7644314461
+Node 0 Each Knapsack efficiency: 0.987599798
+Node 1 Each Knapsack efficiency: 0.9810820329
+SFC efficiency for combined algorithm: 0.9951439895
+SFC+Knapsack combined efficiency: 0.9763178883
+ Final SFC+Knapsack_Combined time: 0.000162784
+
+=== End of Run 43 ===
+======================================
+
+
+=== Starting Run 44 ===
+86004.39189 , 99333.98963 , 100190.7015 , 106926.6857 , 97556.84716 , 100844.3136 , 107617.9589 , 97823.3493 , 106586.5456 , 99917.81058 , 101556.9933 , 95945.23021 , 94508.39569 , 105040.5215 , 107545.2849 , 107650.1333 ,  Scaled Weights: 798925085 , 922748413 , 930706711 , 993279640 , 906239911 , 936778344 , 999701120 , 908715543 , 990119959 , 928171731 , 943398677 , 891269033 , 877921771 , 975758397 , 999026026 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7540288892
+  Bucket 1 total weight: 7462471470
+Only KNAPSACK  efficiency: 0.9948398912
+test......: 
+ Final Knapsack time: 0.000153367
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7397094767
+  Bucket 1 contains 7605665595
+Only SFC efficiency: 0.9862884566
+test......: 
+ Final SFC time: 0.000142235
+SFC+painterPartition efficiency: 0.9862884566
+ Final SFC+Painter time: 1.2604e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7397094767
+  Bucket 1 contains 7605665595
+Node 0 Each Knapsack efficiency: 0.9735481221
+Node 1 Each Knapsack efficiency: 0.9907560066
+SFC efficiency for combined algorithm: 0.9862884566
+SFC+Knapsack combined efficiency: 0.9771712126
+ Final SFC+Knapsack_Combined time: 0.000158907
+
+=== End of Run 44 ===
+======================================
+
+
+=== Starting Run 45 ===
+103644.6732 , 99627.19894 , 94477.24761 , 98680.02574 , 101953.4092 , 100094.7779 , 94103.06676 , 95154.79943 , 102468.9074 , 97633.40137 , 105210.9913 , 108698.5079 , 99352.0789 , 104518.694 , 98198.95176 , 95783.09593 ,  Scaled Weights: 953505942 , 916546150 , 869167843 , 907832386 , 937946723 , 920847764 , 865725470 , 875401156 , 942689181 , 898203695 , 967915690 , 1000000001 , 914015113 , 961546723 , 903406622 , 881181332 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7358603896
+  Bucket 1 total weight: 7357327895
+Only KNAPSACK  efficiency: 0.9999132987
+test......: 
+ Final Knapsack time: 0.000150961
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7246973434
+  Bucket 1 contains 7468958357
+Only SFC efficiency: 0.9851394992
+test......: 
+ Final SFC time: 0.000142586
+SFC+painterPartition efficiency: 0.9851394992
+ Final SFC+Painter time: 1.2013e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7246973434
+  Bucket 1 contains 7468958357
+Node 0 Each Knapsack efficiency: 0.9930742567
+Node 1 Each Knapsack efficiency: 0.9925888358
+SFC efficiency for combined algorithm: 0.9851394992
+SFC+Knapsack combined efficiency: 0.9778384686
+ Final SFC+Knapsack_Combined time: 0.000161011
+
+=== End of Run 45 ===
+======================================
+
+
+=== Starting Run 46 ===
+96324.78875 , 104519.5736 , 103663.3259 , 105255.2537 , 100238.7882 , 94874.63007 , 100909.3587 , 107645.247 , 96303.85319 , 105030.5265 , 87890.26609 , 103360.0864 , 103860.1629 , 91955.94711 , 101000.656 , 101097.8455 ,  Scaled Weights: 894835504 , 970963202 , 963008854 , 977797504 , 931195673 , 881363858 , 937425122 , 1000000000 , 894641017 , 975709838 , 816480696 , 960191828 , 964837425 , 854249953 , 938273253 , 939176121 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7459688191
+  Bucket 1 total weight: 7440461657
+Only KNAPSACK  efficiency: 0.9987113044
+test......: 
+ Final Knapsack time: 0.000149028
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6556589717
+  Bucket 1 contains 8343560131
+Only SFC efficiency: 0.8929131938
+test......: 
+ Final SFC time: 0.000141625
+SFC+painterPartition efficiency: 0.9859043832
+ Final SFC+Painter time: 1.1271e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6556589717
+  Bucket 1 contains 8343560131
+Node 0 Each Knapsack efficiency: 0.8771963973
+Node 1 Each Knapsack efficiency: 0.8130946718
+SFC efficiency for combined algorithm: 0.8929131938
+SFC+Knapsack combined efficiency: 0.7260229602
+ Final SFC+Knapsack_Combined time: 0.000161952
+
+=== End of Run 46 ===
+======================================
+
+
+=== Starting Run 47 ===
+99772.615 , 104895.7256 , 106802.7756 , 102534.3259 , 98754.16944 , 96968.20186 , 95967.87297 , 95663.39512 , 97486.73117 , 109156.0466 , 92895.86611 , 100103.2729 , 101266.4715 , 100196.9568 , 97285.8727 , 94022.06485 ,  Scaled Weights: 914036539 , 960970362 , 978441222 , 939337115 , 904706359 , 888344759 , 879180549 , 876391168 , 893095108 , 1000000001 , 851037291 , 917065761 , 927722052 , 917924018 , 891255004 , 861354619 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7305198268
+  Bucket 1 total weight: 7295663659
+Only KNAPSACK  efficiency: 0.9993474093
+test......: 
+ Final Knapsack time: 0.000152073
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6465016905
+  Bucket 1 contains 8135845022
+Only SFC efficiency: 0.8973168667
+test......: 
+ Final SFC time: 0.000138919
+SFC+painterPartition efficiency: 0.9944183583
+ Final SFC+Painter time: 1.2624e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6465016905
+  Bucket 1 contains 8135845022
+Node 0 Each Knapsack efficiency: 0.8783269984
+Node 1 Each Knapsack efficiency: 0.7767113835
+SFC efficiency for combined algorithm: 0.8973168667
+SFC+Knapsack combined efficiency: 0.696956225
+ Final SFC+Knapsack_Combined time: 0.000185967
+
+=== End of Run 47 ===
+======================================
+
+
+=== Starting Run 48 ===
+97567.77977 , 92575.59759 , 98142.18398 , 102948.062 , 98972.79097 , 93114.21277 , 100421.5299 , 102698.7151 , 99959.32289 , 106996.1129 , 98521.59156 , 108375.4226 , 99289.92191 , 99094.37548 , 103473.8081 , 92566.16415 ,  Scaled Weights: 900275888 , 854212103 , 905576022 , 949920744 , 913240186 , 859182005 , 926607966 , 947619975 , 922343098 , 987272856 , 909076886 , 1000000001 , 916166411 , 914362068 , 954771900 , 854125059 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7376711710
+  Bucket 1 total weight: 7338041458
+Only KNAPSACK  efficiency: 0.9973788963
+test......: 
+ Final Knapsack time: 0.000154078
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7256634889
+  Bucket 1 contains 7458118279
+Only SFC efficiency: 0.9864923442
+test......: 
+ Final SFC time: 0.000140673
+SFC+painterPartition efficiency: 0.9864923442
+ Final SFC+Painter time: 1.2664e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7256634889
+  Bucket 1 contains 7458118279
+Node 0 Each Knapsack efficiency: 0.9930345152
+Node 1 Each Knapsack efficiency: 0.983220304
+SFC efficiency for combined algorithm: 0.9864923442
+SFC+Knapsack combined efficiency: 0.9699393025
+ Final SFC+Knapsack_Combined time: 0.000158456
+
+=== End of Run 48 ===
+======================================
+
+
+=== Starting Run 49 ===
+93186.47774 , 99578.33023 , 101185.4282 , 96419.11081 , 99989.06183 , 97460.1904 , 102459.692 , 99491.81384 , 96900.09812 , 106308.4848 , 100869.398 , 93025.93864 , 100485.1553 , 103675.7854 , 99578.67718 , 104365.0699 ,  Scaled Weights: 876566701 , 936692217 , 951809523 , 906974745 , 940555799 , 916767750 , 963795996 , 935878393 , 911499194 , 1000000001 , 948836758 , 875056576 , 945222345 , 975235285 , 936695480 , 981719100 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7507793748
+  Bucket 1 total weight: 7495512115
+Only KNAPSACK  efficiency: 0.9991820744
+test......: 
+ Final Knapsack time: 0.000150861
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7429041124
+  Bucket 1 contains 7574264739
+Only SFC efficiency: 0.9904133523
+test......: 
+ Final SFC time: 0.000156693
+SFC+painterPartition efficiency: 0.9904133523
+ Final SFC+Painter time: 1.1411e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7429041124
+  Bucket 1 contains 7574264739
+Node 0 Each Knapsack efficiency: 0.9918238976
+Node 1 Each Knapsack efficiency: 0.9903947462
+SFC efficiency for combined algorithm: 0.9904133523
+SFC+Knapsack combined efficiency: 0.9809001807
+ Final SFC+Knapsack_Combined time: 0.000157434
+
+=== End of Run 49 ===
+======================================
+
+
+=== Starting Run 50 ===
+103072.5692 , 110901.7388 , 101878.0127 , 90392.84318 , 102344.8701 , 95083.16622 , 90475.83029 , 107048.8375 , 100329.6255 , 95535.22278 , 98475.41273 , 104030.8148 , 101754.1711 , 94641.60396 , 101275.0353 , 105618.7999 ,  Scaled Weights: 929404447 , 1000000001 , 918633142 , 815071470 , 922842791 , 857364071 , 815819764 , 965258424 , 904671349 , 861440261 , 887951928 , 938044939 , 917516463 , 853382508 , 913196100 , 952363787 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7235261806
+  Bucket 1 total weight: 7217699639
+Only KNAPSACK  efficiency: 0.9987863489
+test......: 
+ Final Knapsack time: 0.000147415
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7224394110
+  Bucket 1 contains 7228567335
+Only SFC efficiency: 0.999711338
+test......: 
+ Final SFC time: 0.000142235
+SFC+painterPartition efficiency: 0.999711338
+ Final SFC+Painter time: 1.1461e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7224394110
+  Bucket 1 contains 7228567335
+Node 0 Each Knapsack efficiency: 0.9807885594
+Node 1 Each Knapsack efficiency: 0.9940998915
+SFC efficiency for combined algorithm: 0.999711338
+SFC+Knapsack combined efficiency: 0.9810718393
+ Final SFC+Knapsack_Combined time: 0.00016108
+
+=== End of Run 50 ===
+======================================
+
+
+=== Starting Run 51 ===
+106216.1126 , 99376.55584 , 102375.2109 , 100209.1295 , 102312.4092 , 97596.87018 , 104148.1607 , 104253.9638 , 98968.41286 , 95958.5859 , 100165.0467 , 98733.49651 , 108400.1132 , 95181.57078 , 104656.562 , 103403.6454 ,  Scaled Weights: 979852415 , 916756938 , 944419779 , 924437499 , 943840428 , 900339191 , 960775388 , 961751430 , 912991786 , 885225883 , 924030832 , 910824663 , 1000000001 , 878057855 , 965465432 , 953907173 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7482086724
+  Bucket 1 total weight: 7480589969
+Only KNAPSACK  efficiency: 0.9998999774
+test......: 
+ Final Knapsack time: 0.000150702
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6570421638
+  Bucket 1 contains 8392255055
+Only SFC efficiency: 0.8914574566
+test......: 
+ Final SFC time: 0.000137056
+SFC+painterPartition efficiency: 0.9932509887
+ Final SFC+Painter time: 1.2604e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6570421638
+  Bucket 1 contains 8392255055
+Node 0 Each Knapsack efficiency: 0.8792082729
+Node 1 Each Knapsack efficiency: 0.7765216023
+SFC efficiency for combined algorithm: 0.8914574566
+SFC+Knapsack combined efficiency: 0.6922359726
+ Final SFC+Knapsack_Combined time: 0.000154548
+
+=== End of Run 51 ===
+======================================
+
+
+=== Starting Run 52 ===
+101607.0026 , 100839.7067 , 106022.9028 , 97528.46848 , 102596.6874 , 94714.45452 , 96992.37775 , 99381.18377 , 90969.08813 , 95539.95427 , 100462.3166 , 96117.74929 , 90196.87485 , 93394.29307 , 101439.7704 , 96936.25918 ,  Scaled Weights: 958349564 , 951112488 , 1000000001 , 919881139 , 967684196 , 893339572 , 914824772 , 937355809 , 858013559 , 901125623 , 947552973 , 906575342 , 850730102 , 880887909 , 956772242 , 914295465 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7379971845
+  Bucket 1 total weight: 7378528911
+Only KNAPSACK  efficiency: 0.9999022399
+test......: 
+ Final Knapsack time: 0.00015
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6605191732
+  Bucket 1 contains 8153309024
+Only SFC efficiency: 0.9050620253
+test......: 
+ Final SFC time: 0.000140242
+SFC+painterPartition efficiency: 0.9783498663
+ Final SFC+Painter time: 1.1301e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6605191732
+  Bucket 1 contains 8153309024
+Node 0 Each Knapsack efficiency: 0.8815505857
+Node 1 Each Knapsack efficiency: 0.7871109078
+SFC efficiency for combined algorithm: 0.9050620253
+SFC+Knapsack combined efficiency: 0.7123841924
+ Final SFC+Knapsack_Combined time: 0.000156051
+
+=== End of Run 52 ===
+======================================
+
+
+=== Starting Run 53 ===
+99482.21972 , 98883.48231 , 97817.54283 , 101729.7739 , 87598.21477 , 90746.06208 , 100577.4975 , 100735.1072 , 91789.36925 , 99693.51139 , 98374.72086 , 97329.27394 , 96139.62438 , 97657.84079 , 94826.40263 , 95399.70512 ,  Scaled Weights: 977906624 , 972021057 , 961542910 , 1000000001 , 861087285 , 892030510 , 988673165 , 990222462 , 902286182 , 979983613 , 967019950 , 956743245 , 945049032 , 959973045 , 932140110 , 937775653 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7615133590
+  Bucket 1 total weight: 7609321254
+Only KNAPSACK  efficiency: 0.9996183694
+test......: 
+ Final Knapsack time: 0.000165739
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6653261552
+  Bucket 1 contains 8571193292
+Only SFC efficiency: 0.8881175774
+test......: 
+ Final SFC time: 0.000140572
+SFC+painterPartition efficiency: 0.9959106879
+ Final SFC+Painter time: 1.2904e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6653261552
+  Bucket 1 contains 8571193292
+Node 0 Each Knapsack efficiency: 0.8602329255
+Node 1 Each Knapsack efficiency: 0.7709362643
+SFC efficiency for combined algorithm: 0.8881175774
+SFC+Knapsack combined efficiency: 0.6846820474
+ Final SFC+Knapsack_Combined time: 0.000162784
+
+=== End of Run 53 ===
+======================================
+
+
+=== Starting Run 54 ===
+105601.3157 , 98462.04121 , 100397.2903 , 105403.5264 , 90670.58628 , 98479.17822 , 101138.2423 , 100692.7733 , 104009.8751 , 103092.203 , 98733.82116 , 103089.9003 , 101834.6215 , 102318.3503 , 101912.1159 , 97806.10367 ,  Scaled Weights: 1000000001 , 932394076 , 950720071 , 998127019 , 858612279 , 932556357 , 957736574 , 953518170 , 984929728 , 976239760 , 934967718 , 976217954 , 964330992 , 968911700 , 965064831 , 926182624 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7668231980
+  Bucket 1 total weight: 7612277874
+Only KNAPSACK  efficiency: 0.9963515641
+test......: 
+ Final Knapsack time: 0.000149779
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7583664547
+  Bucket 1 contains 7696845307
+Only SFC efficiency: 0.9926475877
+test......: 
+ Final SFC time: 0.000140221
+SFC+painterPartition efficiency: 0.9926475877
+ Final SFC+Painter time: 1.2183e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7583664547
+  Bucket 1 contains 7696845307
+Node 0 Each Knapsack efficiency: 0.9820748096
+Node 1 Each Knapsack efficiency: 0.9915809291
+SFC efficiency for combined algorithm: 0.9926475877
+SFC+Knapsack combined efficiency: 0.9842904172
+ Final SFC+Knapsack_Combined time: 0.000160148
+
+=== End of Run 54 ===
+======================================
+
+
+=== Starting Run 55 ===
+102960.3484 , 104170.3737 , 100201.7364 , 95108.56059 , 106963.4753 , 102051.5024 , 107376.6102 , 96784.66032 , 107236.2872 , 92693.29528 , 89607.06357 , 98890.63759 , 96315.24082 , 104692.7636 , 102377.4959 , 101907.2056 ,  Scaled Weights: 958871287 , 970140271 , 933180292 , 885747468 , 996152469 , 950407191 , 1000000001 , 901357010 , 998693170 , 863254066 , 834511943 , 920970009 , 896985300 , 975005296 , 953443173 , 949063353 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7507275952
+  Bucket 1 total weight: 7480506347
+Only KNAPSACK  efficiency: 0.9982170893
+test......: 
+ Final Knapsack time: 0.000149048
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6694498979
+  Bucket 1 contains 8293283320
+Only SFC efficiency: 0.9036096875
+test......: 
+ Final SFC time: 0.000140062
+SFC+painterPartition efficiency: 0.9865762543
+ Final SFC+Painter time: 1.2313e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6694498979
+  Bucket 1 contains 8293283320
+Node 0 Each Knapsack efficiency: 0.8765744568
+Node 1 Each Knapsack efficiency: 0.797700153
+SFC efficiency for combined algorithm: 0.9036096875
+SFC+Knapsack combined efficiency: 0.720809586
+ Final SFC+Knapsack_Combined time: 0.000161722
+
+=== End of Run 55 ===
+======================================
+
+
+=== Starting Run 56 ===
+90416.69469 , 95715.00182 , 101483.2305 , 98115.57677 , 88317.68156 , 100578.5475 , 99937.24566 , 102411.4062 , 97166.70433 , 102737.4348 , 101125.573 , 97356.83062 , 100011.7235 , 90876.53042 , 99746.82794 , 95801.4471 ,  Scaled Weights: 880075455 , 931646795 , 987792139 , 955012912 , 859644605 , 978986362 , 972744218 , 996826585 , 945777014 , 1000000001 , 984310862 , 947627618 , 973469152 , 884551290 , 970890778 , 932488214 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7609624620
+  Bucket 1 total weight: 7592219380
+Only KNAPSACK  efficiency: 0.9988563667
+test......: 
+ Final Knapsack time: 0.000167553
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7562729071
+  Bucket 1 contains 7639114929
+Only SFC efficiency: 0.9950003463
+test......: 
+ Final SFC time: 0.000142997
+SFC+painterPartition efficiency: 0.9950003463
+ Final SFC+Painter time: 1.2573e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7562729071
+  Bucket 1 contains 7639114929
+Node 0 Each Knapsack efficiency: 0.980767877
+Node 1 Each Knapsack efficiency: 0.9950671082
+SFC efficiency for combined algorithm: 0.9950003463
+SFC+Knapsack combined efficiency: 0.9857209035
+ Final SFC+Knapsack_Combined time: 0.000158195
+
+=== End of Run 56 ===
+======================================
+
+
+=== Starting Run 57 ===
+102958.2684 , 91218.39428 , 103866.3799 , 102545.7882 , 104612.4131 , 98995.60063 , 94848.48526 , 105473.3193 , 99087.73879 , 100107.5327 , 101460.3241 , 100029.0525 , 102624.9256 , 94836.49208 , 100042.2647 , 103226.5641 ,  Scaled Weights: 976154625 , 864848048 , 984764495 , 972243871 , 991837688 , 938584292 , 899265198 , 1000000001 , 939457860 , 949126599 , 961952509 , 948382522 , 972994178 , 899151490 , 948507788 , 978698356 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7615334394
+  Bucket 1 total weight: 7610635126
+Only KNAPSACK  efficiency: 0.9996914602
+test......: 
+ Final Knapsack time: 0.000148567
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6627698217
+  Bucket 1 contains 8598271303
+Only SFC efficiency: 0.8854087632
+test......: 
+ Final SFC time: 0.000138849
+SFC+painterPartition efficiency: 0.9980710488
+ Final SFC+Painter time: 1.2944e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6627698217
+  Bucket 1 contains 8598271303
+Node 0 Each Knapsack efficiency: 0.8671237877
+Node 1 Each Knapsack efficiency: 0.7687895888
+SFC efficiency for combined algorithm: 0.8854087632
+SFC+Knapsack combined efficiency: 0.680693039
+ Final SFC+Knapsack_Combined time: 0.000168294
+
+=== End of Run 57 ===
+======================================
+
+
+=== Starting Run 58 ===
+108250.1564 , 100963.7044 , 98276.43484 , 105200.85 , 94290.85779 , 101753.122 , 97277.33345 , 95120.18611 , 98433.92721 , 105719.6651 , 100344.4216 , 103760.5403 , 94164.88628 , 103548.0001 , 102764.8624 , 98493.72867 ,  Scaled Weights: 1000000001 , 932688763 , 907864138 , 971830929 , 871045927 , 939981294 , 898634577 , 878707148 , 909319031 , 976623671 , 926967914 , 958525547 , 869882220 , 956562130 , 949327612 , 909871468 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7432705320
+  Bucket 1 total weight: 7425127050
+Only KNAPSACK  efficiency: 0.9994902078
+test......: 
+ Final Knapsack time: 0.000149258
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7400752777
+  Bucket 1 contains 7457079593
+Only SFC efficiency: 0.9962232657
+test......: 
+ Final SFC time: 0.000142786
+SFC+painterPartition efficiency: 0.9962232657
+ Final SFC+Painter time: 1.113e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7400752777
+  Bucket 1 contains 7457079593
+Node 0 Each Knapsack efficiency: 0.9888523668
+Node 1 Each Knapsack efficiency: 0.9935907603
+SFC efficiency for combined algorithm: 0.9962232657
+SFC+Knapsack combined efficiency: 0.989838232
+ Final SFC+Knapsack_Combined time: 0.000201265
+
+=== End of Run 58 ===
+======================================
+
+
+=== Starting Run 59 ===
+93772.58283 , 98170.29492 , 98497.63293 , 97475.10381 , 96063.06208 , 104370.7057 , 100257.9793 , 99996.99052 , 99646.73611 , 95485.04084 , 104467.7524 , 98077.63512 , 100016.9883 , 107357.1915 , 103470.7363 , 103741.8543 ,  Scaled Weights: 873463450 , 914426818 , 917475873 , 907951322 , 894798577 , 972181783 , 933872972 , 931441939 , 928179424 , 889414483 , 973085744 , 913563720 , 931628213 , 1000000001 , 963798838 , 966324221 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7457781611
+  Bucket 1 total weight: 7453825767
+Only KNAPSACK  efficiency: 0.9997347841
+test......: 
+ Final Knapsack time: 0.000149489
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7345612734
+  Bucket 1 contains 7565994644
+Only SFC efficiency: 0.9854360252
+test......: 
+ Final SFC time: 0.000138458
+SFC+painterPartition efficiency: 0.9854360252
+ Final SFC+Painter time: 1.1431e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7345612734
+  Bucket 1 contains 7565994644
+Node 0 Each Knapsack efficiency: 0.9949925103
+Node 1 Each Knapsack efficiency: 0.997927438
+SFC efficiency for combined algorithm: 0.9854360252
+SFC+Knapsack combined efficiency: 0.983393648
+ Final SFC+Knapsack_Combined time: 0.000167252
+
+=== End of Run 59 ===
+======================================
+
+
+=== Starting Run 60 ===
+105196.1732 , 97882.82329 , 98956.01061 , 97333.04351 , 100359.2151 , 103051.6578 , 100003.5609 , 100693.9786 , 102299.3579 , 102230.0033 , 96409.41373 , 97681.00441 , 103116.6837 , 107549.5125 , 93949.88456 , 99925.1879 ,  Scaled Weights: 978118550 , 910118708 , 920097250 , 905006832 , 933144306 , 958178754 , 929837418 , 936256951 , 951183837 , 950538975 , 896418883 , 908242188 , 958783367 , 1000000000 , 873550074 , 929108702 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7478938444
+  Bucket 1 total weight: 7459646351
+Only KNAPSACK  efficiency: 0.9987102385
+test......: 
+ Final Knapsack time: 0.000154418
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6534501818
+  Bucket 1 contains 8404082977
+Only SFC efficiency: 0.8887694729
+test......: 
+ Final SFC time: 0.000141995
+SFC+painterPartition efficiency: 0.9998037185
+ Final SFC+Painter time: 1.1812e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6534501818
+  Bucket 1 contains 8404082977
+Node 0 Each Knapsack efficiency: 0.8767915911
+Node 1 Each Knapsack efficiency: 0.7750267428
+SFC efficiency for combined algorithm: 0.8887694729
+SFC+Knapsack combined efficiency: 0.6888201097
+ Final SFC+Knapsack_Combined time: 0.000158215
+
+=== End of Run 60 ===
+======================================
+
+
+=== Starting Run 61 ===
+98620.87542 , 103363.3612 , 92343.91935 , 103033.264 , 106380.6091 , 104263.2606 , 102631.0412 , 105896.9764 , 101057.5753 , 99099.43458 , 98241.41724 , 108022.5667 , 103247.3482 , 104933.6188 , 102131.693 , 98399.15402 ,  Scaled Weights: 912965489 , 956868221 , 854857667 , 953812404 , 984799866 , 965198882 , 950088897 , 980322721 , 935522812 , 917395667 , 909452722 , 1000000000 , 955794251 , 971404606 , 945466269 , 910912942 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7573969853
+  Bucket 1 total weight: 7530893563
+Only KNAPSACK  efficiency: 0.9971562938
+test......: 
+ Final Knapsack time: 0.000143948
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6578591426
+  Bucket 1 contains 8526271990
+Only SFC efficiency: 0.8857835777
+test......: 
+ Final SFC time: 0.000140592
+SFC+painterPartition efficiency: 0.9991424113
+ Final SFC+Painter time: 1.1211e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6578591426
+  Bucket 1 contains 8526271990
+Node 0 Each Knapsack efficiency: 0.8638304179
+Node 1 Each Knapsack efficiency: 0.7785806503
+SFC efficiency for combined algorithm: 0.8857835777
+SFC+Knapsack combined efficiency: 0.689653954
+ Final SFC+Knapsack_Combined time: 0.0001927
+
+=== End of Run 61 ===
+======================================
+
+
+=== Starting Run 62 ===
+104040.3341 , 95921.6955 , 91414.04831 , 101323.1109 , 94071.45018 , 94933.40594 , 103489.8103 , 99915.51769 , 98151.0091 , 96252.3271 , 96158.67683 , 99484.2023 , 99898.84928 , 101667.1463 , 94103.90091 , 104606.9339 ,  Scaled Weights: 994583536 , 916972633 , 873881348 , 968607980 , 899285036 , 907524984 , 989320751 , 955151958 , 938283970 , 920133337 , 919238079 , 951028758 , 954992615 , 971896820 , 899595251 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7540230296
+  Bucket 1 total weight: 7520266761
+Only KNAPSACK  efficiency: 0.9986761986
+test......: 
+ Final Knapsack time: 0.000157995
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7505328226
+  Bucket 1 contains 7555168831
+Only SFC efficiency: 0.9967015558
+test......: 
+ Final SFC time: 0.000143508
+SFC+painterPartition efficiency: 0.9967015558
+ Final SFC+Painter time: 1.1621e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7505328226
+  Bucket 1 contains 7555168831
+Node 0 Each Knapsack efficiency: 0.9935011686
+Node 1 Each Knapsack efficiency: 0.9943129758
+SFC efficiency for combined algorithm: 0.9967015558
+SFC+Knapsack combined efficiency: 0.9910332899
+ Final SFC+Knapsack_Combined time: 0.000158525
+
+=== End of Run 62 ===
+======================================
+
+
+=== Starting Run 63 ===
+99927.56533 , 106416.8536 , 92240.63684 , 99059.29649 , 103904.2294 , 105098.6901 , 97584.35335 , 100851.3796 , 101119.6062 , 104044.3797 , 101537.9288 , 99226.20056 , 99787.53101 , 95202.33627 , 109473.5833 , 106594.5521 ,  Scaled Weights: 912800717 , 972077924 , 842583517 , 904869408 , 949126047 , 960036997 , 891396358 , 921239413 , 923689562 , 950406268 , 927510782 , 906394014 , 911521557 , 869637528 , 1000000001 , 973701134 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7417490964
+  Bucket 1 total weight: 7399500263
+Only KNAPSACK  efficiency: 0.9987872785
+test......: 
+ Final Knapsack time: 0.000154999
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7354130381
+  Bucket 1 contains 7462860846
+Only SFC efficiency: 0.992715229
+test......: 
+ Final SFC time: 0.000141754
+SFC+painterPartition efficiency: 0.992715229
+ Final SFC+Painter time: 1.1371e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7354130381
+  Bucket 1 contains 7462860846
+Node 0 Each Knapsack efficiency: 0.99165971
+Node 1 Each Knapsack efficiency: 0.9923514847
+SFC efficiency for combined algorithm: 0.992715229
+SFC+Knapsack combined efficiency: 0.9851224314
+ Final SFC+Knapsack_Combined time: 0.000160399
+
+=== End of Run 63 ===
+======================================
+
+
+=== Starting Run 64 ===
+101697.7567 , 94338.45828 , 95955.61749 , 99106.73442 , 101436.4372 , 100142.7962 , 94876.84451 , 98055.59681 , 104324.1699 , 103691.0797 , 104144.5368 , 98003.76189 , 104441.9429 , 100146.7414 , 107913.0276 , 98328.83796 ,  Scaled Weights: 942404815 , 874208244 , 889194008 , 918394532 , 939983240 , 927995429 , 879197319 , 908653933 , 966743055 , 960876384 , 965078445 , 908173593 , 967834425 , 928031988 , 1000000001 , 911185982 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7447477600
+  Bucket 1 total weight: 7440477793
+Only KNAPSACK  efficiency: 0.9995300552
+test......: 
+ Final Knapsack time: 0.000150701
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7280031520
+  Bucket 1 contains 7607923873
+Only SFC efficiency: 0.9784506024
+test......: 
+ Final SFC time: 0.000143929
+SFC+painterPartition efficiency: 0.9784506024
+ Final SFC+Painter time: 1.1482e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7280031520
+  Bucket 1 contains 7607923873
+Node 0 Each Knapsack efficiency: 0.9961464706
+Node 1 Each Knapsack efficiency: 0.9875522206
+SFC efficiency for combined algorithm: 0.9784506024
+SFC+Knapsack combined efficiency: 0.9662710652
+ Final SFC+Knapsack_Combined time: 0.000163244
+
+=== End of Run 64 ===
+======================================
+
+
+=== Starting Run 65 ===
+101656.9439 , 102649.4419 , 94177.2455 , 102709.8452 , 99729.81445 , 97928.37395 , 103219.1124 , 102382.6895 , 94404.23704 , 108749.8429 , 100873.9847 , 101115.6023 , 95835.49362 , 107263.9361 , 101038.3512 , 103910.9779 ,  Scaled Weights: 934777847 , 943904278 , 865998912 , 944459712 , 917057091 , 900492097 , 949142635 , 941451379 , 868086193 , 1000000001 , 927578212 , 929799986 , 881247192 , 986336470 , 929089630 , 955504626 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7441100273
+  Bucket 1 total weight: 7433825988
+Only KNAPSACK  efficiency: 0.999511209
+test......: 
+ Final Knapsack time: 0.000148988
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7397283951
+  Bucket 1 contains 7477642310
+Only SFC efficiency: 0.9946267583
+test......: 
+ Final SFC time: 0.000137636
+SFC+painterPartition efficiency: 0.9946267583
+ Final SFC+Painter time: 1.2694e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7397283951
+  Bucket 1 contains 7477642310
+Node 0 Each Knapsack efficiency: 0.9856583418
+Node 1 Each Knapsack efficiency: 0.992739427
+SFC efficiency for combined algorithm: 0.9946267583
+SFC+Knapsack combined efficiency: 0.9874051981
+ Final SFC+Knapsack_Combined time: 0.000191948
+
+=== End of Run 65 ===
+======================================
+
+
+=== Starting Run 66 ===
+99058.08382 , 99187.58158 , 95504.74371 , 93001.05539 , 95263.68078 , 95744.39109 , 97971.37065 , 105483.9348 , 91027.01944 , 106340.5437 , 95977.79556 , 103598.1505 , 94185.95857 , 106173.143 , 100975.9952 , 103484.0353 ,  Scaled Weights: 931517560 , 932735325 , 898102834 , 874558773 , 895835939 , 900356419 , 921298380 , 991944663 , 855995430 , 1000000000 , 902551296 , 974211217 , 885701307 , 998425805 , 949553121 , 973138106 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7452169310
+  Bucket 1 total weight: 7433756865
+Only KNAPSACK  efficiency: 0.9987646252
+test......: 
+ Final Knapsack time: 0.000159368
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7346349893
+  Bucket 1 contains 7539576282
+Only SFC efficiency: 0.9871858589
+test......: 
+ Final SFC time: 0.000141013
+SFC+painterPartition efficiency: 0.9871858589
+ Final SFC+Painter time: 1.2323e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7346349893
+  Bucket 1 contains 7539576282
+Node 0 Each Knapsack efficiency: 0.9839721898
+Node 1 Each Knapsack efficiency: 0.9803415359
+SFC efficiency for combined algorithm: 0.9871858589
+SFC+Knapsack combined efficiency: 0.9677793011
+ Final SFC+Knapsack_Combined time: 0.000158726
+
+=== End of Run 66 ===
+======================================
+
+
+=== Starting Run 67 ===
+94850.37861 , 104211.5733 , 104585.6493 , 99020.51628 , 97124.91786 , 98708.9061 , 92937.94311 , 99491.91969 , 93364.67331 , 94570.68608 , 90961.79463 , 102744.804 , 101114.8874 , 100673.0004 , 97656.34747 , 100277.1202 ,  Scaled Weights: 906915808 , 996423257 , 1000000001 , 946788752 , 928663909 , 943809278 , 888629977 , 951296095 , 892710176 , 904241517 , 869734952 , 982398683 , 966814167 , 962589046 , 933745195 , 958803822 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7524295889
+  Bucket 1 total weight: 7509268746
+Only KNAPSACK  efficiency: 0.9990014253
+test......: 
+ Final Knapsack time: 0.000147144
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6611230982
+  Bucket 1 contains 8422333653
+Only SFC efficiency: 0.8924821347
+test......: 
+ Final SFC time: 0.000141434
+SFC+painterPartition efficiency: 0.9939511278
+ Final SFC+Painter time: 1.1371e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6611230982
+  Bucket 1 contains 8422333653
+Node 0 Each Knapsack efficiency: 0.8767963237
+Node 1 Each Knapsack efficiency: 0.7895878645
+SFC efficiency for combined algorithm: 0.8924821347
+SFC+Knapsack combined efficiency: 0.7046930628
+ Final SFC+Knapsack_Combined time: 0.000162373
+
+=== End of Run 67 ===
+======================================
+
+
+=== Starting Run 68 ===
+106331.5808 , 99690.79748 , 92297.98202 , 96242.36814 , 96261.56334 , 97399.22231 , 105879.4223 , 100510.5833 , 94394.61244 , 106562.8017 , 98437.19392 , 96299.37501 , 102365.6185 , 101876.5251 , 101620.4651 , 96717.35383 ,  Scaled Weights: 997830192 , 935512167 , 866136969 , 903151631 , 903331762 , 914007710 , 993587074 , 943205150 , 885812038 , 1000000001 , 923748179 , 903686592 , 960613055 , 956023336 , 953620434 , 907608963 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7480342484
+  Bucket 1 total weight: 7467532769
+Only KNAPSACK  efficiency: 0.9991437748
+test......: 
+ Final Knapsack time: 0.000147435
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7456762655
+  Bucket 1 contains 7491112598
+Only SFC efficiency: 0.997707287
+test......: 
+ Final SFC time: 0.000143909
+SFC+painterPartition efficiency: 0.997707287
+ Final SFC+Painter time: 1.1832e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7456762655
+  Bucket 1 contains 7491112598
+Node 0 Each Knapsack efficiency: 0.9828399973
+Node 1 Each Knapsack efficiency: 0.9930884472
+SFC efficiency for combined algorithm: 0.997707287
+SFC+Knapsack combined efficiency: 0.9851037477
+ Final SFC+Knapsack_Combined time: 0.000159458
+
+=== End of Run 68 ===
+======================================
+
+
+=== Starting Run 69 ===
+96468.64877 , 95989.71074 , 102671.2095 , 97637.77032 , 95449.48609 , 99266.91365 , 107054.6151 , 97089.98008 , 104777.2753 , 94359.18821 , 106294.6471 , 103975.8241 , 91946.64487 , 94285.35025 , 99990.52918 , 90446.46882 ,  Scaled Weights: 901116208 , 896642436 , 959054493 , 912037004 , 891596183 , 927254875 , 1000000001 , 906920081 , 978727309 , 881411681 , 992901120 , 971240933 , 858876050 , 880721959 , 934014187 , 844862866 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7375332553
+  Bucket 1 total weight: 7362044833
+Only KNAPSACK  efficiency: 0.9990991782
+test......: 
+ Final Knapsack time: 0.000150611
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6487701200
+  Bucket 1 contains 8249676186
+Only SFC efficiency: 0.8932094457
+test......: 
+ Final SFC time: 0.000162403
+SFC+painterPartition efficiency: 0.9964930472
+ Final SFC+Painter time: 1.2503e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6487701200
+  Bucket 1 contains 8249676186
+Node 0 Each Knapsack efficiency: 0.876408131
+Node 1 Each Knapsack efficiency: 0.7980074554
+SFC efficiency for combined algorithm: 0.8932094457
+SFC+Knapsack combined efficiency: 0.7127877969
+ Final SFC+Knapsack_Combined time: 0.000160108
+
+=== End of Run 69 ===
+======================================
+
+
+=== Starting Run 70 ===
+99969.47071 , 106225.3109 , 102747.0585 , 95879.79306 , 101599.8766 , 100973.2557 , 99907.71963 , 102671.3259 , 95101.61854 , 102800.5671 , 102310.4497 , 97278.11935 , 100670.3939 , 100922.6455 , 105190.5355 , 107649.2063 ,  Scaled Weights: 928659618 , 986772821 , 954461832 , 890668835 , 943805163 , 937984211 , 928085985 , 953758318 , 883440035 , 954958895 , 950405984 , 903658492 , 935170796 , 937514070 , 977160345 , 1000000001 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7539196355
+  Bucket 1 total weight: 7527309046
+Only KNAPSACK  efficiency: 0.9992116329
+test......: 
+ Final Knapsack time: 0.000159487
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7524196783
+  Bucket 1 contains 7542308618
+Only SFC efficiency: 0.9987993176
+test......: 
+ Final SFC time: 0.000141083
+SFC+painterPartition efficiency: 0.9987993176
+ Final SFC+Painter time: 1.1722e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7524196783
+  Bucket 1 contains 7542308618
+Node 0 Each Knapsack efficiency: 0.9992039399
+Node 1 Each Knapsack efficiency: 0.9975914158
+SFC efficiency for combined algorithm: 0.9987993176
+SFC+Knapsack combined efficiency: 0.9963936253
+ Final SFC+Knapsack_Combined time: 0.000157764
+
+=== End of Run 70 ===
+======================================
+
+
+=== Starting Run 71 ===
+104357.6713 , 93945.23794 , 102550.245 , 89041.41937 , 96274.30382 , 101097.4748 , 98824.81623 , 100060.8958 , 93088.90423 , 107741.4013 , 102113.063 , 103044.4668 , 99349.11295 , 100869.7428 , 106622.8425 , 104102.1894 ,  Scaled Weights: 968593968 , 871951143 , 951818371 , 826436434 , 893568329 , 938334509 , 917240867 , 928713518 , 864003096 , 1000000001 , 947760673 , 956405483 , 922107118 , 936220818 , 989618116 , 966222717 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7449153115
+  Bucket 1 total weight: 7429842046
+Only KNAPSACK  efficiency: 0.9987038078
+test......: 
+ Final Knapsack time: 0.000149328
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7296657139
+  Bucket 1 contains 7582338022
+Only SFC efficiency: 0.9811614253
+test......: 
+ Final SFC time: 0.000143107
+SFC+painterPartition efficiency: 0.9811614253
+ Final SFC+Painter time: 1.2634e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7296657139
+  Bucket 1 contains 7582338022
+Node 0 Each Knapsack efficiency: 0.9881957537
+Node 1 Each Knapsack efficiency: 0.9915569831
+SFC efficiency for combined algorithm: 0.9811614253
+SFC+Knapsack combined efficiency: 0.9728774627
+ Final SFC+Knapsack_Combined time: 0.000158977
+
+=== End of Run 71 ===
+======================================
+
+
+=== Starting Run 72 ===
+103615.3513 , 104283.355 , 102550.2285 , 100881.4223 , 101458.7193 , 98586.33731 , 102267.4014 , 108643.1106 , 105949.9274 , 100170.0145 , 96936.2829 , 92943.58036 , 100938.6763 , 100333.8954 , 98895.99058 , 99792.77827 ,  Scaled Weights: 953722245 , 959870851 , 943918376 , 928557935 , 933871635 , 907432941 , 941315109 , 1000000001 , 975210732 , 922009817 , 892245099 , 855494471 , 929084925 , 923518250 , 910283129 , 918537566 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7465856136
+  Bucket 1 total weight: 7429216946
+Only KNAPSACK  efficiency: 0.9975462164
+test......: 
+ Final Knapsack time: 0.000146063
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6568689092
+  Bucket 1 contains 8326383990
+Only SFC efficiency: 0.894450286
+test......: 
+ Final SFC time: 0.000147065
+SFC+painterPartition efficiency: 0.9839929279
+ Final SFC+Painter time: 1.1221e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6568689092
+  Bucket 1 contains 8326383990
+Node 0 Each Knapsack efficiency: 0.8757379916
+Node 1 Each Knapsack efficiency: 0.772093354
+SFC efficiency for combined algorithm: 0.894450286
+SFC+Knapsack combined efficiency: 0.6905991213
+ Final SFC+Knapsack_Combined time: 0.000161472
+
+=== End of Run 72 ===
+======================================
+
+
+=== Starting Run 73 ===
+104792.0007 , 97738.14606 , 95922.26823 , 103942.099 , 105613.2588 , 105451.6526 , 103205.8507 , 97892.81825 , 105953.8819 , 105260.6066 , 100947.4937 , 97352.89828 , 100422.5405 , 105173.1448 , 101237.421 , 102517.4604 ,  Scaled Weights: 989034085 , 922459322 , 905320943 , 981012655 , 996785176 , 995259926 , 974063893 , 923919129 , 1000000001 , 993456821 , 952749365 , 918823327 , 947794821 , 992631350 , 955485719 , 967566818 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7714481102
+  Bucket 1 total weight: 7701882249
+Only KNAPSACK  efficiency: 0.9991834284
+test......: 
+ Final Knapsack time: 0.000148037
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7687855129
+  Bucket 1 contains 7728508222
+Only SFC efficiency: 0.9973699263
+test......: 
+ Final SFC time: 0.000141294
+SFC+painterPartition efficiency: 0.9973699263
+ Final SFC+Painter time: 1.2774e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7687855129
+  Bucket 1 contains 7728508222
+Node 0 Each Knapsack efficiency: 0.9830631871
+Node 1 Each Knapsack efficiency: 0.9931871127
+SFC efficiency for combined algorithm: 0.9973699263
+SFC+Knapsack combined efficiency: 0.9856623879
+ Final SFC+Knapsack_Combined time: 0.000159958
+
+=== End of Run 73 ===
+======================================
+
+
+=== Starting Run 74 ===
+98921.99184 , 101965.6179 , 99601.11248 , 103700.174 , 98362.49753 , 93147.30836 , 89733.18556 , 100788.5151 , 104612.2769 , 103323.6692 , 101583.8966 , 97501.80851 , 100368.8772 , 108512.3527 , 98282.13098 , 93460.35479 ,  Scaled Weights: 911619640 , 939668299 , 917878104 , 955653171 , 906463597 , 858402809 , 826939822 , 928820661 , 964058693 , 952183477 , 936150531 , 898531883 , 924953471 , 1000000001 , 905722976 , 861287701 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7350320606
+  Bucket 1 total weight: 7338014230
+Only KNAPSACK  efficiency: 0.9991628681
+test......: 
+ Final Knapsack time: 0.000149008
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7245446103
+  Bucket 1 contains 7442888733
+Only SFC efficiency: 0.986736156
+test......: 
+ Final SFC time: 0.000140572
+SFC+painterPartition efficiency: 0.986736156
+ Final SFC+Painter time: 1.2183e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7245446103
+  Bucket 1 contains 7442888733
+Node 0 Each Knapsack efficiency: 0.9869651079
+Node 1 Each Knapsack efficiency: 0.9989968849
+SFC efficiency for combined algorithm: 0.986736156
+SFC+Knapsack combined efficiency: 0.9857463461
+ Final SFC+Knapsack_Combined time: 0.000159918
+
+=== End of Run 74 ===
+======================================
+
+
+=== Starting Run 75 ===
+94774.85674 , 98083.7658 , 90743.6325 , 106833.5118 , 99193.04069 , 95926.40734 , 100221.9683 , 95972.83742 , 94228.49634 , 94481.91815 , 96958.00043 , 101746.1568 , 101472.1526 , 97680.93405 , 86875.02007 , 98668.3725 ,  Scaled Weights: 887126663 , 918099239 , 849392958 , 1000000001 , 928482450 , 897905590 , 938113581 , 898340192 , 882012534 , 884384653 , 907561671 , 952380533 , 949815755 , 914328589 , 813181357 , 923571367 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7288022849
+  Bucket 1 total weight: 7256674284
+Only KNAPSACK  efficiency: 0.9978493094
+test......: 
+ Final Knapsack time: 0.000161011
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6419120482
+  Bucket 1 contains 8125576651
+Only SFC efficiency: 0.8949947652
+test......: 
+ Final SFC time: 0.000140873
+SFC+painterPartition efficiency: 0.9938350051
+ Final SFC+Painter time: 1.2384e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6419120482
+  Bucket 1 contains 8125576651
+Node 0 Each Knapsack efficiency: 0.8836871438
+Node 1 Each Knapsack efficiency: 0.7874907192
+SFC efficiency for combined algorithm: 0.8949947652
+SFC+Knapsack combined efficiency: 0.7048000713
+ Final SFC+Knapsack_Combined time: 0.000157945
+
+=== End of Run 75 ===
+======================================
+
+
+=== Starting Run 76 ===
+103523.2746 , 99256.20798 , 95415.13226 , 100970.211 , 98942.5745 , 93271.37719 , 90710.23891 , 95169.3134 , 90847.83118 , 95791.10808 , 97256.18808 , 98624.08432 , 98641.05271 , 101989.19 , 99993.71311 , 100212.6802 ,  Scaled Weights: 1000000001 , 958781573 , 921678074 , 975338265 , 955751979 , 900970121 , 876230387 , 919303547 , 877559482 , 925309874 , 939462054 , 952675471 , 952839380 , 985181260 , 965905625 , 968020773 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7542482991
+  Bucket 1 total weight: 7532524875
+Only KNAPSACK  efficiency: 0.9993398649
+test......: 
+ Final Knapsack time: 0.00014503
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7508053947
+  Bucket 1 contains 7566953919
+Only SFC efficiency: 0.9961080791
+test......: 
+ Final SFC time: 0.000135573
+SFC+painterPartition efficiency: 0.9961080791
+ Final SFC+Painter time: 1.1011e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7508053947
+  Bucket 1 contains 7566953919
+Node 0 Each Knapsack efficiency: 0.9994294011
+Node 1 Each Knapsack efficiency: 0.992770263
+SFC efficiency for combined algorithm: 0.9961080791
+SFC+Knapsack combined efficiency: 0.9889064797
+ Final SFC+Knapsack_Combined time: 0.000164076
+
+=== End of Run 76 ===
+======================================
+
+
+=== Starting Run 77 ===
+97082.9779 , 104458.829 , 96695.82229 , 113676.8668 , 104104.5686 , 102685.4143 , 98380.94008 , 94350.65112 , 99813.42814 , 96358.09589 , 106777.0117 , 107540.7399 , 100169.3345 , 101202.8725 , 92245.80258 , 94758.41515 ,  Scaled Weights: 854025808 , 918910170 , 850620052 , 1000000001 , 915793790 , 903309682 , 865443805 , 829989899 , 878045208 , 847649119 , 939302910 , 946021324 , 881176069 , 890267963 , 811473831 , 833576944 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7086432378
+  Bucket 1 total weight: 7079174197
+Only KNAPSACK  efficiency: 0.9994878819
+test......: 
+ Final Knapsack time: 0.000146955
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6308103308
+  Bucket 1 contains 7857503267
+Only SFC efficiency: 0.9014063433
+test......: 
+ Final SFC time: 0.000161832
+SFC+painterPartition efficiency: 0.9922542452
+ Final SFC+Painter time: 1.3776e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6308103308
+  Bucket 1 contains 7857503267
+Node 0 Each Knapsack efficiency: 0.8910658627
+Node 1 Each Knapsack efficiency: 0.7742395042
+SFC efficiency for combined algorithm: 0.9014063433
+SFC+Knapsack combined efficiency: 0.6979044003
+ Final SFC+Knapsack_Combined time: 0.000166461
+
+=== End of Run 77 ===
+======================================
+
+
+=== Starting Run 78 ===
+98747.70055 , 104585.5457 , 94411.93029 , 94595.60987 , 103716.6038 , 97932.87862 , 99677.30655 , 102530.8743 , 94929.0263 , 93319.35594 , 96262.67443 , 99462.21057 , 104208.6339 , 100523.5797 , 101574.5397 , 100275.5854 ,  Scaled Weights: 944181148 , 1000000001 , 902724460 , 904480722 , 991691568 , 936390186 , 953069622 , 980354155 , 907668700 , 892277755 , 920420444 , 951012971 , 996396139 , 961161306 , 971210113 , 958790096 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7586460466
+  Bucket 1 total weight: 7585368920
+Only KNAPSACK  efficiency: 0.9999280596
+test......: 
+ Final Knapsack time: 0.000153917
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6632537707
+  Bucket 1 contains 8539291679
+Only SFC efficiency: 0.8883540905
+test......: 
+ Final SFC time: 0.000146904
+SFC+painterPartition efficiency: 0.9964563835
+ Final SFC+Painter time: 1.3625e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6632537707
+  Bucket 1 contains 8539291679
+Node 0 Each Knapsack efficiency: 0.8752747033
+Node 1 Each Knapsack efficiency: 0.7847555124
+SFC efficiency for combined algorithm: 0.8883540905
+SFC+Knapsack combined efficiency: 0.6971407695
+ Final SFC+Knapsack_Combined time: 0.000160569
+
+=== End of Run 78 ===
+======================================
+
+
+=== Starting Run 79 ===
+100456.1701 , 92271.71164 , 98943.10419 , 103988.1284 , 101772.6978 , 103119.0144 , 102317.0042 , 97330.20192 , 95716.99208 , 92820.57362 , 99860.6089 , 102249.0781 , 105934.3243 , 97762.44068 , 96653.89051 , 99511.99733 ,  Scaled Weights: 948287260 , 871027519 , 934004204 , 981628279 , 960715032 , 973424007 , 965853182 , 918778711 , 903550315 , 876208672 , 942665275 , 965211973 , 1000000001 , 922858963 , 912394459 , 939374447 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7509518635
+  Bucket 1 total weight: 7506463664
+Only KNAPSACK  efficiency: 0.9997965934
+test......: 
+ Final Knapsack time: 0.000148127
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6634939483
+  Bucket 1 contains 8381042816
+Only SFC efficiency: 0.8958301866
+test......: 
+ Final SFC time: 0.000146694
+SFC+painterPartition efficiency: 0.9939464191
+ Final SFC+Painter time: 1.1401e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6634939483
+  Bucket 1 contains 8381042816
+Node 0 Each Knapsack efficiency: 0.8689014559
+Node 1 Each Knapsack efficiency: 0.7739066103
+SFC efficiency for combined algorithm: 0.8958301866
+SFC+Knapsack combined efficiency: 0.693288903
+ Final SFC+Knapsack_Combined time: 0.000157103
+
+=== End of Run 79 ===
+======================================
+
+
+=== Starting Run 80 ===
+101037.2798 , 96381.35447 , 101881.5304 , 104226.6124 , 109133.0506 , 96256.23355 , 99384.30778 , 96814.83138 , 104716.0146 , 91511.28456 , 101860.7022 , 101156.6435 , 105420.2298 , 91972.64037 , 96882.98782 , 91938.08218 ,  Scaled Weights: 925817425 , 883154590 , 933553400 , 955041685 , 1000000001 , 882008091 , 910671032 , 887126594 , 959526139 , 838529521 , 933362549 , 926911170 , 965978952 , 842756983 , 887751120 , 842440322 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7304304899
+  Bucket 1 total weight: 7270324675
+Only KNAPSACK  efficiency: 0.9976739591
+test......: 
+ Final Knapsack time: 0.000146884
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6490246224
+  Bucket 1 contains 8084383350
+Only SFC efficiency: 0.901406387
+test......: 
+ Final SFC time: 0.000146554
+SFC+painterPartition efficiency: 0.9877926691
+ Final SFC+Painter time: 1.3084e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6490246224
+  Bucket 1 contains 8084383350
+Node 0 Each Knapsack efficiency: 0.8832431092
+Node 1 Each Knapsack efficiency: 0.8008377994
+SFC efficiency for combined algorithm: 0.901406387
+SFC+Knapsack combined efficiency: 0.7218803073
+ Final SFC+Knapsack_Combined time: 0.000163696
+
+=== End of Run 80 ===
+======================================
+
+
+=== Starting Run 81 ===
+97033.41828 , 106440.8603 , 99136.66932 , 106208.5929 , 98041.03848 , 97391.16602 , 101707.0963 , 95198.76629 , 93869.82569 , 93631.11541 , 95122.44654 , 97641.01197 , 101799.7882 , 94503.91065 , 107765.672 , 100719.8425 ,  Scaled Weights: 900411203 , 987706552 , 919928095 , 985551252 , 909761306 , 903730885 , 943780097 , 883386746 , 871054984 , 868839898 , 882678545 , 906049303 , 944640221 , 876938908 , 1000000000 , 934618981 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7360587725
+  Bucket 1 total weight: 7358489251
+Only KNAPSACK  efficiency: 0.999857452
+test......: 
+ Final Knapsack time: 0.000153336
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6550869390
+  Bucket 1 contains 8168207586
+Only SFC efficiency: 0.9009979742
+test......: 
+ Final SFC time: 0.000138548
+SFC+painterPartition efficiency: 0.9899495462
+ Final SFC+Painter time: 1.1471e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6550869390
+  Bucket 1 contains 8168207586
+Node 0 Each Knapsack efficiency: 0.8683721901
+Node 1 Each Knapsack efficiency: 0.7769012861
+SFC efficiency for combined algorithm: 0.9009979742
+SFC+Knapsack combined efficiency: 0.699986485
+ Final SFC+Knapsack_Combined time: 0.000159467
+
+=== End of Run 81 ===
+======================================
+
+
+=== Starting Run 82 ===
+92062.36456 , 99411.32719 , 98327.1085 , 101315.7951 , 101663.6845 , 95706.24741 , 105315.6797 , 91509.50459 , 99345.61555 , 104394.433 , 100365.1527 , 96683.04838 , 99549.53304 , 97696.34372 , 109145.8635 , 106263.7161 ,  Scaled Weights: 843480107 , 910811680 , 900878012 , 928260512 , 931447893 , 876865549 , 964907660 , 838414776 , 910209626 , 956467151 , 919550678 , 885815049 , 912077929 , 895098913 , 1000000000 , 973593618 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7325419366
+  Bucket 1 total weight: 7322459787
+Only KNAPSACK  efficiency: 0.9997979925
+test......: 
+ Final Knapsack time: 0.000146523
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7195066189
+  Bucket 1 contains 7452812964
+Only SFC efficiency: 0.9827080878
+test......: 
+ Final SFC time: 0.000143548
+SFC+painterPartition efficiency: 0.9827080878
+ Final SFC+Painter time: 1.2764e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7195066189
+  Bucket 1 contains 7452812964
+Node 0 Each Knapsack efficiency: 0.9928668001
+Node 1 Each Knapsack efficiency: 0.9880095304
+SFC efficiency for combined algorithm: 0.9827080878
+SFC+Knapsack combined efficiency: 0.9709249563
+ Final SFC+Knapsack_Combined time: 0.000157264
+
+=== End of Run 82 ===
+======================================
+
+
+=== Starting Run 83 ===
+97019.87734 , 98043.14697 , 92911.30751 , 96918.97525 , 101514.4477 , 98775.8193 , 104683.8491 , 94730.8056 , 103537.7985 , 96057.42499 , 94532.14464 , 102298.8677 , 98000.87543 , 99344.36095 , 97291.69478 , 99746.93677 ,  Scaled Weights: 926789359 , 936564216 , 887541950 , 925825485 , 969724066 , 943563121 , 1000000001 , 904922837 , 989052271 , 917595464 , 903025114 , 977217295 , 936160414 , 948994156 , 929385915 , 952839791 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7526404569
+  Bucket 1 total weight: 7522796886
+Only KNAPSACK  efficiency: 0.9997603316
+test......: 
+ Final Knapsack time: 0.000147415
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7494931035
+  Bucket 1 contains 7554270420
+Only SFC efficiency: 0.9960724609
+test......: 
+ Final SFC time: 0.000137397
+SFC+painterPartition efficiency: 0.9960724609
+ Final SFC+Painter time: 1.1412e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7494931035
+  Bucket 1 contains 7554270420
+Node 0 Each Knapsack efficiency: 0.9926840343
+Node 1 Each Knapsack efficiency: 0.9967040786
+SFC efficiency for combined algorithm: 0.9960724609
+SFC+Knapsack combined efficiency: 0.9927894843
+ Final SFC+Knapsack_Combined time: 0.000156272
+
+=== End of Run 83 ===
+======================================
+
+
+=== Starting Run 84 ===
+99199.16778 , 102085.2503 , 102706.0817 , 103383.4812 , 101321.7638 , 108415.0272 , 99688.10905 , 95505.37296 , 93747.66513 , 93520.07595 , 104367.762 , 102951.381 , 95118.62274 , 96183.93756 , 100343.5843 , 87635.27903 ,  Scaled Weights: 914994631 , 941615318 , 947341752 , 953589958 , 934573061 , 1000000001 , 919504535 , 880923757 , 864710987 , 862611747 , 962668780 , 949604347 , 877356445 , 887182710 , 925550516 , 808331477 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7340011304
+  Bucket 1 total weight: 7290548718
+Only KNAPSACK  efficiency: 0.9966306192
+test......: 
+ Final Knapsack time: 0.000148717
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6611619256
+  Bucket 1 contains 8018940766
+Only SFC efficiency: 0.9122501618
+test......: 
+ Final SFC time: 0.000141434
+SFC+painterPartition efficiency: 0.9763414102
+ Final SFC+Painter time: 1.2423e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6611619256
+  Bucket 1 contains 8018940766
+Node 0 Each Knapsack efficiency: 0.8809908602
+Node 1 Each Knapsack efficiency: 0.7810823928
+SFC efficiency for combined algorithm: 0.9122501618
+SFC+Knapsack combined efficiency: 0.7125425391
+ Final SFC+Knapsack_Combined time: 0.000160249
+
+=== End of Run 84 ===
+======================================
+
+
+=== Starting Run 85 ===
+97743.30595 , 98745.58376 , 92409.10299 , 96551.13077 , 102808.9162 , 99843.99317 , 105386.3133 , 98688.59571 , 106022.0198 , 97949.9112 , 99134.72059 , 104152.8644 , 108596.9231 , 102563.0702 , 100700.3981 , 99076.49325 ,  Scaled Weights: 900055943 , 909285282 , 850936660 , 889077960 , 946701926 , 919399835 , 970435536 , 908760515 , 976289354 , 901958439 , 912868595 , 959077490 , 1000000001 , 944438086 , 927285923 , 912332417 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7433142247
+  Bucket 1 total weight: 7395761715
+Only KNAPSACK  efficiency: 0.9974855498
+test......: 
+ Final Knapsack time: 0.000149589
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7294653657
+  Bucket 1 contains 7534250305
+Only SFC efficiency: 0.984099503
+test......: 
+ Final SFC time: 0.000139991
+SFC+painterPartition efficiency: 0.984099503
+ Final SFC+Painter time: 1.1091e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7294653657
+  Bucket 1 contains 7534250305
+Node 0 Each Knapsack efficiency: 0.9933998232
+Node 1 Each Knapsack efficiency: 0.990327936
+SFC efficiency for combined algorithm: 0.984099503
+SFC+Knapsack combined efficiency: 0.9745812297
+ Final SFC+Knapsack_Combined time: 0.000155791
+
+=== End of Run 85 ===
+======================================
+
+
+=== Starting Run 86 ===
+104795.7495 , 99444.96524 , 100585.8715 , 101815.5201 , 102920.2802 , 104141.3164 , 94271.87174 , 99944.96619 , 103333.9595 , 103698.8391 , 98645.86947 , 96896.4076 , 99154.52827 , 108967.6052 , 98595.9713 , 97588.53419 ,  Scaled Weights: 961714717 , 912610359 , 923080500 , 934365034 , 944503461 , 955708958 , 865136676 , 917198887 , 948299812 , 951648327 , 905277025 , 889222145 , 909945007 , 1000000001 , 904819108 , 895573818 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7421273668
+  Bucket 1 total weight: 7397830167
+Only KNAPSACK  efficiency: 0.9984205204
+test......: 
+ Final Knapsack time: 0.000150922
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6497119705
+  Bucket 1 contains 8321984130
+Only SFC efficiency: 0.8903588137
+test......: 
+ Final SFC time: 0.000137096
+SFC+painterPartition efficiency: 0.9993570988
+ Final SFC+Painter time: 1.1993e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6497119705
+  Bucket 1 contains 8321984130
+Node 0 Each Knapsack efficiency: 0.874469747
+Node 1 Each Knapsack efficiency: 0.7707486922
+SFC efficiency for combined algorithm: 0.8903588137
+SFC+Knapsack combined efficiency: 0.6862428912
+ Final SFC+Knapsack_Combined time: 0.000154729
+
+=== End of Run 86 ===
+======================================
+
+
+=== Starting Run 87 ===
+103725.9583 , 95400.96839 , 101353.9804 , 82275.37054 , 101812.4844 , 101120.3879 , 103183.1474 , 103797.1775 , 106237.191 , 99061.11656 , 99775.56899 , 100840.8763 , 91922.08885 , 94962.04185 , 102064.2001 , 101604.911 ,  Scaled Weights: 976362019 , 897999727 , 954034830 , 774449793 , 958350682 , 951836047 , 971252595 , 977032399 , 1000000000 , 932452333 , 939177402 , 949205033 , 865253383 , 893868155 , 960720057 , 956396815 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7524417011
+  Bucket 1 total weight: 7433974259
+Only KNAPSACK  efficiency: 0.9939900492
+test......: 
+ Final Knapsack time: 0.000150811
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7461318092
+  Bucket 1 contains 7497073178
+Only SFC efficiency: 0.997615397
+test......: 
+ Final SFC time: 0.000137937
+SFC+painterPartition efficiency: 0.997615397
+ Final SFC+Painter time: 1.2603e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7461318092
+  Bucket 1 contains 7497073178
+Node 0 Each Knapsack efficiency: 0.9699654411
+Node 1 Each Knapsack efficiency: 0.9922805622
+SFC efficiency for combined algorithm: 0.997615397
+SFC+Knapsack combined efficiency: 0.9722895076
+ Final SFC+Knapsack_Combined time: 0.000158666
+
+=== End of Run 87 ===
+======================================
+
+
+=== Starting Run 88 ===
+98931.77424 , 105124.3267 , 100707.6241 , 95516.41706 , 100718.8192 , 95193.04575 , 100279.2716 , 102682.4323 , 106975.8305 , 101879.8898 , 109817.0988 , 103214.3427 , 104404.6931 , 96937.54782 , 100075.1575 , 101034.1155 ,  Scaled Weights: 900877690 , 957267384 , 917048668 , 869777277 , 917150612 , 866832642 , 913148069 , 935031371 , 974127270 , 927723378 , 1000000001 , 939874973 , 950714364 , 882718165 , 911289395 , 920021715 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7397002018
+  Bucket 1 total weight: 7386600956
+Only KNAPSACK  efficiency: 0.9992969407
+test......: 
+ Final Knapsack time: 0.000158687
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7277133713
+  Bucket 1 contains 7506469261
+Only SFC efficiency: 0.9847241399
+test......: 
+ Final SFC time: 0.000142516
+SFC+painterPartition efficiency: 0.9847241399
+ Final SFC+Painter time: 1.2363e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7277133713
+  Bucket 1 contains 7506469261
+Node 0 Each Knapsack efficiency: 0.9940370844
+Node 1 Each Knapsack efficiency: 0.9953329416
+SFC efficiency for combined algorithm: 0.9847241399
+SFC+Knapsack combined efficiency: 0.9801283748
+ Final SFC+Knapsack_Combined time: 0.000159247
+
+=== End of Run 88 ===
+======================================
+
+
+=== Starting Run 89 ===
+96564.7834 , 99657.1678 , 97618.43703 , 104722.6624 , 93469.11335 , 102383.9392 , 106196.7234 , 94520.5756 , 107357.5735 , 93526.11493 , 98588.85478 , 93482.08355 , 102700.9052 , 96426.0389 , 93540.71952 , 100764.4029 ,  Scaled Weights: 899468759 , 928273289 , 909283191 , 975456681 , 870633625 , 953672255 , 989187069 , 880427645 , 1000000001 , 871164575 , 918322309 , 870754438 , 956624687 , 898176400 , 871300612 , 938586815 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7370947213
+  Bucket 1 total weight: 7360385138
+Only KNAPSACK  efficiency: 0.9992835334
+test......: 
+ Final Knapsack time: 0.000161001
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6525974869
+  Bucket 1 contains 8205357482
+Only SFC efficiency: 0.8976654816
+test......: 
+ Final SFC time: 0.000142787
+SFC+painterPartition efficiency: 0.9944998481
+ Final SFC+Painter time: 1.1381e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6525974869
+  Bucket 1 contains 8205357482
+Node 0 Each Knapsack efficiency: 0.8803937234
+Node 1 Each Knapsack efficiency: 0.7822127385
+SFC efficiency for combined algorithm: 0.8976654816
+SFC+Knapsack combined efficiency: 0.7021653746
+ Final SFC+Knapsack_Combined time: 0.000166801
+
+=== End of Run 89 ===
+======================================
+
+
+=== Starting Run 90 ===
+100458.9544 , 98944.30469 , 95301.05308 , 100881.9698 , 107595.2462 , 102519.3166 , 105422.0045 , 88911.23534 , 96809.9239 , 101034.1294 , 91890.67298 , 101316.2155 , 93920.22491 , 99782.57324 , 110998.8961 , 102327.5005 ,  Scaled Weights: 905044627 , 891398998 , 858576585 , 908855614 , 969336183 , 923606633 , 949757234 , 801010087 , 872170151 , 910226435 , 827852134 , 912767776 , 846136568 , 898951042 , 1000000000 , 921878543 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7210244341
+  Bucket 1 total weight: 7187324269
+Only KNAPSACK  efficiency: 0.9984105898
+test......: 
+ Final Knapsack time: 0.000152955
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6406575874
+  Bucket 1 contains 7990992736
+Only SFC efficiency: 0.9008623262
+test......: 
+ Final SFC time: 0.000140212
+SFC+painterPartition efficiency: 0.9987788344
+ Final SFC+Painter time: 1.2022e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6406575874
+  Bucket 1 contains 7990992736
+Node 0 Each Knapsack efficiency: 0.8824457297
+Node 1 Each Knapsack efficiency: 0.7929721976
+SFC efficiency for combined algorithm: 0.9008623262
+SFC+Knapsack combined efficiency: 0.7143587785
+ Final SFC+Knapsack_Combined time: 0.000160409
+
+=== End of Run 90 ===
+======================================
+
+
+=== Starting Run 91 ===
+98573.84562 , 100093.0748 , 99403.94221 , 97022.28559 , 99345.03099 , 96679.5893 , 96106.57623 , 105115.877 , 99281.84716 , 93531.43232 , 99886.02532 , 99323.43666 , 106108.5225 , 97133.97671 , 103072.7094 , 101010.5733 ,  Scaled Weights: 928990842 , 943308534 , 936813933 , 914368454 , 936258735 , 911138776 , 905738522 , 990644998 , 935663271 , 881469558 , 941357235 , 936055223 , 1000000001 , 915421066 , 971389546 , 951955328 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7510841827
+  Bucket 1 total weight: 7489732195
+Only KNAPSACK  efficiency: 0.9985947226
+test......: 
+ Final Knapsack time: 0.000179144
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7467262794
+  Bucket 1 contains 7533311228
+Only SFC efficiency: 0.9956162415
+test......: 
+ Final SFC time: 0.000144039
+SFC+painterPartition efficiency: 0.9956162415
+ Final SFC+Painter time: 1.2393e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7467262794
+  Bucket 1 contains 7533311228
+Node 0 Each Knapsack efficiency: 0.9844083113
+Node 1 Each Knapsack efficiency: 0.9977268755
+SFC efficiency for combined algorithm: 0.9956162415
+SFC+Knapsack combined efficiency: 0.9887618897
+ Final SFC+Knapsack_Combined time: 0.000161963
+
+=== End of Run 91 ===
+======================================
+
+
+=== Starting Run 92 ===
+95210.88368 , 96313.31603 , 105683.8025 , 94373.82788 , 97688.02314 , 97125.61462 , 98426.66136 , 94153.46131 , 95752.36486 , 101281.9129 , 93317.14405 , 103532.4249 , 101309.7717 , 107441.4117 , 97647.53841 , 104960.2984 ,  Scaled Weights: 886165606 , 896426383 , 983641232 , 878374795 , 909221329 , 903986769 , 916096129 , 876323755 , 891205387 , 942671092 , 868539817 , 963617504 , 942930386 , 1000000001 , 908844522 , 976907291 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7374686740
+  Bucket 1 total weight: 7370265258
+Only KNAPSACK  efficiency: 0.9997002258
+test......: 
+ Final Knapsack time: 0.000149339
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7250235998
+  Bucket 1 contains 7494716000
+Only SFC efficiency: 0.9836898422
+test......: 
+ Final SFC time: 0.000141304
+SFC+painterPartition efficiency: 0.9836898422
+ Final SFC+Painter time: 1.2583e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7250235998
+  Bucket 1 contains 7494716000
+Node 0 Each Knapsack efficiency: 0.9745124302
+Node 1 Each Knapsack efficiency: 0.9936770955
+SFC efficiency for combined algorithm: 0.9836898422
+SFC+Knapsack combined efficiency: 0.9774700653
+ Final SFC+Knapsack_Combined time: 0.00016084
+
+=== End of Run 92 ===
+======================================
+
+
+=== Starting Run 93 ===
+104096.376 , 90259.15637 , 93050.80927 , 97435.00033 , 100951.292 , 100622.6211 , 94079.00827 , 95050.07741 , 99135.82767 , 100176.615 , 95921.05988 , 103875.2883 , 105799.1202 , 93875.52722 , 104200.9503 , 99880.20213 ,  Scaled Weights: 983905876 , 853118213 , 879504566 , 920943390 , 954178936 , 951072380 , 889222974 , 898401398 , 937019396 , 946856787 , 906633815 , 981816183 , 1000000001 , 887299697 , 984894299 , 944055130 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7472060955
+  Bucket 1 total weight: 7446862086
+Only KNAPSACK  efficiency: 0.9983137939
+test......: 
+ Final Knapsack time: 0.000148637
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7330347733
+  Bucket 1 contains 7588575308
+Only SFC efficiency: 0.9829857671
+test......: 
+ Final SFC time: 0.000141364
+SFC+painterPartition efficiency: 0.9829857671
+ Final SFC+Painter time: 1.1862e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7330347733
+  Bucket 1 contains 7588575308
+Node 0 Each Knapsack efficiency: 0.9958113133
+Node 1 Each Knapsack efficiency: 0.9886953566
+SFC efficiency for combined algorithm: 0.9829857671
+SFC+Knapsack combined efficiency: 0.9718734635
+ Final SFC+Knapsack_Combined time: 0.000159277
+
+=== End of Run 93 ===
+======================================
+
+
+=== Starting Run 94 ===
+105285.5006 , 104461.1793 , 100751.8463 , 95971.55177 , 105746.4132 , 93006.8571 , 100697.236 , 103438.0951 , 99620.29467 , 103616.9024 , 104434.6572 , 109763.2553 , 99425.2517 , 100200.7426 , 104120.298 , 106708.6257 ,  Scaled Weights: 959205341 , 951695348 , 917901406 , 874350452 , 963404492 , 847340550 , 917403878 , 942374522 , 907592386 , 944003549 , 951453717 , 1000000000 , 905815443 , 912880566 , 948589742 , 972170746 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7471281311
+  Bucket 1 total weight: 7444900827
+Only KNAPSACK  efficiency: 0.9982345408
+test......: 
+ Final Knapsack time: 0.000149909
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7373675989
+  Bucket 1 contains 7542506149
+Only SFC efficiency: 0.988808086
+test......: 
+ Final SFC time: 0.000141083
+SFC+painterPartition efficiency: 0.988808086
+ Final SFC+Painter time: 1.2193e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7373675989
+  Bucket 1 contains 7542506149
+Node 0 Each Knapsack efficiency: 0.9862606391
+Node 1 Each Knapsack efficiency: 0.9894066837
+SFC efficiency for combined algorithm: 0.988808086
+SFC+Knapsack combined efficiency: 0.9783333292
+ Final SFC+Knapsack_Combined time: 0.000158325
+
+=== End of Run 94 ===
+======================================
+
+
+=== Starting Run 95 ===
+102466.6032 , 106411.9961 , 93336.72064 , 95518.53392 , 101817.1225 , 98124.72476 , 107195.4819 , 105612.4501 , 104137.4078 , 90385.56755 , 94777.83252 , 101662.1071 , 100898.5949 , 96225.4978 , 96439.60164 , 100799.1573 ,  Scaled Weights: 955885467 , 992691057 , 870715062 , 891068656 , 949826623 , 915381163 , 1000000001 , 985232290 , 971471988 , 843184489 , 884158837 , 948380523 , 941257907 , 897663746 , 899661068 , 940330279 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7452563928
+  Bucket 1 total weight: 7434345228
+Only KNAPSACK  efficiency: 0.9987776891
+test......: 
+ Final Knapsack time: 0.000158386
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6575568029
+  Bucket 1 contains 8311341127
+Only SFC efficiency: 0.8955780378
+test......: 
+ Final SFC time: 0.000155731
+SFC+painterPartition efficiency: 0.9844797196
+ Final SFC+Painter time: 1.1592e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6575568029
+  Bucket 1 contains 8311341127
+Node 0 Each Knapsack efficiency: 0.8813452418
+Node 1 Each Knapsack efficiency: 0.7909523435
+SFC efficiency for combined algorithm: 0.8955780378
+SFC+Knapsack combined efficiency: 0.7083595478
+ Final SFC+Knapsack_Combined time: 0.000165709
+
+=== End of Run 95 ===
+======================================
+
+
+=== Starting Run 96 ===
+99640.49763 , 109669.5891 , 105257.6166 , 94240.03178 , 106884.0598 , 103715.2403 , 97457.34809 , 105103.364 , 101999.7131 , 99985.47671 , 99522.30887 , 95561.16893 , 100100.9218 , 91368.06191 , 96280.39814 , 101348.1286 ,  Scaled Weights: 908551755 , 1000000001 , 959770320 , 859308698 , 974600714 , 945706473 , 888645147 , 958363799 , 930063785 , 911697377 , 907474075 , 871355220 , 912750040 , 833121221 , 877913366 , 924122443 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7338742213
+  Bucket 1 total weight: 7324702221
+Only KNAPSACK  efficiency: 0.9990434334
+test......: 
+ Final Knapsack time: 0.000150971
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6536583108
+  Bucket 1 contains 8126861326
+Only SFC efficiency: 0.902159139
+test......: 
+ Final SFC time: 0.000142305
+SFC+painterPartition efficiency: 0.9782220352
+ Final SFC+Painter time: 1.2243e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6536583108
+  Bucket 1 contains 8126861326
+Node 0 Each Knapsack efficiency: 0.8812935288
+Node 1 Each Knapsack efficiency: 0.7867578032
+SFC efficiency for combined algorithm: 0.902159139
+SFC+Knapsack combined efficiency: 0.7097807424
+ Final SFC+Knapsack_Combined time: 0.000160239
+
+=== End of Run 96 ===
+======================================
+
+
+=== Starting Run 97 ===
+100405.1172 , 102815.2575 , 103568.5059 , 104242.4283 , 95978.46983 , 100741.1717 , 103094.679 , 98889.81535 , 100078.0886 , 95464.99369 , 104889.8547 , 101196.4066 , 108477.2478 , 100340.7703 , 99516.96965 , 102265.9502 ,  Scaled Weights: 925586879 , 947804813 , 954748650 , 960961220 , 884779729 , 928684805 , 950380666 , 911618034 , 922572159 , 880046237 , 966929535 , 932881398 , 1000000001 , 924993695 , 917399471 , 942741011 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7476870132
+  Bucket 1 total weight: 7475258171
+Only KNAPSACK  efficiency: 0.9998922035
+test......: 
+ Final Knapsack time: 0.000149599
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 7464564796
+  Bucket 1 contains 7487563507
+Only SFC efficiency: 0.9984642059
+test......: 
+ Final SFC time: 0.000143006
+SFC+painterPartition efficiency: 0.9984642059
+ Final SFC+Painter time: 1.2503e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 7464564796
+  Bucket 1 contains 7487563507
+Node 0 Each Knapsack efficiency: 0.9944852245
+Node 1 Each Knapsack efficiency: 0.9933991733
+SFC efficiency for combined algorithm: 0.9984642059
+SFC+Knapsack combined efficiency: 0.9918735167
+ Final SFC+Knapsack_Combined time: 0.000159056
+
+=== End of Run 97 ===
+======================================
+
+
+=== Starting Run 98 ===
+103738.8721 , 97882.63515 , 96532.43938 , 99253.66849 , 105372.6724 , 100450.6967 , 96019.47211 , 100843.4057 , 97940.50213 , 105496.1464 , 103358.7498 , 104282.1531 , 96870.11804 , 99527.20732 , 94454.92947 , 98084.95469 ,  Scaled Weights: 983342763 , 927831381 , 915032849 , 940827432 , 998829587 , 952174085 , 910170422 , 955896582 , 928379903 , 1000000001 , 979739577 , 988492534 , 918233712 , 943420312 , 895340093 , 929749171 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7589803394
+  Bucket 1 total weight: 7577657010
+Only KNAPSACK  efficiency: 0.9991998222
+test......: 
+ Final Knapsack time: 0.000144279
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6628208519
+  Bucket 1 contains 8539251885
+Only SFC efficiency: 0.8881024127
+test......: 
+ Final SFC time: 0.000141684
+SFC+painterPartition efficiency: 0.9999505678
+ Final SFC+Painter time: 1.1131e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6628208519
+  Bucket 1 contains 8539251885
+Node 0 Each Knapsack efficiency: 0.8751204601
+Node 1 Each Knapsack efficiency: 0.7785736736
+SFC efficiency for combined algorithm: 0.8881024127
+SFC+Knapsack combined efficiency: 0.691453158
+ Final SFC+Knapsack_Combined time: 0.000158966
+
+=== End of Run 98 ===
+======================================
+
+
+=== Starting Run 99 ===
+96585.52147 , 95109.35377 , 96541.29929 , 92433.08267 , 99701.01808 , 95619.8357 , 98626.11208 , 92409.06111 , 102808.3759 , 98687.60345 , 96520.42178 , 95085.26466 , 100540.3561 , 111099.288 , 97395.70033 , 101601.9295 ,  Scaled Weights: 869362201 , 856075278 , 868964159 , 831986275 , 897404655 , 860670104 , 887729471 , 831770058 , 925373851 , 888282952 , 868776242 , 855858453 , 904959500 , 1000000000 , 876654587 , 914514678 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7087159813
+  Bucket 1 total weight: 7051222651
+Only KNAPSACK  efficiency: 0.9974646288
+test......: 
+ Final Knapsack time: 0.000150381
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6903962201
+  Bucket 1 contains 7234420263
+Only SFC efficiency: 0.9771607088
+test......: 
+ Final SFC time: 0.000138809
+SFC+painterPartition efficiency: 0.9771607088
+ Final SFC+Painter time: 1.2433e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6903962201
+  Bucket 1 contains 7234420263
+Node 0 Each Knapsack efficiency: 0.9978933623
+Node 1 Each Knapsack efficiency: 0.974538259
+SFC efficiency for combined algorithm: 0.9771607088
+SFC+Knapsack combined efficiency: 0.9522804959
+ Final SFC+Knapsack_Combined time: 0.000158064
+
+=== End of Run 99 ===
+======================================
+
+
+=== Starting Run 100 ===
+100332.3359 , 98964.07245 , 103207.8171 , 96181.34831 , 102852.8655 , 99030.51528 , 103494.1829 , 99223.27194 , 92874.87988 , 102302.2044 , 95445.02564 , 100001.3914 , 105378.41 , 95542.18267 , 103341.8163 , 102927.6212 ,  Scaled Weights: 952114726 , 939130440 , 979401921 , 912723474 , 976033568 , 939760957 , 982119421 , 941590142 , 881346378 , 970808010 , 905736059 , 948974192 , 1000000001 , 906658041 , 980673521 , 976742972 , DM: KnapSackDoIt called...
+
+
+  Bucket 0 total weight: 7608048948
+  Bucket 1 total weight: 7585764875
+Only KNAPSACK  efficiency: 0.9985354936
+test......: 
+ Final Knapsack time: 0.000147335
+DM: SFCProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (2, 2, 1)
+  Bucket 0 contains 6681284507
+  Bucket 1 contains 8512529316
+Only SFC efficiency: 0.8924382671
+test......: 
+ Final SFC time: 0.000141524
+SFC+painterPartition efficiency: 0.9965934456
+ Final SFC+Painter time: 1.2553e-05
+DM: SFCProcessorMapDoItCombined called...
+  (nnodes, nteams, ranks_per_node) = (2, 2, 4)
+  Bucket 0 contains 6681284507
+  Bucket 1 contains 8512529316
+Node 0 Each Knapsack efficiency: 0.8721556586
+Node 1 Each Knapsack efficiency: 0.7900287152
+SFC efficiency for combined algorithm: 0.8924382671
+SFC+Knapsack combined efficiency: 0.7050518576
+ Final SFC+Knapsack_Combined time: 0.000169997
+
+=== End of Run 100 ===
+======================================
+
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.07503 ... 0.07503 ... 0.07503
+
+------------------------------------------------------------------------------
+Name                           NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+------------------------------------------------------------------------------
+main                                1    0.03007    0.03007    0.03007  40.07%
+SFCProcessorMapDoItCombined()     100    0.01527    0.01527    0.01527  20.35%
+KnapSackDoIt()                    100    0.01441    0.01441    0.01441  19.21%
+SFCProcessorMapDoIt()             100    0.01353    0.01353    0.01353  18.04%
+painterPartition()                100   0.001157   0.001157   0.001157   1.54%
+knapsack()                        300  0.0004391  0.0004391  0.0004391   0.59%
+Distribute()                      200  0.0001012  0.0001012  0.0001012   0.13%
+knapsack()swap                     94  1.844e-05  1.844e-05  1.844e-05   0.02%
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Name                           NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+------------------------------------------------------------------------------
+main                                1      0.075      0.075      0.075  99.96%
+SFCProcessorMapDoItCombined()     100    0.01563    0.01563    0.01563  20.83%
+KnapSackDoIt()                    100    0.01456    0.01456    0.01456  19.41%
+SFCProcessorMapDoIt()             100    0.01359    0.01359    0.01359  18.11%
+painterPartition()                100   0.001157   0.001157   0.001157   1.54%
+knapsack()                        300  0.0004575  0.0004575  0.0004575   0.61%
+Distribute()                      200  0.0001012  0.0001012  0.0001012   0.13%
+knapsack()swap                     94  1.844e-05  1.844e-05  1.844e-05   0.02%
+------------------------------------------------------------------------------
+
+Pinned Memory Usage:
+----------------------------------------------------------------
+Name                            Nalloc  Nfree   AvgMem    MaxMem
+----------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  320 KiB  8192 KiB
+----------------------------------------------------------------
+
+AMReX (24.07-16-gdcb9cc0383dc) finalized
